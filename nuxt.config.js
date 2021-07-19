@@ -28,6 +28,7 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    { src: '~/plugins/vuetify.js', ssr: false }
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -35,6 +36,17 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
+    // https://github.com/nuxt-community/fontawesome-module
+    ['@nuxtjs/fontawesome', {
+      icons: {
+        solid: true,
+        // here you can include other icons you need
+        brands: [
+          'faInstagram',
+          'faFacebook'
+        ]
+      }
+    }],
     // https://go.nuxtjs.dev/vuetify
     '@nuxtjs/vuetify',
   ],
@@ -46,13 +58,18 @@ export default {
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
     customVariables: ['~/assets/variables.scss'],
+    defaultAssets: {icons: 'fa'},
     theme: {
-      dark: true,
       themes: {
+        light:{
+          primary: colors.deepPurple,
+          secondary: '#595B86',
+          accent: '#F3A93C',
+        },
         dark: {
-          primary: colors.blue.darken2,
-          accent: colors.grey.darken3,
-          secondary: colors.amber.darken3,
+          primary: colors.deepPurple,
+          accent: '#F3A93C',
+          secondary: '#8587AD',
           info: colors.teal.lighten1,
           warning: colors.amber.base,
           error: colors.deepOrange.accent4,

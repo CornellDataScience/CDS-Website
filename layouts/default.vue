@@ -1,117 +1,136 @@
 <template>
-  <v-app dark>
-    <v-navigation-drawer
-      v-model="drawer"
-      :mini-variant="miniVariant"
-      :clipped="clipped"
-      fixed
-      app
-    >
-      <v-list>
-        <v-list-item
-          v-for="(item, i) in items"
-          :key="i"
-          :to="item.to"
-          router
-          exact
-        >
-          <v-list-item-action>
-            <v-icon>{{ item.icon }}</v-icon>
-          </v-list-item-action>
-          <v-list-item-content>
-            <v-list-item-title v-text="item.title" />
-          </v-list-item-content>
-        </v-list-item>
-      </v-list>
-    </v-navigation-drawer>
+  <v-app >
     <v-app-bar
-      :clipped-left="clipped"
-      fixed
       app
     >
-      <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
-      <v-btn
-        icon
-        @click.stop="miniVariant = !miniVariant"
-      >
-        <v-icon>mdi-{{ `chevron-${miniVariant ? 'right' : 'left'}` }}</v-icon>
-      </v-btn>
-      <v-btn
-        icon
-        @click.stop="clipped = !clipped"
-      >
-        <v-icon>mdi-application</v-icon>
-      </v-btn>
-      <v-btn
-        icon
-        @click.stop="fixed = !fixed"
-      >
-        <v-icon>mdi-minus</v-icon>
-      </v-btn>
-      <v-toolbar-title v-text="title" />
+      <NuxtLink to="/">
+        <img src="logo.png" width="50px" class="mr-5"/>
+      </NuxtLink>
+      <NuxtLink to="/" style="text-decoration:none">
+        <v-toolbar-title v-text="title" class="secondary--text" />
+      </NuxtLink>
       <v-spacer />
-      <v-btn
-        icon
-        @click.stop="rightDrawer = !rightDrawer"
-      >
-        <v-icon>mdi-menu</v-icon>
+
+      <div v-for="page in pages" :key="page.name">
+        <v-btn :plain="page.plain" :text="page.text" class="nav-btn mx-2 body-2 font-weight-medium" active-class="primary--text" :to="page.to" nuxt>
+          {{page.name}}
+        </v-btn>
+      </div>
+      <v-btn text class="nav-btn mx-2 accent body-2 font-weight-medium" to="/contact" nuxt>
+        Contact
       </v-btn>
     </v-app-bar>
-    <v-main>
+
+    <v-main my-5>
       <v-container>
         <Nuxt />
       </v-container>
     </v-main>
-    <v-navigation-drawer
-      v-model="rightDrawer"
-      :right="right"
-      temporary
-      fixed
-    >
-      <v-list>
-        <v-list-item @click.native="right = !right">
-          <v-list-item-action>
-            <v-icon light>
-              mdi-repeat
-            </v-icon>
-          </v-list-item-action>
-          <v-list-item-title>Switch drawer (click me)</v-list-item-title>
-        </v-list-item>
-      </v-list>
-    </v-navigation-drawer>
+    
     <v-footer
-      :absolute="!fixed"
-      app
+      class="justify-center py-5 mt-5"
     >
-      <span>&copy; {{ new Date().getFullYear() }}</span>
+      <div>
+        <v-row class="justify-center" height="20px">
+          <v-col cols="3">
+            <v-btn icon href="mailto:cornelldatascience@gmail.com">
+              <font-awesome-icon icon="envelope" size="lg"/>
+            </v-btn>
+          </v-col>
+
+          <v-col cols="3">
+            <v-btn icon href="https://www.instagram.com/cornelldatascience/" target="_blank">
+              <font-awesome-icon :icon="faInstagram" size="lg"/>
+            </v-btn>
+          </v-col>
+
+          <v-col cols="3">
+            <v-btn icon href="https://www.facebook.com/CornellDataScience/" target="_blank">
+              <font-awesome-icon :icon="faFacebook" size="lg"/>
+            </v-btn>
+          </v-col>
+
+        </v-row>
+        <span class="subtitle-1 text-center">
+          Cornell Data Science, &copy; {{ new Date().getFullYear() }}
+        </span>
+      </div>
     </v-footer>
   </v-app>
 </template>
 
 <script>
+import { faInstagram, faFacebook } from '@fortawesome/free-brands-svg-icons'
 export default {
+  components: {
+    // SvgIcon
+  },
+  computed: {
+    faInstagram () {
+      return faInstagram
+    },
+    faFacebook () {
+      return faFacebook
+    }
+  },
   data () {
     return {
-      clipped: false,
-      drawer: false,
-      fixed: false,
-      items: [
+      hover: false,
+      pages: [
         {
-          icon: 'mdi-apps',
-          title: 'Welcome',
-          to: '/'
+          name: 'Home',
+          to: '/',
+          plain: true,
+          text: false
         },
         {
-          icon: 'mdi-chart-bubble',
-          title: 'Inspire',
-          to: '/inspire'
-        }
+          name: 'Recruitement',
+          to: '/recruitement',
+          plain: true,
+          text: false
+        },
+        {
+          name: 'Teams',
+          to: '/teams',
+          plain: true,
+          text: false
+        },
+        {
+          name: 'People',
+          to: '/people',
+          plain: true,
+          text: false
+        },
+        {
+          name: 'Education',
+          to: '/education',
+          plain: true,
+          text: false
+        },
+        {
+          name: 'Blog',
+          to: '/blog',
+          plain: true,
+          text: false
+        },
       ],
-      miniVariant: false,
-      right: true,
-      rightDrawer: false,
-      title: 'Vuetify.js'
+      title: 'Cornell Data Science'
     }
   }
 }
 </script>
+
+<style scoped>
+
+.nav-btn:before {
+  color: var(--v-secondary-base);
+}
+
+.nav-btn:hover {
+  color: var(--v-primary-base);
+}
+
+.nav-btn:activated {
+  color: var(--v-primary-base);
+}
+</style>
