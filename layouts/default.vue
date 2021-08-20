@@ -84,8 +84,8 @@ export default {
           text: false
         },
         {
-          name: 'Recruitement',
-          to: '/recruitement',
+          name: 'Recruitment',
+          to: '/recruitment',
           plain: true,
           text: false
         },
