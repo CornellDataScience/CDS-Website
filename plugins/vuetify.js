@@ -1,3 +1,5 @@
+import '@mdi/font/css/materialdesignicons.css' // Ensure you are using css-loader
+
 export default function ({ $vuetify }) {
     const mq = window.matchMedia('(prefers-color-scheme: dark)');
     $vuetify.theme.dark = mq.matches;
