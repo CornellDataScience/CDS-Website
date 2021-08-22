@@ -1,6 +1,6 @@
 <template>
     <Team
-    title="Intelligent Systems"
+    title="Education"
     v-bind:leads="data.teamleads"
     v-bind:advisor="data.advisor"
     v-bind:about="data.about"
@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import data from '~/assets/json/intsys.json';
+import data from '~/assets/json/edu.json';
 export default {
     data() {
         return {
