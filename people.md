@@ -29,6 +29,11 @@ Liam Bodurtha
 Brian Bobby
 Austin Hochman
 Kaya Ito Alpturer
+Cassandra Kaufman
+Christian Lizardi
+Pratham Rawat
+Uday Kolla
+Stephanie Lu
 
 ## Insights
 Kaitlyn Chen
@@ -49,14 +54,24 @@ Alice Sze
 Sanjali Jha
 Elva Gao
 Iris Li
+Tobi Alade
+Eric Zhang
+Chelsea Xiong
 Elliot van Huijgevoort
 Adarsh Sriram
 David Kim
 Edward Gu
 Arjun Shah
+John O'Donnell
+Rafael Chaves
+Brian Ling
+Ethan Mah
 
 ## Education
 Sam Cobado
 Jerry Sun
 Kevin Jiang
 Emily Weed
+Kelly Lu
+Varun Gande
+Vincent Fong
