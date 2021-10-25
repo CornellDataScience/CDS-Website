@@ -18,7 +18,7 @@
     "@fortawesome/fontawesome-free": "^5.15.3",
     "@fortawesome/free-brands-svg-icons": "^5.15.3",
     "@fortawesome/free-solid-svg-icons": "^5.15.3",
-    "@mdi/font": "^5.9.55",
+    "@mdi/font": "^6.4.95",
     "@nuxtjs/fontawesome": "^1.1.2",
     "@nuxtjs/vuetify": "^1.12.1"
   }

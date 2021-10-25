@@ -944,10 +944,10 @@
   resolved "https://registry.yarnpkg.com/@fortawesome/vue-fontawesome/-/vue-fontawesome-0.1.10.tgz#eeeec1e4e8850bed0468f938292b06cda793bf34"
   integrity sha512-b2+SLF31h32LSepVcXe+BQ63yvbq5qmTCy4KfFogCYm2bn68H5sDWUnX+U7MBqnM2aeEk9M7xSoqGnu+wSdY6w==
 
-"@mdi/font@^5.9.55":
-  version "5.9.55"
-  resolved "https://registry.yarnpkg.com/@mdi/font/-/font-5.9.55.tgz#41acd50b88073ded7095fc3029d8712b6e12f38e"
-  integrity sha512-jswRF6q3eq8NWpWiqct6q+6Fg/I7nUhrxYJfiEM8JJpap0wVJLQdbKtyS65GdlK7S7Ytnx3TTi/bmw+tBhkGmg==
+"@mdi/font@^6.4.95":
+  version "6.4.95"
+  resolved "https://registry.yarnpkg.com/@mdi/font/-/font-6.4.95.tgz#d3b7a615c4c82ba2a9c29b2b59b158dced4f9b0e"
+  integrity sha512-jCQdXCD339EXirWYFbZv1Ansthm9j6O3FSQLsfi/mKamnGYxqbUBm5D4UjcVr6HVYIPNwTQQ46HNHlswPD8RcQ==
 
 "@mdi/js@^5.9.55":
   version "5.9.55"
