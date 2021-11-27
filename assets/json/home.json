@@ -18,10 +18,15 @@
             "title" : "Exposure",
             "body" : "We connect industry and passionate students together through our focus on data science. Come to our networking events, company talks, and mentoring sessions to learn more about what a career in data science is like.",
             "img": "home4.jpg"
+        },
+        {
+            "title" : "Education",
+            "body" : "We want to make data science accessible to all students at Cornell. Check out the course we teach!",
+            "img": "home3.jpg"
         }
     ],
     "sponsorHeader": "A special thanks to our sponsors:",
-    "sponsorImages": ["facebook.jpg", "carnival.jpg", "blackrock.jpg", "dataiku.jpg",
-                      "google.jpg", "ibm.jpg", "microsoft.jpg", "munichRE.jpg",
+    "sponsorImages": ["munichRE.jpg", "facebook.jpg", "carnival.jpg", "blackrock.jpg", "dataiku.jpg",
+                      "google.jpg", "ibm.jpg", "microsoft.jpg", 
                       "pandg.jpg", "pfizer.jpg", "wayfair.jpg"]
 }
