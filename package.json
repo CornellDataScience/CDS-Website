@@ -20,6 +20,6 @@
     "@fortawesome/free-solid-svg-icons": "^5.15.3",
     "@mdi/font": "^5.9.55",
     "@nuxtjs/fontawesome": "^1.1.2",
-    "@nuxtjs/vuetify": "^1.12.1"
+    "@nuxtjs/vuetify": "^1.12.3"
   }
 }
