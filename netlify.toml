@@ -4,9 +4,19 @@
 [[redirects]]
 	from = "https://intsys.cds.fyi/*"
 	to = "cds.fyi/intsys/:splat"
+  status = 200
+  force = true
 [[redirects]]
 	from = "/intsys/drive"
 	to = "https://drive.google.com/drive/u/2/folders/0B0oJ9v2w_sDRcUUyMHJzRU1xX1E?resourcekey=0-amc-yZnmDD58R80eS8gFZw"
 [[redirects]]
-  from = "https://blog.cds.fyi/*"
-  to = "https://cornell-data.medium.com"
+  from = "https://test.cds.fyi/*"
+  to = "cds.fyi/intsys/:splat"
+  status = 200
+[[redirects]]
+  from = "test.cds.fyi/*"
+  to = "cds.fyi/intsys/:splat"
+  status = 200
+[[redirects]]
+  from = "/intsys/cal"
+  to = "https://docs.google.com/spreadsheets/d/1i0A71M1P9buFVxsxSDheHqVWSGYkfyDD-uwFq-QhODA/edit#gid=0
