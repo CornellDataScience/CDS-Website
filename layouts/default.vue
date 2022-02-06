@@ -31,7 +31,14 @@
             </v-btn>
           </v-col>
 
+          <v-col cols="3">
+            <v-btn icon href="https://github.com/CornellDataScience/" target="_blank">
+              <font-awesome-icon :icon="faGithub" size="lg"/>
+            </v-btn>
+          </v-col>
+
         </v-row>
+        <br>
         <span class="subtitle-1 text-center">
           Cornell Data Science, &copy; {{ new Date().getFullYear() }}
         </span>
@@ -41,7 +48,7 @@
 </template>
 
 <script>
-import { faInstagram, faFacebook } from '@fortawesome/free-brands-svg-icons';
+import { faInstagram, faFacebook, faGithub } from '@fortawesome/free-brands-svg-icons';
 export default {
   components: {
     // SvgIcon
@@ -52,6 +59,9 @@ export default {
     },
     faFacebook () {
       return faFacebook
+    },
+    faGithub () {
+      return faGithub
     }
   },
   data () {
