@@ -3,7 +3,7 @@
     <div>
       <v-img :src="require(`../assets/img/${data.img}`)" :lazy-src="require(`../assets/img/${data.img}`)" 
       gradient="rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)" class="align-center">
-          <p class="mx-2 d-flex justify-center text-h2 white--text font-weight-small text-uppercase title">
+          <p class="mx-2 d-flex justify-center text-h2 white--text font-weight-light text-uppercase title">
               {{ data.imgText }}
           </p>
       </v-img>
@@ -14,7 +14,7 @@
     <v-container class="my-8">
         <v-row justify="center">
             <v-col cols="9">
-                <p class="body-1 text-center font-weight-light mx-md-18">
+                <p class="body-1 text-center text--black font-weight-light mx-md-18">
                 {{ data.description }}
                 </p> 
             </v-col>
