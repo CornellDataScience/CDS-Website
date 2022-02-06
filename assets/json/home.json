@@ -21,6 +21,24 @@
             "body" : "We connect industry and passionate students together through our focus on data science. Come to our networking events, company talks, and mentoring sessions to learn more about careers in data science.",
             "img": "home4.jpg",
             "linker": "contact"
+        },
+        {
+            "title" : "Community",
+            "body" : "We want to make data science accessible to all students at Cornell. Check out the course we teach!",
+            "img": "home5.jpg",
+            "linker": "education"
+        },
+        {
+            "title" : "Connection",
+            "body" : "We want to make data science accessible to all students at Cornell. Check out the course we teach!",
+            "img": "home6.jpg",
+            "linker": "education"
+        },
+        {
+            "title" : "Achievement",
+            "body" : "We want to make data science accessible to all students at Cornell. Check out the course we teach!",
+            "img": "home7.jpg",
+            "linker": "education"
         }
     ],
     "sponsorHeader": "A special thanks to our sponsors:",
