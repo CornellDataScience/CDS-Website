@@ -5,7 +5,7 @@
             <v-card :elevation="hover ? 12 : 2" height="400px" class="d-flex flex-column mt-4">
                 <v-spacer>
                 <div class="justify-center mt-4 order-2">
-                    <v-card-title class="text-h5 font-weight-medium mx-md-8 align-center"> {{ title }}</v-card-title>
+                    <v-card-title class="text-h5 text-center font-weight-medium mx-md-8 justify-center"> {{ title }}</v-card-title>
                     <v-card-text class="font-weight-small"> 
                         {{ data }}
                     </v-card-text>

@@ -7,14 +7,14 @@
               {{ data.imgText }}
           </p>
       </v-img>
-      <p class="text-h3 font-weight-medium text-uppercase text-center mt-16 primary--text">
+      <p class="text-h3 justify-center font-weight-medium text-uppercase text-center mt-16 primary--text">
           About
       </p>
     </div>
     <v-container class="my-8">
         <v-row justify="center">
             <v-col cols="9">
-                <p class="body-1 font-weight-light mx-md-18">
+                <p class="body-1 text-center font-weight-light mx-md-18">
                 {{ data.description }}
                 </p> 
             </v-col>
