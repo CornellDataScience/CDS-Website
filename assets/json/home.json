@@ -7,22 +7,20 @@
         {
             "title" : "Experience",
             "body" : "We work on projects that span the spectrum of data science. From applied deep learning to user-friendly visualizations, there is probably someone in CDS working on it.",
-            "img": "home2.jpg"
+            "img": "home2.jpg",
+            "linker": "team"
         },
         {
             "title" : "Education",
             "body" : "We want to make data science accessible to all students at Cornell. Check out the course we teach!",
-            "img": "home3.jpg"
+            "img": "home3.jpg",
+            "linker": "education"
         },
         {
             "title" : "Exposure",
-            "body" : "We connect industry and passionate students together through our focus on data science. Come to our networking events, company talks, and mentoring sessions to learn more about what a career in data science is like.",
-            "img": "home4.jpg"
-        },
-        {
-            "title" : "Education",
-            "body" : "We want to make data science accessible to all students at Cornell. Check out the course we teach!",
-            "img": "home3.jpg"
+            "body" : "We connect industry and passionate students together through our focus on data science. Come to our networking events, company talks, and mentoring sessions to learn more about careers in data science.",
+            "img": "home4.jpg",
+            "linker": "contact"
         }
     ],
     "sponsorHeader": "A special thanks to our sponsors:",
