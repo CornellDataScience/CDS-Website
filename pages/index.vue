@@ -22,7 +22,7 @@
         <v-spacer></v-spacer>
         <br>
         <v-row >
-            <v-col cols="12" sm="3" md="3" v-for="(item, index) in data.info" v-bind:key="item.title" justify="center">
+            <v-col cols="12" sm="4" md="4" v-for="(item, index) in data.info" v-bind:key="item.title" justify="center">
                  <HomeBlockAlt v-bind:title="item.title" v-bind:index="index" v-bind:data="item.body" v-bind:img="item.img"></HomeBlockAlt>
             </v-col>
         </v-row>
