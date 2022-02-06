@@ -26,7 +26,6 @@
         }
     ],
     "sponsorHeader": "A special thanks to our sponsors:",
-    "sponsorImages": ["munichRE.png", "facebook.png", "carnival.jpg", "blackrock.jpg", "dataiku.jpg",
-                      "google.png", "ibm.jpg", "microsoft.png", 
-                      "pandg.png", "pfizer.png", "wayfair.png"]
+    "sponsorImages": ["google.png","facebook.png", "wayfair.png", "pandg.png","microsoft.png","ibm.png","munichRE.png", "carnival.png", "blackrock.png", "dataiku.png",  
+                     "pfizer.png"]
 }
