@@ -30,7 +30,7 @@
         <p class="text-h5 body-2 font-weight-medium text-uppercase text-center mt-8" style="color: grey;">
             A special thanks to our sponsors:
         </p>
-        <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(10rem, 10rem)); align-items: center;" class="center justify-center mx-16">
+        <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(10rem, 10rem)); align-items: center;" class="center justify-center mx-16" align="center" justify="center">
             <div v-for="img in data.sponsorImages" v-bind:key="img" class="center">
                 <v-img :src="require(`../assets/img/${img}`)" :aspect-ratio="1" class="justify-center mx-4 my-4" contain></v-img>
             </div>
