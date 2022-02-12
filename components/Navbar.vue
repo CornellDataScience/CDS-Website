@@ -50,7 +50,7 @@
         <v-btn plain small class="nav-btn mx-2 body-2 font-weight-medium" active-class="primary--text" href="https://cornell-data.medium.com/">
           Blog
         </v-btn>
-        <v-btn text small class="nav-btn mx-2 purple white--text body-2 font-weight-medium" to="/contact" nuxt>
+        <v-btn text small class="nav-btn mx-2 purple white--text body-2 font-weight-medium rounded-xl" to="/contact" nuxt>
           Contact
         </v-btn>
       </div>

@@ -2,7 +2,7 @@
     <div>
         <div class="d-flex flex-wrap flex-md-nowrap mt-4 text-center justify-center align-center">
             <v-hover v-slot:default="{ hover }">
-            <v-card :elevation="hover ? 12 : 2" height="400px" class="d-flex rounded-xl flex-column mt-4">
+            <v-card shaped :elevation="hover ? 12 : 2" class="d-flex rounded-xl flex-column my-4">
                 <v-spacer>
                 <div class="justify-center mt-4 order-2">
                     <v-card-title class="text-h5 text-center font-weight-medium mx-md-8 justify-center primary--text"> {{ title }}</v-card-title>
