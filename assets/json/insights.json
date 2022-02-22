@@ -44,39 +44,5 @@
             "text": "The main idea behind the Visualizing ML project was to visualize machine learning and computer-driven processes in a way that's appealing and insightful to the users, specifically by visualizing what a chess engine thinks for a given game state. The project had three main sections: getting the top moves for a position from an engine, making a GUI with features such as the chessboard, drawing arrows, and highlighting squares, and then connecting these parts by getting the information from the engine and using that as inputs for GUI visualizations. The GUI can take in a FEN string, which represents a specific game state, and displays the new position on the board. On this new position, it generates arrows to show the best moves and responses, shows a heatmap of which squares are more active, and displays the top move sequences with their probabilities. Overall, these features are meant to give the user different visual insights into what the engine thinks about the position.",
             "link": "https://github.com/CornellDataScience/visualizing-ml"
         }
-    ],
-    "members": {
-        "seniors": [
-            {
-                "name": "Peter Husisian",
-                "link": "https://github.com/peterhusisian" 
-            },
-            {
-                "name": "Stephen Tse",
-                "link": "https://github.com/st-tse"
-            },
-            {
-                "name": "Katie Yang",
-                "link": "https://github.com/yangkt"
-            }
-        ],
-        "juniors": [
-            {
-                "name": "Bonnie Akhavan",
-                "link": "https://github.com/bcakhavan" 
-            },
-            {
-                "name": "Victor Butoi",
-                "link": "https://github.com/VictorButoi"
-            },
-            {
-                "name": "Phillip Si",
-                "link": "https://github.com/ps789"
-            },
-            {
-                "name": "Cora Wu",
-                "link": "https://github.com/cjw322"
-            }
-        ]
-    }
+    ]
 }   

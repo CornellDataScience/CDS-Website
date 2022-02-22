@@ -89,39 +89,5 @@
             "text": "Creating a mobile application to classify maize seedlings and 11 different types of weed seedlings that are usually found growing in maize plots.",
             "link": "https://github.com/CornellDataScience/IntSys-Seedling"
         }
-    ],
-    "members": {
-        "seniors": [
-            {
-                "name": "Peter Husisian",
-                "link": "https://github.com/peterhusisian" 
-            },
-            {
-                "name": "Stephen Tse",
-                "link": "https://github.com/st-tse"
-            },
-            {
-                "name": "Katie Yang",
-                "link": "https://github.com/yangkt"
-            }
-        ],
-        "juniors": [
-            {
-                "name": "Bonnie Akhavan",
-                "link": "https://github.com/bcakhavan" 
-            },
-            {
-                "name": "Victor Butoi",
-                "link": "https://github.com/VictorButoi"
-            },
-            {
-                "name": "Phillip Si",
-                "link": "https://github.com/ps789"
-            },
-            {
-                "name": "Cora Wu",
-                "link": "https://github.com/cjw322"
-            }
-        ]
-    }
+    ]
 }   

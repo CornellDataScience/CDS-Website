@@ -37,14 +37,6 @@
                 ></ProjectCard>
               </div>
           </Block>
-          <Block title="Members">
-              <div v-for="(section, key) in members" v-bind:key="key" class="mb-6">
-                  <div class="secondary--text text-uppercase text-h6 mb-4">{{ key }}</div>
-                  <span v-for="(person, index) in section" v-bind:key="person.name">
-                      <a v-bind:href="person.link" class="text-decoration-none">{{ person.name }}</a><span v-if="index != Object.keys(section).length - 1" class="mr-2">, </span>
-                  </span>
-              </div>
-          </Block>
       </div>
   </div>
 </template>
@@ -57,8 +49,7 @@
             advisors: Array,
             about: String,
             current: Array,
-            past: Array,
-            members: Object
+            past: Array
         }
     }
 </script>

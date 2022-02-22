@@ -42,39 +42,5 @@
             "title": "SEC Filings Text Analysis",
             "text": "Every quarter, publicly traded companies are required by the SEC to publish comprehensive reports (10-Ks and 10-Qs) about their financial performance. This project is based on a research paper called Lazy Prices in which the researchers hypothesize that analyzing the changes in wording and the overall sentiment of the Management Discussion & Analysis section of the 10-Q documents along with detecting mentions of C-level position changes would provide insight into the company’s future returns. In this project, we utilized cosine similarity and leveraged nltk’s sentiment analysis tool VADER to create features for classification models that attempted to predict whether a company’s future returns would be positive or negative."
         }
-    ],
-    "members": {
-        "seniors": [
-            {
-                "name": "Peter Husisian",
-                "link": "https://github.com/peterhusisian" 
-            },
-            {
-                "name": "Stephen Tse",
-                "link": "https://github.com/st-tse"
-            },
-            {
-                "name": "Katie Yang",
-                "link": "https://github.com/yangkt"
-            }
-        ],
-        "juniors": [
-            {
-                "name": "Bonnie Akhavan",
-                "link": "https://github.com/bcakhavan" 
-            },
-            {
-                "name": "Victor Butoi",
-                "link": "https://github.com/VictorButoi"
-            },
-            {
-                "name": "Phillip Si",
-                "link": "https://github.com/ps789"
-            },
-            {
-                "name": "Cora Wu",
-                "link": "https://github.com/cjw322"
-            }
-        ]
-    }
+    ]
 }   

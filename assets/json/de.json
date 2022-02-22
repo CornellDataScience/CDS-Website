@@ -32,39 +32,5 @@
             "title": "Twitter Community",
             "text": "Real-time clustering visualization of Twitter users and their connections with other users."
         }
-    ],
-    "members": {
-        "seniors": [
-            {
-                "name": "Peter Husisian",
-                "link": "https://github.com/peterhusisian" 
-            },
-            {
-                "name": "Stephen Tse",
-                "link": "https://github.com/st-tse"
-            },
-            {
-                "name": "Katie Yang",
-                "link": "https://github.com/yangkt"
-            }
-        ],
-        "juniors": [
-            {
-                "name": "Bonnie Akhavan",
-                "link": "https://github.com/bcakhavan" 
-            },
-            {
-                "name": "Victor Butoi",
-                "link": "https://github.com/VictorButoi"
-            },
-            {
-                "name": "Phillip Si",
-                "link": "https://github.com/ps789"
-            },
-            {
-                "name": "Cora Wu",
-                "link": "https://github.com/cjw322"
-            }
-        ]
-    }
+    ]
 }   
