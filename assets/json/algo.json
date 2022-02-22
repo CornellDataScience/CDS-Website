@@ -1,65 +1,46 @@
 {
     "teamleads": [
         {
-            "name": "Stephan Tse",
-            "link": "https://example.com"
+          "name": "Rucha Gharpure",
+          "link": "https://www.linkedin.com/in/rucha-gharpure"
         },
         {
-            "name": "Phillip Si",
-            "link": "https://example.com"
+          "name": "Arun A. Visvanath",
+          "link": "https://www.linkedin.com/in/arun-a-visvanath-28686b168"
         }
     ],
-    "advisor": {
-        "name": "Prof. Thorsten Joachims",
-        "link": "https://www.cs.cornell.edu/people/tj/"
-    },
-    "about": "We operate at the intersection of the latest research in machine learning and practical engineering to create useful products for society. Our work always has a strong outreach/user focus and a strong connection to machine learning.<br></br>Check out the CDS Medium <a href=\"https://cornell-data.medium.com/\">here</a>, where we post articles summarizing and discussing popular ML research papers.",
+    "advisors": [
+      {
+        "name": "Prof. Haym Hirsh",
+        "link": "https://www.cs.cornell.edu/~hirsh/"
+      }
+    ],
+    "about": "The Algorithmic Trading subteam focuses on using tools from computer science, mathematics, and statistics to study different areas of quantitative finance. We have previously worked on predicting asset prices through changes in SEC Filings, optimizing the rebalancing frequency for pension fund portfolios, and pricing orange juice futures using climate data.",
     "current": [
         {
-            "title": "Poker Bot: An AI to play Texas Hold'Em",
-            "link": "https://github.com/st-tse/neuron_poker_bot"
-        },
-        {
-            "title": "Kernel Density Estimator for Logistical Tasks",
-            "link": "https://github.com/peterhusisian/Logistical-Kernel-Density-Estimation"
-        },
-        {
-            "title": "MyCourseIndex: Improved search engine for Piazza (a cross-subteam collaboration)",
-            "link": "https://github.com/oscarso2000/MyCourseIndex"
+            "title": "2022 UChicago Trading Competition",
+            "text": " ",
+            "link": "https://tradingcompetition.uchicago.edu/"
         }
     ],
     "past": [
         {
-            "title": "Fairmandering: Redrawing fairer district lines",
-            "link": "https://github.com/st-tse/neuron_poker_bot"
+            "title": "Orange Juice Futures",
+            "text": "We analyzed the effects of precipitation, temperature, and other weather-related variables on the price of orange juice futures. Our goal was to find meaningful connections between the factors listed above and the orange futures prices using Florida weather data. Since Florida is the largest orange producer in the United States, our hypothesis was that abnormal weather patterns in the state, which produce suboptimal orange growth, will increase orange futures prices due to the lack of supply. After running several multivariate linear regression models, we found that although there were some statistically significant relationships between OJ futures prices and weather, weather data is best used as a supplement to many other market variables for predicting FCOJ futures prices and has no predictive power on its own.",
+            "link": "https://github.coecis.cornell.edu/lfb46/AlgoTeamOrangesProject"
         },
         {
-            "title": "Forage: A platform for analyzing urban housing trends",
-            "link": "https://github.com/peterhusisian/Logistical-Kernel-Density-Estimation"
+            "title": "Portfolio Rebalancing",
+            "text": "Our goal was to create an optimized equity portfolio using the sectoral ETFs representing industry components of the S&P 500 index, by determining the weights each ETF should be assigned in the portfolio. We did this using the Hierarchical Risk Parity algorithm. We also investigated the optimum rebalancing frequency for maximizing returns.",
+            "link": "https://github.com/Tanvikapoor14/cds-algo-sp21"
         },
         {
-            "title": "Pleio: Audio deidentification for prescription phone calls",
-            "link": "https://github.com/oscarso2000/MyCourseIndex"
+            "title": "ETF Correlation Network",
+            "text": "Exchange Traded Funds (ETFs) are baskets of securities traded on exchanges with a mechanism to maintain the price of the basket close to the net asset value of the underlying. We hypothesized that as these bundles of securities are increasingly being traded on exchanges, the underlying securities are becoming artificially more similar. Focusing on the SPY ETF and using Mutual information, we generated MSTs (minimum spanning trees) that indicate that there exists a considerable degree of information that we can extrapolate from one security in the SPY ETF about other securities in the same basket."
         },
         {
-            "title": "Stanford Medical: Analyzing the correlation between county health data and mortality rates",
-            "link": "https://github.com/st-tse/neuron_poker_bot"
-        },
-        {
-            "title": "AIR: Aerial Intelligence for Responders",
-            "link": "https://github.com/peterhusisian/Logistical-Kernel-Density-Estimation"
-        },
-        {
-            "title": "Vocal Isolation: Separating sounds for storytelling",
-            "link": "https://github.com/oscarso2000/MyCourseIndex"
-        },
-        {
-            "title": "Amazon Review Summarization: Clustering and autoencoders for review distillation",
-            "link": "https://github.com/st-tse/neuron_poker_bot"
-        },
-        {
-            "title": "Seedlings: Image classification of different types of maize",
-            "link": "https://github.com/peterhusisian/Logistical-Kernel-Density-Estimation"
+            "title": "SEC Filings Text Analysis",
+            "text": "Every quarter, publicly traded companies are required by the SEC to publish comprehensive reports (10-Ks and 10-Qs) about their financial performance. This project is based on a research paper called Lazy Prices in which the researchers hypothesize that analyzing the changes in wording and the overall sentiment of the Management Discussion & Analysis section of the 10-Q documents along with detecting mentions of C-level position changes would provide insight into the company’s future returns. In this project, we utilized cosine similarity and leveraged nltk’s sentiment analysis tool VADER to create features for classification models that attempted to predict whether a company’s future returns would be positive or negative."
         }
     ],
     "members": {

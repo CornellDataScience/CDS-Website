@@ -1,65 +1,36 @@
 {
     "teamleads": [
         {
-            "name": "Stephan Tse",
-            "link": "https://example.com"
+            "name": "Elva Gao"
         },
         {
-            "name": "Phillip Si",
-            "link": "https://example.com"
+            "name": "Iris Li"
         }
     ],
-    "advisor": {
-        "name": "Prof. Thorsten Joachims",
-        "link": "https://www.cs.cornell.edu/people/tj/"
-    },
-    "about": "We operate at the intersection of the latest research in machine learning and practical engineering to create useful products for society. Our work always has a strong outreach/user focus and a strong connection to machine learning.<br></br>Check out the CDS Medium <a href=\"https://cornell-data.medium.com/\">here</a>, where we post articles summarizing and discussing popular ML research papers.",
+    "advisors": [{
+        "name": "Prof. Immanuel Trummer",
+        "link": "https://itrummer.github.io/"
+    }],
+    "about": "Our team values the intersection between “Big Data” and software applications. We hope to gain insight into our community through in-depth data analysis and to develop useful software for the Cornell community and beyond.",
     "current": [
         {
-            "title": "Poker Bot: An AI to play Texas Hold'Em",
-            "link": "https://github.com/st-tse/neuron_poker_bot"
+            "title": "Distributed Game Server",
+            "text": "Creating a decentralized distributed system for gaming that uses networked connections to maintain a consensus state across multiple distinct machines."
         },
         {
-            "title": "Kernel Density Estimator for Logistical Tasks",
-            "link": "https://github.com/peterhusisian/Logistical-Kernel-Density-Estimation"
-        },
-        {
-            "title": "MyCourseIndex: Improved search engine for Piazza (a cross-subteam collaboration)",
-            "link": "https://github.com/oscarso2000/MyCourseIndex"
+            "title": "Cornell Census",
+            "text": "Aggregating and visualizing data on Cornell students, such as GPA, course preferences, and sentiment from polls."
         }
     ],
     "past": [
         {
-            "title": "Fairmandering: Redrawing fairer district lines",
-            "link": "https://github.com/st-tse/neuron_poker_bot"
+            "title": "Cypria",
+            "text": "An open-source query language that can be interpreted to SQL, making it easier to build complicated queries by using functional constructs that are more intuitive to programmers.",
+            "link": "http://cypriaql.com/"
         },
         {
-            "title": "Forage: A platform for analyzing urban housing trends",
-            "link": "https://github.com/peterhusisian/Logistical-Kernel-Density-Estimation"
-        },
-        {
-            "title": "Pleio: Audio deidentification for prescription phone calls",
-            "link": "https://github.com/oscarso2000/MyCourseIndex"
-        },
-        {
-            "title": "Stanford Medical: Analyzing the correlation between county health data and mortality rates",
-            "link": "https://github.com/st-tse/neuron_poker_bot"
-        },
-        {
-            "title": "AIR: Aerial Intelligence for Responders",
-            "link": "https://github.com/peterhusisian/Logistical-Kernel-Density-Estimation"
-        },
-        {
-            "title": "Vocal Isolation: Separating sounds for storytelling",
-            "link": "https://github.com/oscarso2000/MyCourseIndex"
-        },
-        {
-            "title": "Amazon Review Summarization: Clustering and autoencoders for review distillation",
-            "link": "https://github.com/st-tse/neuron_poker_bot"
-        },
-        {
-            "title": "Seedlings: Image classification of different types of maize",
-            "link": "https://github.com/peterhusisian/Logistical-Kernel-Density-Estimation"
+            "title": "Twitter Community",
+            "text": "Real-time clustering visualization of Twitter users and their connections with other users."
         }
     ],
     "members": {

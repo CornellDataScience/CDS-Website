@@ -1,0 +1,37 @@
+{
+    "teamleads": [
+    ],
+    "advisors": [
+    ],
+    "about": "In addition to each of our subteam specific projects, we also take on many projects as an entire team. These are open to anyone regardless of subteam and usually incorporate many different aspects of software engineering, data science, and machine learning.",
+    "current": [
+        {
+            "title": "Bias in ML",
+            "text": "",
+            "link": ""
+        },
+        {
+            "title": "Self Driving Car",
+            "text": "",
+            "link": ""
+        },
+        {
+            "title": "ML Operations",
+            "text": "",
+            "link": ""
+        },
+        {
+            "title": "MyCourseIndex",
+            "text": "",
+            "link": ""
+        } 
+ 
+    ],
+    "past": [
+        {
+            "title": "ProjectX",
+            "text": "This was a cross-team collaboration project with members across Education, Insights, Data Engineering, and Intelligent Systems. The team was tasked with investigating epidemiology within a data science context. This culminated in a 7 page research paper submitted to the competition.",
+            "link": "https://github.com/CornellDataScience/ProjectX-2021"
+        }
+    ]
+}   

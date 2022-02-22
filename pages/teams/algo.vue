@@ -2,7 +2,7 @@
     <Team
     title="Algorithmic Trading"
     v-bind:leads="data.teamleads"
-    v-bind:advisor="data.advisor"
+    v-bind:advisors="data.advisors"
     v-bind:about="data.about"
     v-bind:current="data.current"
     v-bind:past="data.past"

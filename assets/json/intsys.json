@@ -2,64 +2,92 @@
     "teamleads": [
         {
             "name": "Stephan Tse",
-            "link": "https://example.com"
+            "link": "https://github.com/st-tse"
         },
         {
             "name": "Phillip Si",
-            "link": "https://example.com"
+            "link": "https://github.com/ps789"
         }
     ],
-    "advisor": {
+    "advisors": [{
         "name": "Prof. Thorsten Joachims",
         "link": "https://www.cs.cornell.edu/people/tj/"
-    },
-    "about": "We operate at the intersection of the latest research in machine learning and practical engineering to create useful products for society. Our work always has a strong outreach/user focus and a strong connection to machine learning.<br></br>Check out the CDS Medium <a href=\"https://cornell-data.medium.com/\">here</a>, where we post articles summarizing and discussing popular ML research papers.",
+    }],
+    "about": "We operate at the intersection of the latest research in machine learning and practical engineering to create useful products for society. Our work always has a strong outreach/user focus and a strong connection to machine learning. In addition to our numerous projects each semester, we also have weekly paper presentations where several members present a recent, or interesting paper to the rest of the subteam followed by a discussion. We also have a few tech talks throughout the semester which are lecture style talks on a useful topic related to ML. In the past this has ranged from an introduction to cloud computing, and a lecture on contextual bandits.",
     "current": [
         {
-            "title": "Poker Bot: An AI to play Texas Hold'Em",
-            "link": "https://github.com/st-tse/neuron_poker_bot"
+            "title": "Smash AI",
+            "text": "Applying varying Reinforcement Learning approaches to the game of Super Smash Bros Melee",
+            "link": "https://github.com/CornellDataScience/smash"
         },
         {
-            "title": "Kernel Density Estimator for Logistical Tasks",
-            "link": "https://github.com/peterhusisian/Logistical-Kernel-Density-Estimation"
+            "title": "InterpretML",
+            "text": "Exploring interpretability in Machine Learning and its applications to spread awareness of its importance in modern industry.",
+            "link": "https://github.com/CornellDataScience/interpret-ml"
         },
         {
-            "title": "MyCourseIndex: Improved search engine for Piazza (a cross-subteam collaboration)",
-            "link": "https://github.com/oscarso2000/MyCourseIndex"
+            "title": "WordRL",
+            "text": "Using Reinforcement Learning to play Wordle "
+        },
+        {
+            "title": "Time Series Estimation for Stock Return Densities",
+            "text": "Minute to minute stock returns vary a lot, but are more likely to be positive or negative depending on the day. We postulate that the distribution of returns for a given day can be modelled as a time varying probability distribution. To test this, we are using several time series and density estimation models to predict the distribution of log returns for the S&P500 index.",
+            "link": "https://github.com/CornellDataScience/Stock-Densities"
         }
     ],
     "past": [
         {
+            "title": "AI Economist",
+            "text": "AI Economist is an exploratory project looking at potential extensions to a reinforcement learning-based approach to the problem of creating a more equitable and efficient tax system. The paper features a simplified simulated economy that allows agents to barter, trade, gather raw materials, and produce goods. We explored some minor expansions to the current environment as well as its limitations when training with a less powerful computer.",
+            "link": "https://github.com/CornellDataScience/ai-economist"
+        },
+        {
+            "title": "Dynamic Traffic",
+            "text": "Dynamic Traffic Systems is Utilizing Graph Theory, Genetic Algorithms and Simulation to discover more effective traffic light signal programs. By simulating millions of possibilities and selecting the most effective traffic program under different conditions, we hope to reduce traffic headaches and carbon emissions alike.",
+            "link": "https://github.com/CornellDataScience/Traffic"
+        },
+        {
+            "title": "Poker Bot",
+            "link": "https://github.com/CornellDataScience/PokerBot"
+        },
+        {
             "title": "Fairmandering: Redrawing fairer district lines",
-            "link": "https://github.com/st-tse/neuron_poker_bot"
+            "text": "\"Fairmandering is the process of explicitly creating district maps with fair outcomes -- those that accurately reflect a state's political leanings, create enough competitive races to ensure accountability, and treat each party symmetrically. Fairmandering is made possible by a recent breakthough in redistricting technology. The basic idea is to repeatedly break up a state into smaller regions such that the pieces can fit together in an exponential number of ways. It is then efficient to filter out the thousands of fair maps from the trillions we create.\"",
+            "link": "https://fairmandering.org/index.html"
         },
         {
-            "title": "Forage: A platform for analyzing urban housing trends",
-            "link": "https://github.com/peterhusisian/Logistical-Kernel-Density-Estimation"
+            "title": "Forage",
+            "text": "A platform for analyzing urban housing trends"
         },
         {
-            "title": "Pleio: Audio deidentification for prescription phone calls",
-            "link": "https://github.com/oscarso2000/MyCourseIndex"
+            "title": "Pleio",
+            "text": "Audio deidentification for prescription phone calls",
+            "link": "https://github.com/bayoumi17m/audio-deidentification"
         },
         {
-            "title": "Stanford Medical: Analyzing the correlation between county health data and mortality rates",
-            "link": "https://github.com/st-tse/neuron_poker_bot"
+            "title": "Stanford Medical",
+            "text": "Analyzing the correlation between county health data and mortality rates",
+            "link": "https://github.com/jek343/StanfordMedical"
         },
         {
             "title": "AIR: Aerial Intelligence for Responders",
-            "link": "https://github.com/peterhusisian/Logistical-Kernel-Density-Estimation"
+            "text": "The goal of this project was to assist automated mapping efforts for use in providing humanitarian relief after natural disasters.",
+            "link": "https://github.com/Dieblitzen/AIR-Project"
         },
         {
-            "title": "Vocal Isolation: Separating sounds for storytelling",
-            "link": "https://github.com/oscarso2000/MyCourseIndex"
+            "title": "Vocal Isolation",
+            "text": "Separating sounds for storytelling",
+            "link": "https://github.com/CornellDataScience/IntSys-Vocal-Isolation"
         },
         {
             "title": "Amazon Review Summarization: Clustering and autoencoders for review distillation",
-            "link": "https://github.com/st-tse/neuron_poker_bot"
+            "text": "Evaluating potential purchases online is often made easier by reviews provided by other customers. However, sifting through hundreds of reviews to create a holistic view of the sentiment the product evokes can be time-consuming. We take two approaches to the problem: an extractive technique, where the review is generated from important sentences sampled from the corpus, and an abstractive technique, where we generate new text using an autoencoder that summarizes the original reviews.",
+            "link": "https://github.com/CornellDataScience/IntSys-Sentiment-Summary"
         },
         {
-            "title": "Seedlings: Image classification of different types of maize",
-            "link": "https://github.com/peterhusisian/Logistical-Kernel-Density-Estimation"
+            "title": "Seedlings",
+            "text": "Creating a mobile application to classify maize seedlings and 11 different types of weed seedlings that are usually found growing in maize plots.",
+            "link": "https://github.com/CornellDataScience/IntSys-Seedling"
         }
     ],
     "members": {

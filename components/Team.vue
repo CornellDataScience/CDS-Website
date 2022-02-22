@@ -12,22 +12,30 @@
           </p>
           <p class="body-1 font-weight-light mx-md-8">
                 <b class="font-weight-bold">Advisor: </b> 
-                <span>
-                    <a v-bind:href="advisor.link" class="text-decoration-none">{{ advisor.name }}</a>
+                <span v-for="(advisor, index) in advisors" v-bind:key="advisor.name">
+                    <a v-bind:href="advisor.link" class="text-decoration-none">{{ advisor.name }}</a><span v-if="index != Object.keys(advisors).length -1">, </span>
                 </span>
           </p>
           <Block title="About Us">
               <p v-html="about"></p>
           </Block>
-          <Block title="Current Projects">
-              <li v-for="proj in current" v-bind:key="proj.title" class="mb-4 font-weight-medium">
-                  <a v-bind:href="proj.link" class="secondary--text text-decoration-none">{{ proj.title }}</a>
-              </li>
+          <Block title="Current Projects"> 
+              <div v-for="proj in current" v-bind:key="proj.title" >
+                <ProjectCard 
+                v-bind:title="proj.title"
+                v-bind:text="proj.text"
+                v-bind:link="proj.link"
+                ></ProjectCard>
+              </div>
           </Block>
           <Block title="Past Projects">
-              <li v-for="proj in past" v-bind:key="proj.title" class="mb-4 font-weight-medium">
-                  <a v-bind:href="proj.link" class="secondary--text text-decoration-none">{{ proj.title }}</a>
-              </li>
+              <div v-for="proj in past" v-bind:key="proj.title" >
+                <ProjectCard 
+                v-bind:title="proj.title"
+                v-bind:text="proj.text"
+                v-bind:link="proj.link"
+                ></ProjectCard>
+              </div>
           </Block>
           <Block title="Members">
               <div v-for="(section, key) in members" v-bind:key="key" class="mb-6">
@@ -46,7 +54,7 @@
         props: {
             title: String,
             leads: Array,
-            advisor: Object,
+            advisors: Array,
             about: String,
             current: Array,
             past: Array,

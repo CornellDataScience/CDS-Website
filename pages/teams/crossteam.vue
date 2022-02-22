@@ -1,6 +1,6 @@
 <template>
     <Team
-    title="Insights"
+    title="Cross Subteam Collaborations"
     v-bind:leads="data.teamleads"
     v-bind:advisors="data.advisors"
     v-bind:about="data.about"
@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import data from '~/assets/json/insights.json';
+import data from '~/assets/json/crossteam.json';
 export default {
     data() {
         return {
