@@ -1,4 +1,4 @@
-## IntSys
+## Intelligent Systems
 Bonnie Akhavan
 Cora Wu
 Elias Little
@@ -6,20 +6,25 @@ Evelyn Wu
 Felix Hohne
 Johann Lee
 Julia Allen
-Magd Bayoumi?
+Magd Bayoumi
 Melinda Fang
 Neil Estrada
-Philip Si
+Phillip Si
 Stephen Tse
 Travis Zhang
 Victor Butoi
 Wendy Huang
 Winnie Chow
 Shihao Cao
+Emily Wang
+Imani Finkley
 Miyuki Goay
 Altria Wang
-
-## Algo
+Tanisha Kore
+Emerald Liu
+Salma Hazimeh
+Ryan Lee
+## Algorithmic Trading
 Rucha Gharpure
 Arun Visvanath
 Sean Vaysburd
@@ -34,7 +39,10 @@ Christian Lizardi
 Pratham Rawat
 Uday Kolla
 Stephanie Lu
-
+Rohan Shah
+Adona Anteneh
+Andrew Chang
+Samara Silverman
 ## Insights
 Kaitlyn Chen
 Amrith Kumaar
@@ -45,12 +53,13 @@ Sam Fuchs
 William Bekerman
 Daniela Rodriguez-Chavez
 Kevin Zhou
-Seonghee Lee (Jessie)
-Emily Wang
+Jessie Lee
 Samuel Meisner
 Alice Sze
-
-## DE
+Jason Zheng
+Darren Key
+Skyler Shapiro
+## Data Engineering
 Sanjali Jha
 Elva Gao
 Iris Li
@@ -64,9 +73,13 @@ Edward Gu
 Arjun Shah
 John O'Donnell
 Rafael Chaves
-Brian Ling
 Ethan Mah
-
+Mason Bulling
+David Han
+Pun Chaixanien
+Evan Williams
+Mei Lin Hu
+Connor Chen
 ## Education
 Sam Cobado
 Jerry Sun
@@ -75,3 +88,9 @@ Emily Weed
 Kelly Lu
 Varun Gande
 Vincent Fong
+Brendan Lo
+Jacob Mayourian
+Vivian Chen
+Neha Kulshreshtha
+Everett Lee
+Eric Guo
