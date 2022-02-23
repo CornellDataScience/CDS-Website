@@ -137,12 +137,16 @@ export default ({
             to: "/teams/insights"
             },
             {
-            title: "Algorithm Trading",
+            title: "Algorithmic Trading",
             to: "/teams/algo"
             },
             {
             title: "Education",
             to: "/teams/edu"
+            },
+            {
+            title: "Cross Team Projects",
+            to: "/teams/crossteam"
             }
         ],
         }
