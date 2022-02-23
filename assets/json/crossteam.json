@@ -12,8 +12,8 @@
         },
         {
             "title": "Self Driving Car",
-            "text": "",
-            "link": ""
+            "text": "CDS Self-Driving Car aims to demonstrate tight integration of a camera based vision algorithm to navigate a car safely. We utilize a SLAM system to localize ourselves, and an additional lane recognition pipeline to see the road. This is all built upon a Python control loop and will leverage robotics to directly actuate the steering wheel to augment a normal car.",
+            "link": "https://github.com/CornellDataScience/self-driving-car"
         },
         {
             "title": "ML Operations",

@@ -22,12 +22,12 @@
         },
         {
             "title": "InterpretML",
-            "text": "Exploring interpretability in Machine Learning and its applications to spread awareness of its importance in modern industry.",
+            "text": "Great progress has been made in developing complex, black-box models for prediction. However, how these models use feature information is often unclear, making them poorly suited for seeking to understand our world. On the other hand, simple linear models are prevalent through research due to their simple inference, yet make highly unrealistic assumptions. At InterpretML, we learn and investigate the frontier of interpretable models, those that maximize predictive power while remaining fully interpretable for the practitioner.",
             "link": "https://github.com/CornellDataScience/interpret-ml"
         },
         {
             "title": "WordRL",
-            "text": "Using Reinforcement Learning to play Wordle "
+            "text": "WordRL attacks the word sensation that's sweeping the nation Wordle, and is a reinforcement learning project for optimal Wordle play. We propose a variety of such reinforcement learning solutions, and compare our performance and predictions with information theory based optimal choices."
         },
         {
             "title": "Time Series Estimation for Stock Return Densities",
