@@ -1,12 +1,12 @@
 <template>
     <div>
-    <v-img :src="require(`../assets/img/Gates.jpg`)" :lazy-src="require(`../assets/img/Gates.jpg`)" 
+    <v-img :src="require(`../assets/img/VictorPresenting.jpg`)" :lazy-src="require(`../assets/img/Gates.jpg`)" 
     gradient="rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)" :aspect-ratio="3" class="d-flex align-center mb-4">
         <p class="mx-8 d-flex justify-center text-h2 white--text font-weight-medium text-uppercase title">
             People
         </p>
     </v-img>
-    <div v-for="group in special" v-bind:key="group.title">
+    <div v-for="group in leads" class="mt-16" v-bind:key="group.title">
         <div class="text-h3 my-8 text-center font-weight-medium text--uppercase primary--text">
         {{group.title}}
         </div>
@@ -20,16 +20,19 @@
         </v-row>
     </div>
     <div class="text-h3 my-8 text-center font-weight-medium text--uppercase primary--text">
-      {{main.title}}
+      Members
     </div>
-    <div v-for="group in main.teams" v-bind:key="group.subtitle">
-        <div class="text-h2 my-4 text-center font-weight-medium text--uppercase">
+    <div v-for="group in members" class="mx-16 mb-8" v-bind:key="group.subtitle">
+        <v-lazy> <v-sparkline :line-width="0.5" :gradient="['grey']" :height="10" :padding="2" :smooth="10" :value="[1, 1]" auto-draw class="mx-8 mb-4"></v-sparkline></v-lazy>
+        <div class="text-h2 my-8 text-center font-weight-medium text--uppercase">
           {{group.subtitle}}
         </div>
         <v-row justify="center" class="mx-16">
           <v-col cols="3" v-for="person in group.people" v-bind:key="person.name" class="text-center">
-            <p>{{person.name}}</p>
-            <v-img :src="require(`../assets/img/headshots/${person.image}`)" max-height="200px" contain></v-img>
+            <v-card class="rounded-xl mx-auto" height="200" width="200">
+              <v-img :src="require(`../assets/img/headshots/${person.image}`)" class="fill-height" max-height="200"></v-img>
+            </v-card>
+            <p class="mt-2">{{person.name}}</p>
           </v-col>
         </v-row>
     </div>
@@ -37,12 +40,13 @@
 </template>
 
 <script>
-    import data from '~/assets/json/people.json';
+    import leads from '~/assets/json/leads.json';
+    import members from '~/assets/json/members.json';
     export default {
         data () {
             return {
-                special: data.special,
-                main: data.main
+                leads: leads,
+                members: members
             }
         }
     }
