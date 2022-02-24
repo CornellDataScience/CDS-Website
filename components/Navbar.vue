@@ -1,10 +1,16 @@
+<style>
+. {
+  font-family: "Roboto";
+  src: local("Roboto"),   url(../assets/fonts/Roboto/Roboto-Regular.ttf) format("truetype");}
+</style>
+
 <template>
     <v-app-bar>
       <NuxtLink to="/">
-        <img src="logo.png" width="50px" class="mr-5"/>
+        <img src="cds_logo.png" width="50px" align="center" class="mr-5"/>
       </NuxtLink>
       <NuxtLink to="/" style="text-decoration:none">
-        <v-toolbar-title v-text="title" class="secondary--text" />
+        <!-- <v-toolbar-title v-text="title" class="justify-center text-p font-weight-small text-uppercase" /> -->
       </NuxtLink>
       <v-spacer />
 
@@ -44,7 +50,7 @@
         <v-btn plain small class="nav-btn mx-2 body-2 font-weight-medium" active-class="primary--text" href="https://cornell-data.medium.com/">
           Blog
         </v-btn>
-        <v-btn text small class="nav-btn mx-2 accent body-2 font-weight-medium" to="/contact" nuxt>
+        <v-btn text small class="nav-btn mx-2 primary white--text body-2 font-weight-medium rounded-xl" to="/contact" nuxt>
           Contact
         </v-btn>
       </div>
@@ -107,7 +113,7 @@
             </v-btn>
           </v-list-item>
           <v-list-item>
-            <v-btn text x-small class="nav-btn accent body-2 font-weight-medium" to="/contact" nuxt>
+            <v-btn text x-small class="nav-btn primary body-2 font-weight-medium" to="/contact" nuxt>
               Contact
             </v-btn>
           </v-list-item>
