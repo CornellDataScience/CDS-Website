@@ -7,9 +7,9 @@
             Contact
         </p>
     </v-img>
-    <div class="d-flex align-center justify-center">
+    <!--<div class="d-flex align-center justify-center">
       <iframe class="mx-auto d-flex align-center justify-center" src="https://docs.google.com/forms/d/e/1FAIpQLSeLyZ9pGAXYWuLiis2-hCV4fqdIQqy4gR74Q0ns2b7NBYHlPg/viewform?embedded=true" width="640" height="963" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-    </div>
+    </div>-->
     <div class="mx-16 my-16">
       <p class="body-1 font-weight-light mx-md-8">
         For general questions about the team or interest in what we're doing, please reach Cornell Data Science at <a href="mailto: cornelldatascience@gmail.com">cornelldatascience@gmail.com</a>!
