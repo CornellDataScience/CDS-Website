@@ -11,7 +11,7 @@
         </v-container>-->
     </v-img>
     <div v-for="group in leads" class="mt-16" v-bind:key="group.title">
-        <div class="text-h3 my-8 mx-4 mx-md-0 text-center font-weight-medium text--uppercase primary--text">
+        <div class="text-h3 my-8 text-center font-weight-medium text--uppercase primary--text">
         {{group.title}}
         </div>
         <!-- <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(10rem, 10rem)); align-items: center;"
@@ -26,7 +26,12 @@
     <div class="text-h3 my-8 text-center font-weight-medium text--uppercase primary--text">
       Members
     </div>
-    <div v-for="group in members" class="mx-16 mb-8" v-bind:key="group.subtitle">
+    <v-row justify="space-around mx-auto">
+      <v-col cols="12" sm="3" md="2" v-for="group in members" class="mx-4 text-center">
+        <v-btn plain text class="align-center text-center" :href="'#'+group.subtitle">{{group.subtitle}}</v-btn>
+      </v-col>
+    </v-row>
+    <div v-for="group in members" :id="group.subtitle" class="mx-16 mb-8" v-bind:key="group.subtitle">
         <v-lazy> <v-sparkline :line-width="0.5" :gradient="['grey']" :height="10" :padding="2" :smooth="10" :value="[1, 1]" auto-draw class="mx-8 mb-4"></v-sparkline></v-lazy>
         <div class="text-h2 my-8 text-center font-weight-medium text--uppercase">
           {{group.subtitle}}
