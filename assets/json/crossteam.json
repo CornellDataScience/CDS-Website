@@ -6,7 +6,7 @@
     "about": "In addition to each of our subteam specific projects, we also take on many projects as an entire team. These are open to anyone regardless of subteam and usually incorporate many different aspects of software engineering, data science, and machine learning.",
     "current": [
         {
-            "title": "Bias in ML",
+            "title": "The Bias Lab at Cornell",
             "text": "",
             "link": ""
         },
@@ -16,7 +16,7 @@
             "link": "https://github.com/CornellDataScience/self-driving-car"
         },
         {
-            "title": "ML Operations",
+            "title": "Coalescence ML",
             "text": "",
             "link": ""
         },
