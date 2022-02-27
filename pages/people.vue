@@ -27,7 +27,7 @@
       Members
     </div>
     <v-row justify="space-around mx-auto">
-      <v-col cols="12" sm="3" md="2" v-for="group in members" class="mx-4 text-center">
+      <v-col cols="12" sm="3" md="2" v-for="group in members" v-bind:key="group.subtitle" class="mx-4 text-center">
         <v-btn plain text class="align-center text-center" :href="'#'+group.subtitle">{{group.subtitle}}</v-btn>
       </v-col>
     </v-row>
