@@ -14,7 +14,7 @@
             {{ data.subdescription }}
           </p>
           <div v-for="item in data.info" v-bind:key="item.title">
-            <Block v-bind:title="item.name"><p v-html="item.description"></p></Block>
+            <Block v-bind:title="item.name" v-bind:link="item.link"><p v-html="item.description"></p></Block>
           </div>
       </div>
   </div>
