@@ -68,7 +68,7 @@ export default {
           accent: '#F3A93C',
         },
         dark: {
-          primary: colors.deepPurple,
+          primary: colors.deepPurple.lighten2,
           accent: '#F3A93C',
           secondary: '#8587AD',
           info: colors.teal.lighten1,
