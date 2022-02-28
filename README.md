@@ -1,5 +1,18 @@
 # CDS-Website
 
+## Maintaining
+
+Nearly all content (words and images) are controlled by a set of json files located in `assets/json/`. 
+To update the site, simply edit the json and merge it into the `main` branch. Most images are simply placed into the `assets/img/` folder, and are included via its name in a json file.
+
+The team pages are `algo.json`, `crossteam.json`, `de.json`, `edu.json`, `insights.json`, and `intsys.json` accordingly. `teams.json` corresponds to the team overview page.
+`home.json` is for the home page. `leads.json` and `members.json` refer to the `people` page. `recruitment.json` is for the recruitment page. 
+
+In order to update the `members.json` file, update `people.md` then run `$ python members2json.py` which will write the relevant information to the json file. 
+The order of people in the md file corresponds to the website.
+
+To change a photo, change the name of the file referenced in the corresponding json file. Make sure the image is located in the `assets/img/` folder unless it's a headshot, in which case it belongs in `assets/img/headshots/`.
+
 ## Build Setup
 
 ```bash
