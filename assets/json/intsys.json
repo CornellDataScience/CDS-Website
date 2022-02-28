@@ -52,13 +52,17 @@
             "link": "https://fairmandering.org/index.html"
         },
         {
-            "title": "Stanford Medical",
-            "text": "Analyzing the correlation between county health data and mortality rates",
-            "link": "https://github.com/jek343/StanfordMedical"
+            "title": "Forage",
+            "text": "Forage is a platform for analyzing and forecasting urban trends with a focus on housing. The project has both a product component for doing data exploration on major US cities and an ML component using neighborhood embeddings to do short term forecasting. The goal is to provide academics and policy makers greater insight into local neighborhood trends to inform policy decisions."
+        },
+        {
+            "title": "Pleio",
+            "text": "Medication Non-adherence is a surprising problem throughout the US. With over 100,000 premature deaths and $300 M of avoidable health care costs all tied to non-adherence, Pleio has stepped in to help with their GoodStart program. This Project is dedicated to enabling their team better interact with individuals: from understanding what they feel, knowing when they are available, and why they end up refilling their prescription medications. We developed modules to de-identify audio and text data before working on a causal analysis of what interventions help individuals refill their medications.",
+            "link": "https://github.com/bayoumi17m/audio-deidentification"
         },
         {
             "title": "AIR: Aerial Intelligence for Responders",
-            "text": "The goal of this project was to assist automated mapping efforts for use in providing humanitarian relief after natural disasters.",
+            "text": "Disasters happen, and they always will. While everyone on the planet is hit with the same kinds of disasters, to say that they are affected equally is negligent. In third world countries, some of whom might have poor cartographical systems of infrastructure, the problems of something like a hurricane is exacerbated by their physical inability to manage the wreckage. People are lost in the destruction, and with poor local mapping finding ways of navigating wreckage is infeasible. Introduce AIR. The AIR project is dedicated to enabling lower-income areas with efficient and automated mapping based on satellite or drone imagery. We have trained numerous deep learning models for translating images to class maps, where anyone can see where the roads, buildings, and other features are. Furthermore, our access to a large amount of different topological landscapes means we could train our models in different areas, and for specific instances of disasters the model that matches that topological area will perform the best rather than a one size fits all. Finally, we have built-in functionality for incorporating public access drone imagery in our model and have found success both for using that in the 'class-map' predictions, as well as a 'difference' heatmap that can show what areas of a map are most affected.",
             "link": "https://github.com/Dieblitzen/AIR-Project"
         },
         {
@@ -66,6 +70,5 @@
             "text": "Evaluating potential purchases online is often made easier by reviews provided by other customers. However, sifting through hundreds of reviews to create a holistic view of the sentiment the product evokes can be time-consuming. We take two approaches to the problem: an extractive technique, where the review is generated from important sentences sampled from the corpus, and an abstractive technique, where we generate new text using an autoencoder that summarizes the original reviews.",
             "link": "https://github.com/CornellDataScience/IntSys-Sentiment-Summary"
         }
-        
     ]
 }   
