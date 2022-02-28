@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="px-4">
       <p class="text-h3 font-weight-medium text-uppercase text-center mt-16">
           {{ title }}
       </p>
@@ -16,9 +16,13 @@
                     <a v-bind:href="advisor.link" class="text-decoration-none">{{ advisor.name }}</a><span v-if="index != Object.keys(advisors).length -1">, </span>
                 </span>
           </p>
+
+          <v-sparkline :line-width="0.5" :gradient="['grey']" :height="10" :padding="2" :smooth="10" :value="[1, 1]" auto-draw class="mb-4"></v-sparkline>
           <Block title="About Us">
               <p v-html="about"></p>
           </Block>
+
+          <v-sparkline :line-width="0.5" :gradient="['grey']" :height="10" :padding="2" :smooth="10" :value="[1, 1]" auto-draw class="mb-4"></v-sparkline>
           <Block title="Current Projects"> 
               <div v-for="proj in current" v-bind:key="proj.title" >
                 <ProjectCard 
@@ -28,6 +32,9 @@
                 ></ProjectCard>
               </div>
           </Block>
+
+          <v-sparkline :line-width="0.5" :gradient="['grey']" :height="10" :padding="2" :smooth="10" :value="[1, 1]" auto-draw class="mb-4"></v-sparkline>
+          
           <Block title="Past Projects">
               <div v-for="proj in past" v-bind:key="proj.title" >
                 <ProjectCard 
