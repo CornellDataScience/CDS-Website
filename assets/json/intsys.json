@@ -47,10 +47,6 @@
             "link": "https://github.com/CornellDataScience/Traffic"
         },
         {
-            "title": "Poker Bot",
-            "link": "https://github.com/CornellDataScience/PokerBot"
-        },
-        {
             "title": "Fairmandering: Redrawing fairer district lines",
             "text": "\"Fairmandering is the process of explicitly creating district maps with fair outcomes -- those that accurately reflect a state's political leanings, create enough competitive races to ensure accountability, and treat each party symmetrically. Fairmandering is made possible by a recent breakthough in redistricting technology. The basic idea is to repeatedly break up a state into smaller regions such that the pieces can fit together in an exponential number of ways. It is then efficient to filter out the thousands of fair maps from the trillions we create.\"",
             "link": "https://fairmandering.org/index.html"
@@ -69,11 +65,7 @@
             "title": "Amazon Review Summarization: Clustering and autoencoders for review distillation",
             "text": "Evaluating potential purchases online is often made easier by reviews provided by other customers. However, sifting through hundreds of reviews to create a holistic view of the sentiment the product evokes can be time-consuming. We take two approaches to the problem: an extractive technique, where the review is generated from important sentences sampled from the corpus, and an abstractive technique, where we generate new text using an autoencoder that summarizes the original reviews.",
             "link": "https://github.com/CornellDataScience/IntSys-Sentiment-Summary"
-        },
-        {
-            "title": "Seedlings",
-            "text": "Creating a mobile application to classify maize seedlings and 11 different types of weed seedlings that are usually found growing in maize plots.",
-            "link": "https://github.com/CornellDataScience/IntSys-Seedling"
         }
+        
     ]
 }   
