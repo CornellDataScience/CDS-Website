@@ -56,6 +56,15 @@
             "link": "https://fairmandering.org/index.html"
         },
         {
+            "title": "Forage",
+            "text": "A platform for analyzing urban housing trends"
+        },
+        {
+            "title": "Pleio",
+            "text": "Audio deidentification for prescription phone calls",
+            "link": "https://github.com/bayoumi17m/audio-deidentification"
+        },
+        {
             "title": "Stanford Medical",
             "text": "Analyzing the correlation between county health data and mortality rates",
             "link": "https://github.com/jek343/StanfordMedical"
@@ -64,6 +73,11 @@
             "title": "AIR: Aerial Intelligence for Responders",
             "text": "The goal of this project was to assist automated mapping efforts for use in providing humanitarian relief after natural disasters.",
             "link": "https://github.com/Dieblitzen/AIR-Project"
+        },
+        {
+            "title": "Vocal Isolation",
+            "text": "Separating sounds for storytelling",
+            "link": "https://github.com/CornellDataScience/IntSys-Vocal-Isolation"
         },
         {
             "title": "Amazon Review Summarization: Clustering and autoencoders for review distillation",
