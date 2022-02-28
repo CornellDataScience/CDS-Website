@@ -21,11 +21,14 @@
         </v-row>
         <v-spacer></v-spacer>
         <br>
-        <v-row v-for="(item, index) in data.info" v-bind:key="item.title" justify="center">
-            <v-col cols="9">
-                <HomeBlockAlt v-bind:title="item.title" v-bind:index="index" v-bind:data="item.body" v-bind:img="item.img"></HomeBlockAlt>
-            </v-col>
-        </v-row>
+        <FloatingCard v-for="(item, index) in data.info" :link="item.link" :key="item.title">
+          <Block :title="item.title" :index="index">
+            <template v-slot:leftContent>
+            <p v-html="item.body"></p>
+            </template>
+            <v-img aspect-ratio="2.5" :src="get_image(item.img)" class="rounded-xl"></v-img>
+          </Block>
+        </FloatingCard>
         <br>
     </v-container>
   </div>
@@ -37,6 +40,11 @@
         data () {
             return {
                 data: data
+            }
+        },
+        methods: {
+            get_image(img) {
+              return require(`../assets/img/${img}`)
             }
         }
     }
