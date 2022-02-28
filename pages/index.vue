@@ -11,7 +11,7 @@
     </div>
     <v-container class="my-8 px-8 px-md-0">
         <v-row justify="center">
-            <v-col cols="9">
+            <v-col cols="12" md="9">
                 <p class="body-1 text--black font-weight-light ml-4 mx-md-18">
                 {{ data.description }}
                 </p> 

@@ -4,7 +4,7 @@
         <v-col cols="12" md="4">
             <a v-if="link" class="flex-grow-0 text-h4 font-weight-medium text-uppercase primary--text text-decoration-none" :href="link"> {{ title }} </a>
             <p v-else class="flex-grow-0 text-h4 font-weight-medium text-uppercase primary--text text-decoration-none">
-              <slot name="title"> {{ title }}</slot>
+              <slot name="title"> {{ title }} </slot>
             </p>
             <slot name="leftContent"></slot>
         </v-col>

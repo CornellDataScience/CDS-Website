@@ -3,14 +3,14 @@
     <div>
     <v-img 
     gradient="rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)" :aspect-ratio="6" class="d-flex align-center mb-4 indigo darken-4">
-        <p class="mx-8 d-flex justify-center text-h2 white--text font-weight-medium text-uppercase title">
+        <p class="mx-8 my-4 d-flex justify-center align-center text-h2 white--text font-weight-medium text-uppercase title">
             Contact
         </p>
     </v-img>
     <!--<div class="d-flex align-center justify-center">
       <iframe class="mx-auto d-flex align-center justify-center" src="https://docs.google.com/forms/d/e/1FAIpQLSeLyZ9pGAXYWuLiis2-hCV4fqdIQqy4gR74Q0ns2b7NBYHlPg/viewform?embedded=true" width="640" height="963" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
     </div>-->
-    <div class="mx-16 my-16">
+    <div class="mx-md-16 my-16">
       <Block title="Hello, World!">
       <template v-slot:title>
         Hello, <br/> World!

@@ -3,7 +3,7 @@
       <p class="text-h3 font-weight-medium text-uppercase text-center mt-16">
           {{ data.title }}
       </p>
-      <div class="mx-16 pa-8 my-8">
+      <div class="mx-md-16 pa-8 my-8">
           <p class="body-1 font-weight-light mx-md-8">
             {{ data.description }}
           </p>

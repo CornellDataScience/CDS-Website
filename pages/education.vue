@@ -13,7 +13,7 @@
     </div>
     <v-container class="my-8">
         <v-row justify="center">
-            <v-col cols="9">
+            <v-col cols="11" md="9">
                 <p class="body-1 font-weight-light mx-md-18">
                 {{ data.description }}
                 </p> 

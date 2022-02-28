@@ -7,13 +7,16 @@
           <p class="body-1 font-weight-light mx-md-8">
           {{ data.description }}
           </p>
-          <v-timeline dense>
+          <v-timeline dense class="hidden-sm-and-down">
           <v-timeline-item v-for="item in data.info" v-bind:key="item.title">
             <FloatingCard :link="item.link">
               <Block v-bind:title="item.title"><p v-html="item.body"></p></Block>
             </FloatingCard>
           </v-timeline-item>
           </v-timeline>
+          <FloatingCard v-for="item in data.info" v-bind:key="item.title" :link="item.link" class="hidden-md-and-up">
+              <Block v-bind:title="item.title"><p v-html="item.body"></p></Block>
+          </FloatingCard>
       </div>
   </div>
 </template>

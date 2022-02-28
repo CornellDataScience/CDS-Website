@@ -3,7 +3,7 @@
       <p class="text-h3 font-weight-medium text-uppercase text-center mt-16">
           {{ title }}
       </p>
-      <div class="mx-16 my-8">
+      <div class="mx-md-16 my-8">
           <p v-if="leads.length !== 0" class="body-1 font-weight-light mx-md-8">
                 <b class="font-weight-bold">Team Leads: </b> 
                 <span v-for="(lead, index) in leads" v-bind:key="lead.name">
