@@ -22,7 +22,7 @@
         <v-row >
             <v-col cols="12" sm="6" md="4" height="100%" v-for="(item, index) in data.info" v-bind:key="item.title" justify="center">
                 <v-hover v-slot:default="{ hover }">
-                <v-card shaped class="rounded-xl py-4 d-flex flex-column" height="100%" :elevation="hover ? 12 : 2">
+                <v-card shaped class="rounded-xl py-4 d-flex flex-column" :to="item.linker" height="100%" :elevation="hover ? 12 : 2">
                     <v-card-title class="text-h5 text-center font-weight-medium mx-md-8 justify-center primary--text"> {{ item.title }}</v-card-title>
                     <v-card-text class="font-weight-small"> 
                         {{ item.body }}
@@ -33,6 +33,31 @@
                  <!--<HomeBlockAlt v-bind:title="item.title" v-bind:index="index" v-bind:data="item.body" v-bind:img="item.img"></HomeBlockAlt>-->
             </v-col>
         </v-row>
+        <FloatingCard link="/teams">
+          <Block title="Teams">
+            <template v-slot:leftContent>
+              <p>{{ teams.description }}</p>
+            </template>
+           <v-img aspect-ratio="3" class="rounded-xl":src="require(`../assets/img/home1.jpg`)"></v-img> 
+          </Block>
+        </FloatingCard>
+        <FloatingCard link="/people">
+          <Block title="People">
+            <template v-slot:leftContent>
+            <p>{{ data.people }}</p>
+            </template>
+            <v-img aspect-ratio="2.5" class="rounded-xl":src="require(`../assets/img/people.jpg`)"></v-img> 
+          </Block>
+        </FloatingCard>
+        <FloatingCard link="/education">
+          <Block title="Education">
+            <template v-slot:leftContent>
+              <p>{{ data.education }}</p>
+            </template>
+            <v-img aspect-ratio="3" class="rounded-xl":src="require(`../assets/img/info1998_2.png`)"></v-img> 
+          </Block>
+        </FloatingCard>
+
         <br>
         <p class="text-h5 body-2 font-weight-medium text-uppercase text-center mt-8" style="color: grey;">
             A special thanks to our sponsors:
@@ -48,10 +73,12 @@
 
 <script>
     import data from '~/assets/json/home.json';
+    import teams from '~/assets/json/teams.json';
     export default {
         data () {
             return {
-                data: data
+                data: data,
+                teams: teams
             }
         }
     }
