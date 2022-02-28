@@ -17,12 +17,12 @@
         },
         {
             "title": "Coalescence ML",
-            "text": "",
+            "text": "CoalescenceML is an open-source MLOps framework to quickly, and easily set up your data/ml pipelines. We want to provide an end-to-end machine learning development process to design, build and manage reproducible, testable, and evolvable ML-powered software integrating with a host of tools on the market, or allowing you to extend our tool to meet your needs.",
             "link": ""
         },
         {
             "title": "MyCourseIndex",
-            "text": "",
+            "text": "MyCourseIndex acts as an essential search engine for Cornell students and their courses with the initial goal to improve the Piazza search user experience. This search gathers all information from Piazza/EdStem posts to Textbook and Notes Resources (even lecture videos!) and returns valid results for the student to utilize. The team is currently working to expand the current search capabilities to answer questions automatically!",
             "link": ""
         } 
  
