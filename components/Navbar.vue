@@ -7,7 +7,7 @@
 <template>
     <v-app-bar>
       <NuxtLink to="/">
-        <img src="cds_logo.png" width="50px" align="center" class="mr-5"/>
+        <img contain src="cds_logo.png" aspect-ratio="1" width="50px" align="center" />
       </NuxtLink>
       <NuxtLink to="/" style="text-decoration:none">
         <!-- <v-toolbar-title v-text="title" class="justify-center text-p font-weight-small text-uppercase" /> -->
