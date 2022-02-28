@@ -2,7 +2,7 @@
     <!-- <div class="indigo darken-4 d-flex align-center mb-4" :aspect-ratio="3"> -->
     <div>
     <v-img 
-    gradient="rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)" :aspect-ratio="6" class="d-flex align-center mb-4 indigo darken-4">
+    gradient="rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)" :aspect-ratio="6" class="d-flex align-center mb-4 secondary">
         <p class="mx-8 my-4 d-flex justify-center align-center text-h2 white--text font-weight-medium text-uppercase title">
             Contact
         </p>
