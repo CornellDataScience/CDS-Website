@@ -108,7 +108,7 @@
             </v-btn>
           </v-list-item>
           <v-list-item>
-            <v-btn plain x-small class="nav-btn body-2 font-weight-medium" active-class="primary--text" :to="'/blog'">
+            <v-btn plain x-small class="nav-btn body-2 font-weight-medium" active-class="primary--text" href="https://cornell-data.medium.com/">
               Blog
             </v-btn>
           </v-list-item>
