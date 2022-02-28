@@ -1,9 +1,9 @@
 {
-    "title":"Team Overview",
-    "description": "Cornell Data Science is more than just a project team – we also teach courses, lead educational initiatives, and invest in the exploration of new frontiers.  For this reason, we have an executive board which manages our general operations and several subteams which lead our technical direction.",
-    "subtitle":"Executive Board",
-    "subdescription":"Our focus is on building a strong and diverse data science community for undergraduates.  We work closely with university administration, professors, and companies to prepare students for the information age.",
-    "info":[
+    "title" : "Team Overview",
+    "description" : "Our team is made up of 80+ members and works on many areas of machine learning and data science. As a result, we have a total of five subteams: Intelligent Systems, Insights, Data Engineering, Algorithmic Trading, and Education, each with their own primary area of focus.",
+    "subtitle" : "Executive Board",
+    "subdescription" : "Cornell Data Science is more than just a project team – we also teach courses, lead educational initiatives, and invest in the exploration of new frontiers.  For this reason, we have an executive board which manages our general operations and several subteams which lead our technical direction. Our focus is on building a strong and diverse data science community for undergraduates.  We work closely with university administration, professors, and companies to prepare students for the information age.",
+    "info" : [
         {
             "name":"Intelligent Systems",
             "link":"teams/intsys",
