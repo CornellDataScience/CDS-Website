@@ -18,9 +18,14 @@
     "about": "The Algorithmic Trading subteam focuses on using tools from computer science, mathematics, and statistics to study different areas of quantitative finance. We have previously worked on predicting asset prices through changes in SEC Filings, optimizing the rebalancing frequency for pension fund portfolios, and pricing orange juice futures using climate data.",
     "current": [
         {
-            "title": "2022 UChicago Trading Competition",
-            "text": " ",
-            "link": "https://tradingcompetition.uchicago.edu/"
+            "title": "Portfolio Optimization: Generating Alpha via Diversifying Algorithms",
+            "text": "It is no secret that diversification helps to hedge your portfolio, but we could also diversify our trading strategies to optimize our portfolio. The idea is that one algorithm performs better in certain contexts; for instance, an algorithm's expected return could be higher during certain time of the day or when trading a particular asset class. We aim to implement and optimize trading algorithms such as momentum strategies, mean reversion, and seasonality opportunities. We will then distribute money and baskets of assets to each algorithm to optimize our portfolio returns.",
+            "link": ""
+        },
+        {
+            "title" : "Predicting Implied Volatility Using Google Trends",
+            "text" : "Using Google Trends data as a proxy for market sentiment, we hope to build a machine learning model that can take advantage of this data to accurately predict SPY options’ implied volatility for the next day, across multiple expiration dates and strike prices. We hope to use this model to build volatility based option trading strategies.",
+            "link" : ""
         }
     ],
     "past": [
