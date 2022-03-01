@@ -48,6 +48,7 @@
         },
         {
             "title": "Poker Bot",
+            "text" : "Started with exploring perfect information reinforcement learning methods in imperfect information spaces like No Limit Texas Hold'em. Later worked on implementing state of the art models for simplified poker games.",
             "link": "https://github.com/CornellDataScience/PokerBot"
         },
         {

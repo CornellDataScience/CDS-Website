@@ -47,6 +47,11 @@
             "link": "https://github.com/CornellDataScience/Traffic"
         },
         {
+            "title": "Poker Bot",
+            "text" : "Started with exploring perfect information reinforcement learning methods in imperfect information spaces like No Limit Texas Hold'em. Later worked on implementing state of the art models for simplified poker games.",
+            "link": "https://github.com/CornellDataScience/PokerBot"
+        },
+        {
             "title": "Fairmandering: Redrawing fairer district lines",
             "text": "\"Fairmandering is the process of explicitly creating district maps with fair outcomes -- those that accurately reflect a state's political leanings, create enough competitive races to ensure accountability, and treat each party symmetrically. Fairmandering is made possible by a recent breakthough in redistricting technology. The basic idea is to repeatedly break up a state into smaller regions such that the pieces can fit together in an exponential number of ways. It is then efficient to filter out the thousands of fair maps from the trillions we create.\"",
             "link": "https://fairmandering.org/index.html"
