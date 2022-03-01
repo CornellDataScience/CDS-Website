@@ -64,11 +64,13 @@ export default {
       themes: {
         light:{
           primary: colors.deepPurple,
+          navColor: colors.deepPurple,
           secondary: '#595B86',
           accent: '#F3A93C',
         },
         dark: {
-          primary: colors.deepPurple.lighten2,
+          primary: colors.deepPurple.lighten3,
+          navColor: colors.deepPurple,
           accent: '#F3A93C',
           secondary: '#8587AD',
           info: colors.teal.lighten1,
