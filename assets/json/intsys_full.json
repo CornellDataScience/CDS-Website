@@ -17,7 +17,7 @@
     "current": [
         {
             "title": "Smash AI",
-            "text": "Applying varying Reinforcement Learning approaches to the game of Super Smash Bros Melee",
+            "text": "Using reinforcement learning to training AI's for Super Smash Bros. Melee. Exploring different model architectures, novel methods of accelerating training, and increasing robustness of bots to adversarial strategies.",
             "link": "https://github.com/CornellDataScience/smash"
         },
         {
@@ -48,6 +48,7 @@
         },
         {
             "title": "Poker Bot",
+            "text" : "Started with exploring perfect information reinforcement learning methods in imperfect information spaces like No Limit Texas Hold'em. Later worked on implementing state of the art models for simplified poker games.",
             "link": "https://github.com/CornellDataScience/PokerBot"
         },
         {
