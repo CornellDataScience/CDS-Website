@@ -17,7 +17,7 @@
     "current": [
         {
             "title": "Smash AI",
-            "text": "Applying varying Reinforcement Learning approaches to the game of Super Smash Bros Melee",
+            "text": "Using reinforcement learning to training AI's for Super Smash Bros. Melee. Exploring different model architectures, novel methods of accelerating training, and increasing robustness of bots to adversarial strategies.",
             "link": "https://github.com/CornellDataScience/smash"
         },
         {
