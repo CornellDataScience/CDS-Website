@@ -54,7 +54,7 @@ Ronin Sharma
 Sam Fuchs
 William Bekerman
 Daniela Rodriguez-Chavez
-Jessie Lee
+Seonghee Lee
 Samuel Meisner
 Alice Sze
 Jason Zheng
