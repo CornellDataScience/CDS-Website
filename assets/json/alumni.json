@@ -1,0 +1,28 @@
+  {
+      "alumni": [
+          {
+              "name": "Magd Bayoumi",
+              "image": "MagdBayoumi.jpg"
+          },
+          {
+              "name": "Stephen Tse",
+              "image": "StephenTse.jpg"
+          },
+          {
+              "name": "Victor Butoi",
+              "image": "VictorButoi.jpg"
+          },
+          {
+              "name": "Phillip Si",
+              "image": "PhillipSi.jpg"
+          },
+          {
+              "name": "Bonnie Akhavan",
+              "image": "BonnieAkhavan.jpg"
+          },
+          {
+              "name": "Cora Wu",
+              "image": "CoraWu.jpg"
+          }
+      ]
+  },
