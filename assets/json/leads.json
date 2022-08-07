@@ -3,11 +3,11 @@
         "title" :  "EBoard",
         "people" : [
             {
-                "name" : "Victor Butoi",
+                "name" : "Elias Little",
                 "title" : "President"
             },
             {
-                "name" : "Greg Bodik",
+                "name" : "Rucha Gharpure",
                 "title" : "Vice President"
             },
             {
@@ -52,11 +52,11 @@
         "title" : "Subteam Leads",
         "people" : [
             {
-                "name" : "Stephen Tse",
+                "name" : "Travis Zhang",
                 "title" : "Intelligent Systems Co-Lead"
             },
             {
-                "name" : "Phillip Si",
+                "name" : "Evelyn Wu",
                 "title" : "Intelligent Systems Co-Lead"
             }, 
             {
@@ -64,11 +64,11 @@
                 "title" : "Insights Co-Lead"
             }, 
             {
-                "name" : "Greg Bodik",
+                "name" : "Zander Wang",
                 "title" : "Insights Co-Lead"
             },
             {
-                "name" : "Elva Gao",
+                "name" : "Ethan Mah",
                 "title" : "Data Engineering Co-Lead"
             },
             {
@@ -76,15 +76,15 @@
                 "title" : "Data Engineering Co-Lead"
             },
             {
-                "name" : "Rucha Gharpure",
+                "name" : "Tanvi Kapoor",
                 "title" : "Algorithmic Trading Co-Lead"
             },
             {
-                "name" : "Arun Visvanath",
+                "name" : "Andrew Chang",
                 "title" : "Algorithmic Trading Co-Lead"
             },
             {
-                "name" : "Jerry Sun",
+                "name" : "Varun Gande",
                 "title" : "Education Co-Lead"
             },
             {
