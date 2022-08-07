@@ -1,0 +1,96 @@
+[
+    {
+        "title" :  "EBoard",
+        "people" : [
+            {
+                "name" : "Elias Little",
+                "title" : "President"
+            },
+            {
+                "name" : "Rucha Gharpure",
+                "title" : "Vice President"
+            },
+            {
+                "name" : "Divya Damodaran",
+                "title" : "Finance Chair"
+            },
+            {
+                "name" : "John O'Donnell",
+                "title" : "Technical Chair"
+            },
+            {
+                "name" : "Elias Little",
+                "title" : "Website Chair"
+            },
+            {
+                "name" : "Jerry Sun",
+                "title" : "Onboarding Chair"
+            },
+            {
+                "name" : "Julia Allen",
+                "title" : "Marketing Co-Chair"
+            },
+            {
+                "name" : "Winnie Chow",
+                "title" : "Marketing Co-Chair"
+            },
+            {
+                "name" : "Johann Lee",
+                "title" : "Merchandise Chair"
+            },
+            {
+                "name" : "Rahma Tasnim",
+                "title" : "Corporate Chair"
+            },
+            {
+                "name" : "Shihao Cao",
+                "title" : "Social Chair"
+            }
+        ]
+    },
+    {
+        "title" : "Subteam Leads",
+        "people" : [
+            {
+                "name" : "Travis Zhang",
+                "title" : "Intelligent Systems Co-Lead"
+            },
+            {
+                "name" : "Evelyn Wu",
+                "title" : "Intelligent Systems Co-Lead"
+            }, 
+            {
+                "name" : "Kaitlyn Chen",
+                "title" : "Insights Co-Lead"
+            }, 
+            {
+                "name" : "Zander Wang",
+                "title" : "Insights Co-Lead"
+            },
+            {
+                "name" : "Ethan Mah",
+                "title" : "Data Engineering Co-Lead"
+            },
+            {
+                "name" : "Iris Li",
+                "title" : "Data Engineering Co-Lead"
+            },
+            {
+                "name" : "Tanvi Kapoor",
+                "title" : "Algorithmic Trading Co-Lead"
+            },
+            {
+                "name" : "Andrew Chang",
+                "title" : "Algorithmic Trading Co-Lead"
+            },
+            {
+                "name" : "Varun Gande",
+                "title" : "Education Co-Lead"
+            },
+            {
+                "name" : "Emily Weed",
+                "title" : "Education Co-Lead" 
+            }
+        ]
+    }
+]
