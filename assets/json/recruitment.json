@@ -1,0 +1,21 @@
+{
+    "title" : "Recruitment",
+    "description" : "Cornell Data Science is recruiting for Fall 2022! Please attend our Information Sessions to learn more and get any specific questions answered. The timeline is shown below. Applications are due Sept. 1 for upperclassmen, and Sept. 29 for first-year students.",
+    "info" : [
+        {
+            "title" : "Info Sessions",
+            "link" : "",
+            "body" : "The Information Sessions will be held on <b> August 24, 2022 </b> (Wednesday) from <b> 5:30 to 6:30pm (ET) </b> and <b> August 25, 2022 </b> (Thursday) from <b> 6:00 to 7:00pm (ET) </b> <a href=\"https://cornell.zoom.us/j/95928046395?pwd=UXEyRXV5eWRBNHQ5M1NjZXUrZzJHQT09\" >here</a>. <br></br> The slides are now available <a href=\"https://docs.google.com/presentation/d/1NOwy8m8x1uE3gYF4DgbOk8lnWQgPFZY1F6cjy9wIS-g/edit?usp=sharing\">here</a>."
+        },
+        {
+            "title" : "Application",
+            "link" : "https://tiny.cc/cds_sp21_apply",
+            "body" : "Four sub-teams - Insights, Intelligent Systems, Data Engineering, and Education - are recruiting this semester. You may apply to up to two of these (through the same application form). After the application review, selected candidates will be contacted to schedule interviews in the first week of March. <br/><br/> <b>Applications are now closed. </b>"
+        },
+        {
+            "title" : "Interviews",
+            "link" : "",
+            "body" : "We will reach out to select applicants to conduct interviews over the following weeks. These will be both technical and behavioral. More information, and materials will be sent to those in question."
+        }
+    ]
+}
