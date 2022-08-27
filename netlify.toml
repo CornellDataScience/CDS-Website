@@ -1,9 +1,12 @@
 [[redirects]]
+  from = "/wiki"
+  to = "https://engineering-communications-progr.gitbook.io/cornell-data-science/VNEv8c5PtgMv0WCNOB7M/the-org/how-to-use-this-wiki"
+[[redirects]]
 	from = "https://eboard.cds.fyi/zoom"
 	to = "https://cornell.zoom.us/j/97974334609?pwd=b0g1QWRMTlRnNDNMeStnZjhieE9MUT09"
 [[redirects]]
-	from = "https://intsys.cds.fyi/*"
-	to = "cds.fyi/intsys/:splat"
+	from = "https://intsys.cornelldata.science/*"
+	to = "cornelldata.science/intsys/:splat"
   status = 200
   force = true
 [[redirects]]
