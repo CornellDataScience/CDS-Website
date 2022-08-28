@@ -10,8 +10,8 @@
         }
     ],
     "advisors": [{
-        "name": "Prof. Thorsten Joachims",
-        "link": "https://www.cs.cornell.edu/people/tj/"
+        "name": "Prof. Kilian Weinberger",
+        "link": "https://www.cs.cornell.edu/~kilian/"
     }],
     "about": "We operate at the intersection of the latest research in machine learning and practical engineering to create useful products for society. Our work always has a strong outreach/user focus and a strong connection to machine learning. In addition to our numerous projects each semester, we also have weekly paper presentations where several members present a recent, or interesting paper to the rest of the subteam followed by a discussion. We also have a few tech talks throughout the semester which are lecture style talks on a useful topic related to ML. In the past this has ranged from an introduction to cloud computing, and a lecture on contextual bandits.",
     "current": [
