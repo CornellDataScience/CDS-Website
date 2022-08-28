@@ -23,6 +23,18 @@
           {
               "name": "Cora Wu",
               "image": "CoraWu.jpg"
+          },
+          {
+              "name": "Sanjali Jha",
+              "image": "SanjaliJha.jpg"
+          },
+          {
+              "name": "Elliot van Huijgevoort",
+              "image": "ElliotvanHuijgevoort.jpg"
+          },
+          {
+              "name": "Will Bekerman",
+              "image": "WillBekerman.jpg"
           }
       ]
-  },
+  }

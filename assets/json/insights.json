@@ -1,10 +1,12 @@
 {
     "teamleads": [
         {
-            "name": "Kaitlyn Chen"
+            "name": "Kaitlyn Chen",
+            "link": ""
         },
         {
-            "name": "Greg Bodik"
+            "name": "Zander Wang",
+            "link": ""
         }
     ],
     "advisors": [{

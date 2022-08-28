@@ -3,36 +3,16 @@
         "subtitle": "Intelligent Systems",
         "people": [
             {
-                "name": "Magd Bayoumi",
-                "image": "MagdBayoumi.jpg"
-            },
-            {
-                "name": "Stephen Tse",
-                "image": "StephenTse.jpg"
-            },
-            {
-                "name": "Victor Butoi",
-                "image": "VictorButoi.jpg"
-            },
-            {
-                "name": "Phillip Si",
-                "image": "PhillipSi.jpg"
-            },
-            {
-                "name": "Bonnie Akhavan",
-                "image": "BonnieAkhavan.jpg"
-            },
-            {
-                "name": "Cora Wu",
-                "image": "CoraWu.jpg"
-            },
-            {
-                "name": "Elias Little",
-                "image": "EliasLittle.jpg"
+                "name": "Travis Zhang",
+                "image": "TravisZhang.jpg"
             },
             {
                 "name": "Evelyn Wu",
                 "image": "EvelynWu.jpg"
+            },
+            {
+                "name": "Elias Little",
+                "image": "EliasLittle.jpg"
             },
             {
                 "name": "Felix Hohne",
@@ -57,10 +37,6 @@
             {
                 "name": "Shihao Cao",
                 "image": "ShihaoCao.jpg"
-            },
-            {
-                "name": "Travis Zhang",
-                "image": "TravisZhang.jpg"
             },
             {
                 "name": "Emily Wang",
@@ -108,6 +84,14 @@
         "subtitle": "Algorithmic Trading",
         "people": [
             {
+                "name": "Tanvi Kapoor",
+                "image": "TanviKapoor.jpg"
+            },
+            {
+                "name": "Andrew Chang",
+                "image": "AndrewChang.jpg"
+            },
+            {
                 "name": "Rucha Gharpure",
                 "image": "RuchaGharpure.jpg"
             },
@@ -118,10 +102,6 @@
             {
                 "name": "Jack Farley",
                 "image": "JackFarley.jpg"
-            },
-            {
-                "name": "Tanvi Kapoor",
-                "image": "TanviKapoor.jpg"
             },
             {
                 "name": "Pratham Rawat",
@@ -176,10 +156,6 @@
                 "image": "AdonaAnteneh.jpg"
             },
             {
-                "name": "Andrew Chang",
-                "image": "AndrewChang.jpg"
-            },
-            {
                 "name": "Samara Silverman",
                 "image": "SamaraSilverman.jpg"
             }
@@ -193,16 +169,16 @@
                 "image": "KaitlynChen.jpg"
             },
             {
+                "name": "Alexander Wang",
+                "image": "AlexanderWang.jpg"
+            },
+            {
                 "name": "Greg Bodik",
                 "image": "GregBodik.jpg"
             },
             {
                 "name": "Amrith Kumaar",
                 "image": "AmrithKumaar.jpg"
-            },
-            {
-                "name": "Alexander Wang",
-                "image": "AlexanderWang.jpg"
             },
             {
                 "name": "Kevin Zhou",
@@ -215,10 +191,6 @@
             {
                 "name": "Sam Fuchs",
                 "image": "SamFuchs.jpg"
-            },
-            {
-                "name": "William Bekerman",
-                "image": "WilliamBekerman.jpg"
             },
             {
                 "name": "Daniela Rodriguez-Chavez",
@@ -254,12 +226,16 @@
         "subtitle": "Data Engineering",
         "people": [
             {
-                "name": "Elva Gao",
-                "image": "ElvaGao.jpg"
+                "name": "Ethan Mah",
+                "image": "EthanMah.jpg"
             },
             {
                 "name": "Iris Li",
                 "image": "IrisLi.jpg"
+            },
+            {
+                "name": "Elva Gao",
+                "image": "ElvaGao.jpg"
             },
             {
                 "name": "David Kim",
@@ -274,16 +250,8 @@
                 "image": "EricZhang.jpg"
             },
             {
-                "name": "Sanjali Jha",
-                "image": "SanjaliJha.jpg"
-            },
-            {
                 "name": "Chelsea Xiong",
                 "image": "ChelseaXiong.jpg"
-            },
-            {
-                "name": "Elliot van Huijgevoort",
-                "image": "ElliotvanHuijgevoort.jpg"
             },
             {
                 "name": "Adarsh Sriram",
@@ -304,10 +272,6 @@
             {
                 "name": "Rafael Chaves",
                 "image": "RafaelChaves.jpg"
-            },
-            {
-                "name": "Ethan Mah",
-                "image": "EthanMah.jpg"
             },
             {
                 "name": "Mason Bulling",
@@ -339,12 +303,16 @@
         "subtitle": "Education",
         "people": [
             {
-                "name": "Jerry Sun",
-                "image": "JerrySun.jpg"
+                "name": "Varun Gande",
+                "image": "VarunGande.jpg"
             },
             {
                 "name": "Emily Weed",
                 "image": "EmilyWeed.jpg"
+            },
+            {
+                "name": "Jerry Sun",
+                "image": "JerrySun.jpg"
             },
             {
                 "name": "Sam Cobado",
@@ -357,10 +325,6 @@
             {
                 "name": "Kelly Lu",
                 "image": "KellyLu.jpg"
-            },
-            {
-                "name": "Varun Gande",
-                "image": "VarunGande.jpg"
             },
             {
                 "name": "Vincent Fong",
