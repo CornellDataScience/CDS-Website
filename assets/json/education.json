@@ -17,7 +17,7 @@
         },
         {
             "title" : "Blog",
-            "link" : "https://cornell-data.medium.com",
+            "link" : "https://cornelldatascience.github.io/education-blogs/",
             "body" : "Throughout the semester, we read many ML and Data Science related papers. Both in order to better understand them ourselves, and to help others understand them better we often write paper summaries and analysis. Occasionally, we also write posts about projects. <br/> <br/> <a href=\"https://cornell-data.medium.com\">Read our blog</a>.",
             "img": "home4.jpg"
         },
