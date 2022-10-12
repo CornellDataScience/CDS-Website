@@ -18,13 +18,13 @@
         {
             "title": "Distributed Game Server",
             "text": "Creating a decentralized distributed system for gaming that uses networked connections to maintain a consensus state across multiple distinct machines."
-        },
-        {
-            "title": "Cornell Census",
-            "text": "Aggregating and visualizing data on Cornell students, such as GPA, course preferences, and sentiment from polls."
         }
     ],
     "past": [
+        {
+            "title": "Cornell Census",
+            "text": "Aggregating and visualizing data on Cornell students, such as GPA, course preferences, and sentiment from polls."
+        },
         {
             "title": "Cypria",
             "text": "An open-source query language that can be interpreted to SQL, making it easier to build complicated queries by using functional constructs that are more intuitive to programmers.",

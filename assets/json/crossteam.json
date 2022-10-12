@@ -7,9 +7,31 @@
     "current": [
         {
             "title": "The Bias Lab at Cornell",
-            "text": "Machine learning is a once-in-a-generation technological shit that will transform how our society works. It’s even been described as the fourth industrial revolution; this advance is creating huge value by unlocking insights from data and touches almost every aspect of our lives from choosing the music we listen to, what vacation trips we take, and even who will get hired for their dream job. But algorithmic bias is still a major concern as these systems become even more widespread. Unless careful care is taken with these ML systems, they can have significant harmful impacts on underrepresented groups and lead to ineffective products. Our more technical objective is to explore these biases within a variety of models, and attempt to mitigate them. Beyond the technical material, we hope to educate our local community as much as possible to be knowledgeable and informed when discussing these problems along with potential solutions.",
+            "text": "Machine learning is a once-in-a-generation piece of technology that will transform how our society works. It’s even been described as the fourth industrial revolution; this advance is creating huge value by unlocking insights from data and touches almost every aspect of our lives from choosing the music we listen to, what vacation trips we take, and even who will get hired for their dream job. But algorithmic bias is still a major concern as these systems become even more widespread. Unless careful care is taken with these ML systems, they can have significant harmful impacts on underrepresented groups and lead to ineffective products. Our more technical objective is to explore these biases within a variety of models, and attempt to mitigate them. Beyond the technical material, we hope to educate our local community as much as possible to be knowledgeable and informed when discussing these problems along with potential solutions.",
             "link": ""
         },
+        {
+            "title": "Math Search",
+            "text": "MathSearch is a next generation search engine for researchers that supports searching with LaTeX math script. If you ever had trouble trying to find certain equations in LaTeX from just Google, this search engine allows you to easily find them.",
+            "link": ""
+        },
+        {
+            "title": "FiggieBot",
+            "text": "FiggieBot aims to create an reinforcement learning (RL) based both that can play Figgie, a card game invented by Jane Street to simulate markets and trading. We train an RL agent to play this game using Recursive Belief-based Learning (ReBeL), an algorithm used to tackle games with imperfect information. This project also involves creating an engine to simulate Figgie and an environment for the agent to interact with.",
+            "link": ""
+        },
+        {
+            "title": "Rubik's Cube Robot",
+            "text": "Rubik's Cube Robot is a physical bot that can solve a Rubik's cube using reinforcement learning (RL) algorithms. Along with training an RL-agent, we create a vision system to map the Rubik's cube, as well as develop a working robotic system for manipulating the cube.",
+            "link": ""
+        },
+        {
+            "title": "CDS Infrastructure",
+            "text": "The CDS Infrastructure project seeks to develop a template for providing environmental setups that are crucial to most projects. Many current and past projects require environments and frameworks that can take weeks or even months to configure. We create a platform for merging these aspects to avoid repetition of work that can delay the progression of projects.",
+            "link": ""
+        }
+    ],
+    "past": [
         {
             "title": "Self Driving Car",
             "text": "CDS Self-Driving Car aims to demonstrate tight integration of a camera based vision algorithm to navigate a car safely. We utilize a SLAM system to localize ourselves, and an additional lane recognition pipeline to see the road. This is all built upon a Python control loop and will leverage robotics to directly actuate the steering wheel to augment a normal car.",
@@ -24,10 +46,7 @@
             "title": "MyCourseIndex",
             "text": "MyCourseIndex acts as an essential search engine for Cornell students and their courses with the initial goal to improve the Piazza search user experience. This search gathers all information from Piazza/EdStem posts to Textbook and Notes Resources (even lecture videos!) and returns valid results for the student to utilize. The team is currently working to expand the current search capabilities to answer questions automatically!",
             "link": ""
-        } 
- 
-    ],
-    "past": [
+        },
         {
             "title": "ProjectX",
             "text": "This was a cross-team collaboration project with members across Education, Insights, Data Engineering, and Intelligent Systems. The team was tasked with investigating epidemiology within a data science context. This culminated in a 7 page research paper submitted to the competition.",
