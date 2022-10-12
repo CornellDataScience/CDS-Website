@@ -47,7 +47,7 @@
         <v-btn plain small class="nav-btn mx-2 body-2 font-weight-medium" active-class="primary--text" :to="'/education'" nuxt>
           Education
         </v-btn>
-        <v-btn plain small class="nav-btn mx-2 body-2 font-weight-medium" active-class="primary--text" href="https://cornell-data.medium.com/">
+        <v-btn plain small class="nav-btn mx-2 body-2 font-weight-medium" active-class="primary--text" href="https://cornelldatascience.github.io/education-blogs/">
           Blog
         </v-btn>
         <v-btn text small class="nav-btn mx-2 navColor white--text body-2 font-weight-medium rounded-xl" to="/contact" nuxt>
@@ -108,7 +108,7 @@
             </v-btn>
           </v-list-item>
           <v-list-item>
-            <v-btn plain x-small class="nav-btn body-2 font-weight-medium" active-class="primary--text" href="https://cornell-data.medium.com/">
+            <v-btn plain x-small class="nav-btn body-2 font-weight-medium" active-class="primary--text" href="https://cornelldatascience.github.io/education-blogs/">
               Blog
             </v-btn>
           </v-list-item>
