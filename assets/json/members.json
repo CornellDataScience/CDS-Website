@@ -77,6 +77,14 @@
             {
                 "name": "Ryan Lee",
                 "image": "RyanLee.jpg"
+            },
+            {
+                "name": "Eric Chen",
+                "image": "Eric Chen.jpg"
+            },
+            {
+                "name": "James Zhang",
+                "image": "JamesZhang.jpg"
             }
         ]
     },
@@ -162,6 +170,14 @@
             {
                 "name": "Divya Damodaran",
                 "image": "DivyaDamodaran.jpg"
+            },
+            {
+                "name": "Iram Liu",
+                "image": "IramLiu.jpg"
+            },
+            {
+                "name": "Alkiviades Boukas",
+                "image": "AlkiviadesBoukas.jpg"
             }
         ]
     },
@@ -223,7 +239,11 @@
             {
                 "name": "Skyler Shapiro",
                 "image": "SkylerShapiro.jpg"
-            }
+            },
+            {
+                "name": "Laura Gong",
+                "image": "LauraGong.jpg"
+            } 
         ]
     },
     {
@@ -300,6 +320,14 @@
             {
                 "name": "Connor Chen",
                 "image": "ConnorChen.jpg"
+            },
+            {
+                "name": "Chris Xu",
+                "image": "ChrisXu.jpg"
+            },
+            {
+                "name": "Srisha Gaur",
+                "image": "SrishaGaur.jpg"
             }
         ]
     },
@@ -357,6 +385,14 @@
             {
                 "name": "Eric Guo",
                 "image": "EricGuo.jpg"
+            },
+            {
+                "name": "Koji Kimura",
+                "image": "KojiKimura.jpg"
+            },
+            {
+                "name": "Takuma Osaka",
+                "image": "TakumaOsaka.jpg"
             }
         ]
     }
