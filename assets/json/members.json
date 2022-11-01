@@ -85,6 +85,14 @@
             {
                 "name": "James Zhang",
                 "image": "JamesZhang.jpg"
+            },
+            {
+                "name": "Max Wang",
+                "image": "MaxWang.jpg"
+            },
+            {
+                "name": "Abigail Kim",
+                "image": "AbigailKim.jpg"
             }
         ]
     },
@@ -178,6 +186,22 @@
             {
                 "name": "Alkiviades Boukas",
                 "image": "AlkiviadesBoukas.jpg"
+            },
+            {
+                "name": "Dan Wei Zuo",
+                "image": "DanWeiZuo.jpg"
+            },
+            {
+                "name": "Mericel Tao",
+                "image": "MericelTao.jpg"
+            },
+            {
+                "name": "Audrey Wang",
+                "image": "AudreyWang.jpg"
+            },
+            {
+                "name": "Noah Plant",
+                "image": "NoahPlant.jpg"
             }
         ]
     },
@@ -243,7 +267,19 @@
             {
                 "name": "Laura Gong",
                 "image": "LauraGong.jpg"
-            } 
+            },
+            {
+                "name": "Mahitha Penmetsa",
+                "image": "MahithaPenmetsa.jpg"
+            }, 
+            {
+                "name": "Katie Zelvin",
+                "image": "KatieZelvin.jpg"
+            },
+            {
+                "name": "Benson Zhang",
+                "image": "BensonZhang.jpg"
+            }
         ]
     },
     {
@@ -328,6 +364,18 @@
             {
                 "name": "Srisha Gaur",
                 "image": "SrishaGaur.jpg"
+            },
+            {
+                "name": "Lisa Li",
+                "image": "LisaLi.jpg"
+            },
+            {
+                "name": "Ryan Ho",
+                "image": "RyanHo.jpg"
+            },
+            {
+                "name": "Bryant Park",
+                "image": "BryantPark.jpg"
             }
         ]
     },
@@ -393,6 +441,14 @@
             {
                 "name": "Takuma Osaka",
                 "image": "TakumaOsaka.jpg"
+            },
+            {
+                "name": "Andrea Siby",
+                "image": "AndreaSiby.jpg"
+            },
+            {
+                "name": "Michael Ngo",
+                "image": "MichaelNgo.jpg"
             }
         ]
     }
