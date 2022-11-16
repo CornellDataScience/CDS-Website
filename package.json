@@ -9,7 +9,7 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^6.1.2",
+    "@fortawesome/fontawesome-svg-core": "^6.2.1",
     "@fortawesome/vue-fontawesome": "^2.0.8",
     "@mdi/js": "^7.0.96",
     "core-js": "^3.24.1",
