@@ -2,7 +2,7 @@
 # Manual changes might be lost - proceed with caution!
 
 __metadata:
-  version: 5
+  version: 6
   cacheKey: 8
 
 "@ampproject/remapping@npm:^2.1.0":
@@ -1330,10 +1330,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@fortawesome/fontawesome-free@npm:^6.1.2":
-  version: 6.1.2
-  resolution: "@fortawesome/fontawesome-free@npm:6.1.2"
-  checksum: 0d3c9d60ffbb9c1fa4041051eff6542adc1fc29653501399d0235c077a2195a35f286d979da42fe021f73649032f9eeae2c9a0511eaacda2896559155d40a0fc
+"@fortawesome/fontawesome-free@npm:^6.2.1":
+  version: 6.2.1
+  resolution: "@fortawesome/fontawesome-free@npm:6.2.1"
+  checksum: c77b7c8b0965e5c17f4ca45667885b6273e26af97a9e83db343fc756c159b5acd35cf420e73e1b916af1d275179290ccfb1900af48631749e30f36464f339bd3
   languageName: node
   linkType: hard
 
@@ -2351,7 +2351,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "CDS-Website@workspace:."
   dependencies:
-    "@fortawesome/fontawesome-free": ^6.1.2
+    "@fortawesome/fontawesome-free": ^6.2.1
     "@fortawesome/fontawesome-svg-core": ^6.1.2
     "@fortawesome/free-brands-svg-icons": ^6.1.2
     "@fortawesome/free-solid-svg-icons": ^6.1.2
