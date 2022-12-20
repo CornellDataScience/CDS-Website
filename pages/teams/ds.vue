@@ -1,17 +1,14 @@
 <template>
     <Team
-    title="Insights"
+    title="Data Science"
     v-bind:leads="data.teamleads"
     v-bind:advisors="data.advisors"
-    v-bind:about="data.about"
-    v-bind:current="data.current"
-    v-bind:past="data.past"
     v-bind:members="data.members"
     ></Team> 
 </template>
 
 <script>
-import data from '~/assets/json/insights.json';
+import data from '~/assets/json/teams/ds.json';
 export default {
     data() {
         return {

@@ -1,17 +1,14 @@
 <template>
     <Team
-    title="Education"
+    title="Machine Learning Engineering"
     v-bind:leads="data.teamleads"
     v-bind:advisors="data.advisors"
-    v-bind:about="data.about"
-    v-bind:current="data.current"
-    v-bind:past="data.past"
     v-bind:members="data.members"
     ></Team> 
 </template>
 
 <script>
-import data from '~/assets/json/edu.json';
+import data from '~/assets/json/teams/mle.json';
 export default {
     data() {
         return {
