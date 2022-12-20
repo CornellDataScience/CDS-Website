@@ -35,6 +35,54 @@
           {
               "name": "Will Bekerman",
               "image": "WillBekerman.jpg"
+          },
+          {
+              "name": "Jack Farley",
+              "image": "JackFarley.jpg"
+          },
+          {
+              "name": "Emily Weed",
+              "image": "EmilyWeed.jpg"
+          },
+          {
+              "name": "John O'Donnell",
+              "image": "JohnO'Donnell.jpg"
+          },
+          {
+              "name": "Rafael Chaves",
+              "image": "RafaelChaves.jpg"
+          },
+          {
+              "name": "Elias Little",
+              "image": "EliasLittle.jpg"
+          },
+          {
+              "name": "Shihao Cao",
+              "image": "ShihaoCao.jpg"
+          },
+          {
+              "name": "Alexander Wang",
+              "image": "AlexanderWang.jpg"
+          },
+          {
+              "name": "Kaitlyn Chen",
+              "image": "KaitlynChen.jpg"
+          },
+          {
+              "name": "Kevin Zhou",
+              "image": "KevinZhou.jpg"
+          },
+          {
+              "name": "Daniela Rodriguez-Chavez",
+              "image": "DanielaRodriguez-Chavez.jpg"
+          },
+          {
+              "name": "Seonghee Lee",
+              "image": "SeongheeLee.jpg"
+          },
+          {
+              "name": "Ronin Sharma",
+              "image": "RoninSharma.jpg"
           }
       ]
   }

@@ -1,0 +1,98 @@
+{
+    "teamleads": [
+        {
+            "name": "Ethan Mah",
+            "link": ""
+        },
+        {
+            "name": "Evan Williams",
+            "link": ""
+        }
+    ],
+    "advisors": [{
+        "name": "Prof. Immanuel Trummer",
+        "link": "https://itrummer.github.io/"
+    }],
+    "members": [
+        {
+            "name": "Ethan Mah",
+            "image": "EthanMah.jpg"
+        },
+        {
+            "name": "Evan Williams",
+            "image": "EvanWilliams.jpg"
+        },
+        {
+            "name": "David Han",
+            "image": "DavidHan.jpg"
+        },
+        {
+            "name": "Mason Bulling",
+            "image": "MasonBulling.jpg"
+        },
+        {
+            "name": "Divya Damodaran",
+            "image": "DivyaDamodaran.jpg"
+        },
+        {
+            "name": "James Zhang",
+            "image": "JamesZhang.jpg"
+        },
+        {
+            "name": "Ryan Lee",
+            "image": "RyanLee.jpg"
+        },
+        {
+            "name": "Lisa Li",
+            "image": "LisaLi.jpg"
+        },
+        {
+            "name": "Neil Estrada",
+            "image": "NeilEstrada.jpg"
+        },
+        {
+            "name": "Elva Gao",
+            "image": "ElvaGao.jpg"
+        },
+        {
+            "name": "Brendan Lo",
+            "image": "BrendanLo.jpg"
+        },
+        {
+            "name": "Bryant Park",
+            "image": "BryantPark.jpg"
+        },
+        {
+            "name": "Connor Chen",
+            "image": "ConnorChen.jpg"
+        },
+        {
+            "name": "Chris Xu",
+            "image": "ChrisXu.jpg"
+        },
+        {
+            "name": "Iris Li",
+            "image": "IrisLi.jpg"
+        },
+        {
+            "name": "Emily Wang",
+            "image": "EmilyWang.jpg"
+        },
+        {
+            "name": "Pun Chaixanien",
+            "image": "PunChaixanien.jpg"
+        },
+        {
+            "name": "Benson Zhang",
+            "image": "BensonZhang.jpg"
+        },
+        {
+            "name": "Koji Kimura",
+            "image": "KojiKimura.jpg"
+        },
+        {
+            "name": "Ryan Ho",
+            "image": "RyanHo.jpg"
+        }
+    ]
+}   

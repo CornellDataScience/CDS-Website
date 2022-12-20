@@ -1,0 +1,41 @@
+{
+    "title" : "Current Projects",
+    "cdsproj" : [
+        {
+            "name" : "Distributed Game Server",
+            "description" : "This project aims to create a distributed game server. Current network games are centralized, where players send control messages to a central server and this server relays all relevant state updates to all other active players. This design suffers from latency and scalability issues, and the infrastructure provided by game manufacturers may not be well provisioned or long-lived. For this project, we are implementing the Raft protocol, a consensus algorithm, in Rust.",
+            "github" : "https://github.com/CornellDataScience/Distributed-Game-Server",
+            "photoloc" : "na" 
+        },
+        {
+            "name" : "MathSearch",
+            "description" : "MathSearch is a next generation search engine for researchers that supports searching with LaTeX math script. If you ever had trouble trying to find certain equations in LaTeX from just Google, this search engine allows you to easily find them.",
+            "github" : "https://github.com/CornellDataScience/MathSearch",
+            "photoloc" : ""
+        },
+        {
+            "name" : "FiggieBot",
+            "description" : "FiggieBot aims to create an reinforcement learning (RL) based both that can play Figgie, a card game invented by Jane Street to simulate markets and trading. We train an RL agent to play this game using Recursive Belief-based Learning (ReBeL), an algorithm used to tackle games with imperfect information. This project also involves creating an engine to simulate Figgie and an environment for the agent to interact with.",
+            "github" : "https://github.com/CornellDataScience/FiggieBot",
+            "photoloc" : ""
+        },
+        {
+            "name" : "Rubik's Cube Bot",
+            "description" : "Rubik's Cube Robot is a physical bot that can solve a Rubik's cube using reinforcement learning (RL) algorithms. Along with training an RL-agent, we create a vision system to map the Rubik's cube, as well as develop a working robotic system for manipulating the cube.",
+            "github" : "https://github.com/CornellDataScience/Rubiks-Learning-Robot",
+            "photoloc" : ""
+        },
+        {
+            "name" : "CDS Infrastructure",
+            "description" : "The CDS Infrastructure project seeks to develop a template for providing environmental setups that are crucial to most projects. Many current and past projects require environments and frameworks that can take weeks or even months to configure. We create a platform for merging these aspects to avoid repetition of work that can delay the progression of projects.",
+            "github" : "https://github.com/CornellDataScience/cds-infrastructure",
+            "photoloc" : ""
+        },
+        {
+            "name" : "Bias in Machine Learning",
+            "description" : "Algorithmic bias is still a major concern as machine learning systems become more widespread. Unless careful care is taken with these ML systems, they can have significant harmful impacts on underrepresented groups and lead to ineffective products. Our more technical objective is to explore these biases within a variety of models, and attempt to mitigate them. Beyond the technical material, we hope to educate our local community as much as possible to be knowledgeable and informed when discussing these problems along with potential solutions.",
+            "github" : "https://github.com/CornellDataScience/Cornell-Bias-Labs",
+            "photoloc" : ""
+        }
+    ]
+}
