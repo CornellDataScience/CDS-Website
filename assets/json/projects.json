@@ -1,5 +1,7 @@
 {
     "title" : "Current Projects",
+    "github" : "https://github.com/CornellDataScience",
+    "github_desc" : "Check out other past projects on our GitHub page.",
     "cdsproj" : [
         {
             "name" : "Distributed Game Server",
