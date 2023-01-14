@@ -16,7 +16,19 @@
                     </v-hover>
                 </v-col>
             </v-row>
-      </div>
+
+            <v-sparkline :line-width="0.5" :gradient="['grey']" :height="10" :padding="2" :smooth="10" :value="[1, 1]" auto-draw class="mb-4"></v-sparkline>
+            <a style="text-decoration: none; color: inherit;" :href="projects.github">
+            <FloatingCard>
+                <Block title="CDS Github">
+                    <template v-slot:leftContent>
+                        <p>{{ projects.github_desc }}</p>
+                    </template>
+                    <v-img aspect-ratio="8" class="rounded-xl" :src="require(`../assets/img/github_page.png`)"></v-img>
+                </Block>
+            </FloatingCard>
+            </a>
+        </div>
     </div>
 </template>
 
