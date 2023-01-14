@@ -5,12 +5,13 @@
         {
             "title" : "Info Sessions",
             "link" : "",
-            "body" : "The Information Sessions will be held on <b> September 14, 2022 </b> (Wednesday) from <b> 5:30pm to 6:30pm (ET) </b> in Upson 142 and <b> September 15, 2022 </b> (Thursday) from <b> 5:30pm to 6:30pm (ET) </b> in Upson 216. The slides are available <a href=\"https://docs.google.com/presentation/d/1rVvQvGn5xMPpAyDx_YfiU5bqx-qwUdZC4TbRVCHgRj8/edit?usp=sharing\">here</a>"
+            "body" : "Information Sessions will be held at the end of January 2023."
         },
         {
             "title" : "Application",
-            "link" : "https://forms.gle/rTzYUji7QhzrTJSz5",
-            "body" : "All five sub-teams - Insights, Intelligent Systems, Data Engineering, Algorithmic Trading, and Education - are recruiting this semester. You may apply to up to two of these (through the same application form). After the application review, selected candidates will be contacted to schedule interviews. <br/><br/> We are not recruiting at this time."
+            "linkMLE" : "https://forms.gle/6qB55VUmKjcAFwCi9",
+            "linkDS" : "https://forms.gle/x1Sjqb3RFhfPzo7q8",
+            "body" : "Two subteams - Machine Learning Engineering (MLE) and Data Science (DS) - are recruiting this semester (Spring 2023). Applications are due February 4th, 2023. After the application review, selected candidates will be contacted to schedule interviews."
         },
         {
             "title" : "Interviews",
