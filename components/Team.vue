@@ -18,32 +18,19 @@
           </p>
 
           <v-sparkline :line-width="0.5" :gradient="['grey']" :height="10" :padding="2" :smooth="10" :value="[1, 1]" auto-draw class="mb-4"></v-sparkline>
-          <Block title="About Us">
-              <p v-html="about"></p>
-          </Block>
 
-          <v-sparkline :line-width="0.5" :gradient="['grey']" :height="10" :padding="2" :smooth="10" :value="[1, 1]" auto-draw class="mb-4"></v-sparkline>
-          <Block title="Current Projects"> 
-              <div v-for="proj in current" v-bind:key="proj.title" >
-                <ProjectCard 
-                v-bind:title="proj.title"
-                v-bind:text="proj.text"
-                v-bind:link="proj.link"
-                ></ProjectCard>
-              </div>
-          </Block>
+          <div class="text-h3 my-8 text-center font-weight-medium text--uppercase primary--text">
+            Current Members
+          </div>
+            <v-row justify="center" class="mx-md-16">
+            <v-col cols="12" sm="4" md="3" xl="2" v-for="member in members" v-bind:key="member.name" class="text-center">
+                <v-card class="rounded-xl mx-auto" height="200" width="200">
+                <v-img :src="require(`../assets/img/headshots/${member.image}`)" class="fill-height" max-height="200"></v-img>
+                </v-card>
+                <p class="mt-2">{{member.name}}</p>
+            </v-col>
+            </v-row>
 
-          <v-sparkline :line-width="0.5" :gradient="['grey']" :height="10" :padding="2" :smooth="10" :value="[1, 1]" auto-draw class="mb-4"></v-sparkline>
-          
-          <Block title="Past Projects">
-              <div v-for="proj in past" v-bind:key="proj.title" >
-                <ProjectCard 
-                v-bind:title="proj.title"
-                v-bind:text="proj.text"
-                v-bind:link="proj.link"
-                ></ProjectCard>
-              </div>
-          </Block>
       </div>
   </div>
 </template>
@@ -54,9 +41,7 @@
             title: String,
             leads: Array,
             advisors: Array,
-            about: String,
-            current: Array,
-            past: Array
+            members: Array
         }
     }
 </script>

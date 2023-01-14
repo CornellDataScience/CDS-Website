@@ -1,5 +1,5 @@
 <style>
-. {
+  .{
   font-family: "Roboto";
   src: local("Roboto"),   url(../assets/fonts/Roboto/Roboto-Regular.ttf) format("truetype");}
 </style>
@@ -16,10 +16,6 @@
 
       <!-- Full Nav Bar -->
       <div class="hidden-sm-and-down">
-        <v-btn plain small class="nav-btn mx-2 body-2 font-weight-medium" active-class="primary--text" :to="'/recruitment'" nuxt>
-          Recruitment
-        </v-btn>
-
         <v-menu
           open-on-hover
           bottom
@@ -40,9 +36,8 @@
             </v-list-item>
           </v-list>
         </v-menu>
-
-        <v-btn plain small class="nav-btn mx-2 body-2 font-weight-medium" active-class="primary--text" :to="'/people'" nuxt>
-          People
+        <v-btn plain small class="nav-btn mx-2 body-2 font-weight-medium" active-class="primary--text" href="/projects">
+          Projects
         </v-btn>
         <v-btn plain small class="nav-btn mx-2 body-2 font-weight-medium" active-class="primary--text" :to="'/education'" nuxt>
           Education
@@ -50,8 +45,8 @@
         <v-btn plain small class="nav-btn mx-2 body-2 font-weight-medium" active-class="primary--text" href="https://cornelldatascience.github.io/education-blogs/">
           Blog
         </v-btn>
-        <v-btn text small class="nav-btn mx-2 navColor white--text body-2 font-weight-medium rounded-xl" to="/contact" nuxt>
-          Contact
+        <v-btn text small class="nav-btn mx-2 navColor white--text body-2 font-weight-medium rounded-xl" to="/recruitment" nuxt>
+          Apply
         </v-btn>
       </div>
 
@@ -64,12 +59,6 @@
         </template>
         
         <v-list nav>
-          <v-list-item>
-            <v-btn plain x-small class="nav-btn body-2 font-weight-medium" active-class="primary--text" :to="'/recruitment'" nuxt>
-              Recruitment
-            </v-btn>
-          </v-list-item>
-
           <v-list-item>
             <v-menu offset-y>
               <template v-slot:activator="{ on }">
@@ -96,10 +85,9 @@
               </v-list>
             </v-menu>
           </v-list-item>
-
           <v-list-item>
-            <v-btn plain x-small class="nav-btn body-2 font-weight-medium" active-class="primary--text" :to="'/people'" nuxt>
-              People
+            <v-btn plain x-small class="nav-btn body-2 font-weight-medium" active-class="primary--text" href="/projects">
+              Projects
             </v-btn>
           </v-list-item>
           <v-list-item>
@@ -113,8 +101,8 @@
             </v-btn>
           </v-list-item>
           <v-list-item>
-            <v-btn text x-small class="nav-btn navColor body-2 font-weight-medium" to="/contact" nuxt>
-              Contact
+            <v-btn text x-small class="nav-btn navColor body-2 font-weight-medium" to="/recruitment" nuxt>
+              Apply
             </v-btn>
           </v-list-item>
 
@@ -131,28 +119,24 @@ export default ({
         title: 'Cornell Data Science',
         teams: [
             {
-            title: "Intelligent Systems",
-            to: "/teams/intsys"
+            title: "Executive Board",
+            to: "/teams/eboard"
+            },
+            {
+            title: "Data Science",
+            to: "/teams/ds"
             },
             {
             title: "Data Engineering",
             to: "/teams/de"
             },
             {
-            title: "Insights",
-            to: "/teams/insights"
+            title: "Machine Learning Engineering",
+            to: "/teams/mle"
             },
             {
-            title: "Algorithmic Trading",
-            to: "/teams/algo"
-            },
-            {
-            title: "Education",
-            to: "/teams/edu"
-            },
-            {
-            title: "Cross Team Projects",
-            to: "/teams/crossteam"
+            title: "Quantitative Finance",
+            to: "/teams/qf"
             }
         ],
         }
