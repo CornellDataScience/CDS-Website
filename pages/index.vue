@@ -41,7 +41,7 @@
            <v-img aspect-ratio="3" class="rounded-xl" :src="require(`../assets/img/home1.jpg`)"></v-img> 
           </Block>
         </FloatingCard>
-        <FloatingCard link="/people">
+        <FloatingCard link="/teams/eboard">
           <Block title="People">
             <template v-slot:leftContent>
             <p>{{ data.people }}</p>
