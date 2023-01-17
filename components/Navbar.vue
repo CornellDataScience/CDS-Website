@@ -45,6 +45,9 @@
         <v-btn plain small class="nav-btn mx-2 body-2 font-weight-medium" active-class="primary--text" href="https://cornelldatascience.github.io/education-blogs/">
           Blog
         </v-btn>
+        <v-btn plain small class="nav-btn mx-2 body-2 font-weight-medium" active-class="primary--text" href="/contact">
+          Contact
+        </v-btn>
         <v-btn text small class="nav-btn mx-2 navColor white--text body-2 font-weight-medium rounded-xl" to="/recruitment" nuxt>
           Apply
         </v-btn>
