@@ -2,9 +2,9 @@
     "title" :  "Executive Board",
     "people" : [
         {
-            "name" : "Elias Little",
+            "name" : "Johann Lee",
             "title" : "President",
-            "image" : "EliasLittle.jpg"
+            "image" : "JohannLee.jpg"
         },
         {
             "name" : "Rucha Gharpure",
@@ -13,7 +13,7 @@
         },
         {
             "name" : "Divya Damodaran",
-            "title" : "Finance Chair",
+            "title" : "Finance and Corporate Chair",
             "image" : "DivyaDamodaran.jpg"
         },
         {
@@ -27,24 +27,14 @@
             "image" : "DavidHan.jpg"
         },
         {
+            "name" : "Varun Gande",
+            "title" : "Education Chair",
+            "image" : "VarunGande.jpg"
+        },
+        {
             "name" : "Evan Williams",
             "title" : "Onboarding Chair",
             "image" : "EvanWilliams.jpg"
-        },
-        {
-            "name" : "Salma Hazimeh",
-            "title" : "Marketing Chair",
-            "image" : "SalmaHazimeh.jpg"
-        },
-        {
-            "name" : "Johann Lee",
-            "title" : "Merchandise Chair",
-            "image" : "JohannLee.jpg"
-        },
-        {
-            "name" : "Rahma Tasnim",
-            "title" : "Corporate Chair",
-            "image" : "RahmaTasnim.jpg"
         },
         {
             "name" : "Salma Hazimeh",
