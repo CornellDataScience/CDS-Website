@@ -1,0 +1,45 @@
+{
+    "title" :  "Executive Board",
+    "people" : [
+        {
+            "name" : "Johann Lee",
+            "title" : "President",
+            "image" : "JohannLee.jpg"
+        },
+        {
+            "name" : "Rucha Gharpure",
+            "title" : "Vice President",
+            "image" : "RuchaGharpure.jpg"
+        },
+        {
+            "name" : "Divya Damodaran",
+            "title" : "Finance and Corporate Chair",
+            "image" : "DivyaDamodaran.jpg"
+        },
+        {
+            "name" : "Emerald Liu",
+            "title" : "Technical Chair",
+            "image" : "EmeraldLiu.jpg"
+        },
+        {
+            "name" : "David Han",
+            "title" : "Website Chair",
+            "image" : "DavidHan.jpg"
+        },
+        {
+            "name" : "Varun Gande",
+            "title" : "Education Chair",
+            "image" : "VarunGande.jpg"
+        },
+        {
+            "name" : "Evan Williams",
+            "title" : "Onboarding Chair",
+            "image" : "EvanWilliams.jpg"
+        },
+        {
+            "name" : "Salma Hazimeh",
+            "title" : "Social Chair",
+            "image" : "SalmaHazimeh.jpg"
+        }
+    ]
+}

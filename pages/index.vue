@@ -38,15 +38,15 @@
             <template v-slot:leftContent>
               <p>{{ teams.description }}</p>
             </template>
-           <v-img aspect-ratio="3" class="rounded-xl":src="require(`../assets/img/home1.jpg`)"></v-img> 
+           <v-img aspect-ratio="3" class="rounded-xl" :src="require(`../assets/img/home1.jpg`)"></v-img> 
           </Block>
         </FloatingCard>
-        <FloatingCard link="/people">
+        <FloatingCard link="/teams/eboard">
           <Block title="People">
             <template v-slot:leftContent>
             <p>{{ data.people }}</p>
             </template>
-            <v-img aspect-ratio="2.5" class="rounded-xl":src="require(`../assets/img/people.jpg`)"></v-img> 
+            <v-img aspect-ratio="2.5" class="rounded-xl" :src="require(`../assets/img/people.jpg`)"></v-img> 
           </Block>
         </FloatingCard>
         <FloatingCard link="/education">
@@ -54,7 +54,7 @@
             <template v-slot:leftContent>
               <p>{{ data.education }}</p>
             </template>
-            <v-img aspect-ratio="3" class="rounded-xl":src="require(`../assets/img/info1998_2.png`)"></v-img> 
+            <v-img aspect-ratio="3" class="rounded-xl" :src="require(`../assets/img/info1998_2.png`)"></v-img> 
           </Block>
         </FloatingCard>
 

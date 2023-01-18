@@ -70,24 +70,24 @@ export default {
       title: 'Cornell Data Science',
       teams: [
         {
-          title: "Intelligent Systems",
-          to: "/teams/intsys"
+          title: "Executive Board",
+          to: "/teams/eboard"
+        },
+        {
+          title: "Machine Learning Engineering",
+          to: "/teams/mle"
         },
         {
           title: "Data Engineering",
           to: "/teams/de"
         },
         {
-          title: "Insights",
-          to: "/teams/insights"
+          title: "Data Science",
+          to: "/teams/ds"
         },
         {
-          title: "Algorithm Trading",
-          to: "/teams/algo"
-        },
-        {
-          title: "Education",
-          to: "/teams/edu"
+          title: "Quantitative Finance",
+          to: "/teams/qf"
         }
       ],
     }

@@ -11,6 +11,11 @@
             "img": "info1998_1.jpg"
         },
         {
+            "title" : "Life After Jupyter Notebooks",
+            "body" : "This class aims to teach students how to take projects and turn them into products. We’ll cover tools such as Docker, AWS, MLFlow but also overarching concepts such as MLOps, Active Learning, Production environments. By the end of this course, students should be able to take what was once a side project and turn it into a product that can be interacted with.",
+            "img": "info1998_2.png"
+        },
+        {
             "title" : "Data Talks",
             "body" : "Each semester we invite industry professionals to come talk about their experience and advice. Open to anyone, students also get a chance to ask questions and learn what working in industry is like. In the past, we've hosted people from Meta, Amazon, MunichRE, and Hilton among others.",
             "img": "DataTalkFA21.jpg"
@@ -18,13 +23,8 @@
         {
             "title" : "Blog",
             "link" : "https://cornelldatascience.github.io/education-blogs/",
-            "body" : "Throughout the semester, we read many ML and Data Science related papers. Both in order to better understand them ourselves, and to help others understand them better we often write paper summaries and analysis. Occasionally, we also write posts about projects. <br/> <br/> <a href=\"https://cornell-data.medium.com\">Read our blog</a>.",
+            "body" : "Throughout the semester, we read many ML and Data Science related papers. Both in order to better understand them ourselves, and to help others understand them better we often write paper summaries and analysis. Occasionally, we also write posts about projects. <br/> <br/> <a href=\"https://cornelldatascience.github.io/education-blogs/\">Read our blog</a>.",
             "img": "home4.jpg"
-        },
-        {
-            "title" : "Deep Dives",
-            "body" : "Our Deep Dives are multi-part lectures covering important topics in ML and data science beyond simply a high level overview. We have two Deep Dives, one on Parallel Processing and another on Deep Learning, both of which are available on our <a href=\"https://www.youtube.com/channel/UCercrCT_cNiniURcPfGMmKw\">YouTube channel</a>. The resources for the Deep Learning lectures are available <a href=\"https://github.com/CornellDataScience/Deep-Learning-Course\">here</a>.",
-            "img": "yujiDeepLearning.jpg"
         }
     ]
 }

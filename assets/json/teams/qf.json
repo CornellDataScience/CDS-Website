@@ -1,0 +1,66 @@
+{
+    "teamleads": [
+        {
+            "name": "Tanvi Kapoor",
+            "link": ""
+        },
+        {
+            "name": "Pratham Rawat",
+            "link": ""
+        }
+    ],
+    "advisors": [{
+        "name": "Prof. Haym Hirsh",
+        "link": "https://www.cs.cornell.edu/~hirsh/"
+    }],
+    "members": [
+        {
+            "name": "Tanvi Kapoor",
+            "image": "TanviKapoor.jpg"
+        },
+        {
+            "name": "Pratham Rawat",
+            "image": "PrathamRawat.jpg"
+        },
+        {
+            "name": "Rohan Shah",
+            "image": "RohanShah.jpg"
+        },
+        {
+            "name": "Uday Kolla",
+            "image": "UdayKolla.jpg"
+        },
+        {
+            "name": "Jacob Mayourian",
+            "image": "JacobMayourian.jpg"
+        },
+        {
+            "name": "Noah Plant",
+            "image": "NoahPlant.jpg"
+        },
+        {
+            "name": "Alkiviades Boukas",
+            "image": "AlkiviadesBoukas.jpg"
+        },
+        {
+            "name": "Iram Liu",
+            "image": "IramLiu.jpg"
+        },
+        {
+            "name": "Samuel Meisner",
+            "image": "SamuelMeisner.jpg"
+        },
+        {
+            "name": "Rucha Gharpure",
+            "image": "RuchaGharpure.jpg"
+        },
+        {
+            "name": "Adona Anteneh",
+            "image": "AdonaAnteneh.jpg"
+        },
+        {
+            "name": "Samara Silverman",
+            "image": "SamaraSilverman.jpg"
+        }
+    ]
+}   
