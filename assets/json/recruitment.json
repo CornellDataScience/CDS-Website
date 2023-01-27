@@ -1,17 +1,18 @@
 {
     "title" : "Recruitment",
-    "description" : "Cornell Data Science is recruiting for Spring 2023! Please attend our Information Sessions to learn more and get any specific questions answered. The timeline is shown below.  The DS subteam is only recruiting freshmen, and the MLE subteam is only recruiting upperclassmen. Both applications are due February 4th, 2023.",
+    "description" : "Cornell Data Science is recruiting for Spring 2023! Please attend our Information Sessions to learn more and get any specific questions answered. The timeline is shown below.  The DS and QF subteams are only recruiting freshmen, and the MLE subteam is only recruiting upperclassmen. Both applications are due February 4th, 2023.",
     "info" : [
         {
             "title" : "Info Sessions",
             "link" : "",
-            "body" : "Information Sessions will be held on <b>January 26, 2023</b> (Thursday) at 5:30pm in Upson 216."
+            "body" : "Information Sessions will be held on <b>January 26, 2023</b> (Thursday) at 5:30pm in Upson 216. If you were unable to make the info session, the slides are <a href='https://docs.google.com/presentation/d/1qgSXiqW83wP36x6JNChpt-n2_X-kkh5uuvuwhvmIS40/edit?usp=sharing'>here</a>."
         },
         {
             "title" : "Application",
             "linkMLE" : "https://forms.gle/6qB55VUmKjcAFwCi9",
             "linkDS" : "https://forms.gle/x1Sjqb3RFhfPzo7q8",
-            "body" : "Two subteams - Machine Learning Engineering (MLE) and Data Science (DS) - are recruiting this semester (Spring 2023). <b>DS is only recruiting freshmen and MLE is only recruiting upperclassmen.</b> Applications are due February 4th, 2023. After the application review, selected candidates will be contacted to schedule interviews."
+            "linkQF" : "https://forms.gle/8DVaWwe9Zh3sVreW6",
+            "body" : "Three subteams - Machine Learning Engineering (MLE), Data Science (DS), Quantitative Finance (QF) - are recruiting this semester (Spring 2023). <b>DS and QF are only recruiting freshmen and MLE is only recruiting upperclassmen.</b> Applications are due February 4th, 2023. After the application review, selected candidates will be contacted to schedule interviews."
         },
         {
             "title" : "Interviews",
