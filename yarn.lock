@@ -2,7 +2,7 @@
 # Manual changes might be lost - proceed with caution!
 
 __metadata:
-  version: 5
+  version: 6
   cacheKey: 8
 
 "@ampproject/remapping@npm:^2.1.0":
@@ -1323,6 +1323,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@fortawesome/fontawesome-common-types@npm:6.3.0":
+  version: 6.3.0
+  resolution: "@fortawesome/fontawesome-common-types@npm:6.3.0"
+  checksum: ece71539190abb17144861c58d65b6cd818d38a28cc3c9694325f5dca13739b2d78655e7bc1cba58cc13947f5ca80659e87c5c8bee7beb77d7f991e508312146
+  languageName: node
+  linkType: hard
+
 "@fortawesome/fontawesome-common-types@npm:^0.2.36":
   version: 0.2.36
   resolution: "@fortawesome/fontawesome-common-types@npm:0.2.36"
@@ -1346,12 +1353,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@fortawesome/fontawesome-svg-core@npm:^6.1.2":
-  version: 6.1.2
-  resolution: "@fortawesome/fontawesome-svg-core@npm:6.1.2"
+"@fortawesome/fontawesome-svg-core@npm:^6.3.0":
+  version: 6.3.0
+  resolution: "@fortawesome/fontawesome-svg-core@npm:6.3.0"
   dependencies:
-    "@fortawesome/fontawesome-common-types": 6.1.2
-  checksum: bb82ed1e79ade9977746b4bb28ac0d03de7557e7c923446adec78cb3447740aca0859e91d6310007d758055a1b8f3a6f740915f04cac738931135c9bdbfe5d32
+    "@fortawesome/fontawesome-common-types": 6.3.0
+  checksum: 2479d4b0dc45bba2638b05ba816df91fad6331cd3254d846705a0c342dc12259724706066c71461809804b4f41f15425439cfbabc42d7918e6c26b2b467b4b59
   languageName: node
   linkType: hard
 
@@ -2352,7 +2359,7 @@ __metadata:
   resolution: "CDS-Website@workspace:."
   dependencies:
     "@fortawesome/fontawesome-free": ^6.1.2
-    "@fortawesome/fontawesome-svg-core": ^6.1.2
+    "@fortawesome/fontawesome-svg-core": ^6.3.0
     "@fortawesome/free-brands-svg-icons": ^6.1.2
     "@fortawesome/free-solid-svg-icons": ^6.1.2
     "@fortawesome/vue-fontawesome": ^2.0.8
