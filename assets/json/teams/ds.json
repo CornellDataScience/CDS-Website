@@ -3,6 +3,10 @@
         {
             "name": "Travis Zhang",
             "link": ""
+        },
+        {
+            "name": "Samuel Meisner",
+            "link": ""
         }
     ],
     "advisors": [{
@@ -13,6 +17,10 @@
         {
             "name": "Travis Zhang",
             "image": "TravisZhang.jpg"
+        },
+        {
+            "name": "Samuel Meisner",
+            "image": "SamuelMeisner.jpg"
         },
         {
             "name": "Varun Gande",
@@ -37,10 +45,6 @@
         {
             "name": "Imani Finkley",
             "image": "ImaniFinkley.jpg"
-        },
-        {
-            "name": "Samuel Meisner",
-            "image": "SamuelMeisner.jpg"
         },
         {
             "name": "Michael Ngo",
