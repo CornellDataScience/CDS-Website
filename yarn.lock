@@ -2,7 +2,7 @@
 # Manual changes might be lost - proceed with caution!
 
 __metadata:
-  version: 5
+  version: 6
   cacheKey: 8
 
 "@ampproject/remapping@npm:^2.1.0":
@@ -2364,7 +2364,7 @@ __metadata:
     font-awesome: ^4.7.0
     nuxt: ^2.0.0
     nuxt-fontawesome: ^0.4.0
-    vuetify: ^2.6.8
+    vuetify: ^3.1.6
   languageName: unknown
   linkType: soft
 
@@ -10739,12 +10739,31 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vuetify@npm:^2.6, vuetify@npm:^2.6.8":
+"vuetify@npm:^2.6":
   version: 2.6.8
   resolution: "vuetify@npm:2.6.8"
   peerDependencies:
     vue: ^2.6.4
   checksum: 202f865319164e9f339a1911354200029b059d198ebdc3caa5b34a25dd6c982430ace7669416b2d180342eb6e4cc08c860be36ed4bc787ee3d6e649623889826
+  languageName: node
+  linkType: hard
+
+"vuetify@npm:^3.1.6":
+  version: 3.1.6
+  resolution: "vuetify@npm:3.1.6"
+  peerDependencies:
+    vite-plugin-vuetify: ^1.0.0-alpha.12
+    vue: ^3.2.0
+    vue-i18n: ^9.0.0
+    webpack-plugin-vuetify: ^2.0.0-alpha.11
+  peerDependenciesMeta:
+    vite-plugin-vuetify:
+      optional: true
+    vue-i18n:
+      optional: true
+    webpack-plugin-vuetify:
+      optional: true
+  checksum: 0f1feba2024921bdded7db33d4ca83457dcdeeb78f5ba2290ac5b9c045d48bc60065838302b5e3c7be865cfe3608c85724b760530993f2a218bed7a078f32155
   languageName: node
   linkType: hard
 
