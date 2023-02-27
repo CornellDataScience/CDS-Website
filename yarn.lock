@@ -2,7 +2,7 @@
 # Manual changes might be lost - proceed with caution!
 
 __metadata:
-  version: 5
+  version: 6
   cacheKey: 8
 
 "@ampproject/remapping@npm:^2.1.0":
@@ -2360,7 +2360,7 @@ __metadata:
     "@mdi/js": ^7.0.96
     "@nuxtjs/fontawesome": ^1.1.2
     "@nuxtjs/vuetify": ^1.12.3
-    core-js: ^3.24.1
+    core-js: ^3.29.0
     font-awesome: ^4.7.0
     nuxt: ^2.0.0
     nuxt-fontawesome: ^0.4.0
@@ -3719,10 +3719,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"core-js@npm:^3.24.1":
-  version: 3.24.1
-  resolution: "core-js@npm:3.24.1"
-  checksum: 6fb5bf0fd9e9f3e69d95616dd03332fea6758a715d2628c108b5faf17b48b0f580e90c4febb0a523c4665b0991a810de16289f86187fe79d70cc722dbd3edf0e
+"core-js@npm:^3.29.0":
+  version: 3.29.0
+  resolution: "core-js@npm:3.29.0"
+  checksum: 2bd69d783efcd2ef9197ce892a8b91d7b2fd86dddce805a3be0ff721013a2342eeab0f7d0b4b5548c1377b9846a8fb81485054efd39618b9d1a1fca04af81ccf
   languageName: node
   linkType: hard
 
