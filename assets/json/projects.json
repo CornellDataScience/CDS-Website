@@ -38,6 +38,22 @@
             "description" : "Algorithmic bias is still a major concern as machine learning systems become more widespread. Unless careful care is taken with these ML systems, they can have significant harmful impacts on underrepresented groups and lead to ineffective products. Our more technical objective is to explore these biases within a variety of models, and attempt to mitigate them. Beyond the technical material, we hope to educate our local community as much as possible to be knowledgeable and informed when discussing these problems along with potential solutions.",
             "github" : "https://github.com/CornellDataScience/Cornell-Bias-Labs",
             "photoloc" : ""
+        },
+        {
+            "name" : "Optimal Portfolio",
+            "description" : "For this project, we create a strategy to trade stocks and achieve an optimal portfolio. To do this, we choose a certain number of stocks and use their daily returns, putting certain constraints to create a portfolio. We hope to later incorporate other assets for this strategy in real time.",
+            "github" : "https://github.com/CornellDataScience",
+            "photoloc" : ""
+        },
+        {
+            "name" : "Pricing Options",
+            "description" : "The Pricing Options project seeks to quantify the intrinsic and time values of options. We seek to understand three main methods to pricing options, using transform methods, finite difference methods, and Monte Carlo.",
+            "github" : "https://github.com/CornellDataScience",
+            "photoloc" : ""
+        },
+        {
+            "name" : "Sports Arbitrage Betting",
+            "description" : "When bookmakers have different opinions on the outcomes of events and are slow to react, an individual can mitigatae personal risk and (theoretically) make profit regardless of the outcome. This projects hopes to find situations with significant arbitrage and place bets on both outcomes in the right circumstances."
         }
     ]
 }
