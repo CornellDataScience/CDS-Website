@@ -53,7 +53,9 @@
         },
         {
             "name" : "Sports Arbitrage Betting",
-            "description" : "When bookmakers have different opinions on the outcomes of events and are slow to react, an individual can mitigatae personal risk and (theoretically) make profit regardless of the outcome. This projects hopes to find situations with significant arbitrage and place bets on both outcomes in the right circumstances."
+            "description" : "When bookmakers have different opinions on the outcomes of events and are slow to react, an individual can mitigatae personal risk and (theoretically) make profit regardless of the outcome. This projects hopes to find situations with significant arbitrage and place bets on both outcomes in the right circumstances.",
+            "github" : "https://github.com/CornellDataScience",
+            "photoloc" : ""
         }
     ]
 }
