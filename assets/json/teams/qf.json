@@ -57,6 +57,26 @@
         {
             "name": "Samara Silverman",
             "image": "SamaraSilverman.jpg"
+        },
+        {
+            "name": "Alyssa Serebrenik",
+            "image": "AlyssaSerebrenik.jpg"
+        },
+        {
+            "name": "Andrew Chen",
+            "image": "AndrewChen.jpg"
+        },
+        {
+            "name": "Arya Patel",
+            "image": "AryaPatel.jpg"
+        },
+        {
+            "name": "Wenyi (Jenny) Chen",
+            "image": "WenyiChen.jpg"
+        },
+        {
+            "name": "Jerry Chen",
+            "image": "JerryChen.jpg"
         }
     ]
 }   

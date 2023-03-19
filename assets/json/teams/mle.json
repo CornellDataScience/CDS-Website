@@ -73,6 +73,26 @@
         {
             "name": "Wendy Huang",
             "image": "WendyHuang.jpg"
+        },
+        {
+            "name": "Alice Um",
+            "image": "AliceUm.jpg"
+        },
+        {
+            "name": "Andy He",
+            "image": "AndyHe.jpg"
+        },
+        {
+            "name": "Arnav Agrawal",
+            "image": "ArnavAgrawal.jpg"
+        },
+        {
+            "name": "Kenneth Chiem",
+            "image": "KennethChiem.jpg"
+        },
+        {
+            "name": "Nicole Hao",
+            "image": "NicoleHao.jpg"
         }
     ]
 }   
