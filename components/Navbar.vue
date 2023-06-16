@@ -1,9 +1,3 @@
-<style>
-  .{
-  font-family: "Roboto";
-  src: local("Roboto"),   url(../assets/fonts/Roboto/Roboto-Regular.ttf) format("truetype");}
-</style>
-
 <template>
     <v-app-bar>
       <NuxtLink to="/">

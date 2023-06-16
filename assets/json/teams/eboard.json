@@ -2,14 +2,14 @@
     "title" :  "Executive Board",
     "people" : [
         {
-            "name" : "Johann Lee",
+            "name" : "Evan Williams",
             "title" : "President",
-            "image" : "JohannLee.jpg"
+            "image" : "EvanWilliams.jpg"
         },
         {
-            "name" : "Rucha Gharpure",
+            "name" : "Salma Hazimeh",
             "title" : "Vice President",
-            "image" : "RuchaGharpure.jpg"
+            "image" : "SalmaHazimeh.jpg"
         },
         {
             "name" : "Samara Silverman",
@@ -17,14 +17,14 @@
             "image" : "SamaraSilverman.jpg"
         },
         {
-            "name" : "Emerald Liu",
+            "name" : "Benson Zhang",
             "title" : "Technical Chair",
-            "image" : "EmeraldLiu.jpg"
+            "image" : "BensonZhang.jpg"
         },
         {
-            "name" : "David Han",
+            "name" : "Bryant Park",
             "title" : "Website Chair",
-            "image" : "DavidHan.jpg"
+            "image" : "BryantPark.jpg"
         },
         {
             "name" : "Varun Gande",
@@ -32,14 +32,14 @@
             "image" : "VarunGande.jpg"
         },
         {
-            "name" : "Evan Williams",
+            "name" : "Andrew Chang",
             "title" : "Onboarding Chair",
-            "image" : "EvanWilliams.jpg"
+            "image" : "AndrewChang.jpg"
         },
         {
-            "name" : "Salma Hazimeh",
+            "name" : "Abigail Kim",
             "title" : "Social Chair",
-            "image" : "SalmaHazimeh.jpg"
+            "image" : "AbigailKim.jpg"
         }
     ]
 }
