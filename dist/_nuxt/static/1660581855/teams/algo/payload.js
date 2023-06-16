@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/teams/algo", {data:[{}],fetch:{},mutations:void 0});
