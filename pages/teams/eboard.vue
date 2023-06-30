@@ -5,13 +5,17 @@
         </p>
         <div class="mx-md-16 my-8">
             <v-row justify="center" class="mx-md-16">
-            <v-col cols="12" sm="4" md="3" xl="2" v-for="member in data.people" v-bind:key="member.name" class="text-center">
-                <v-card class="rounded-xl mx-auto" height="200" width="200">
-                <v-img :src="require(`../../assets/img/headshots/${member.image}`)" class="fill-height" max-height="200"></v-img>
-                </v-card>
-                <b><p class="mt-2">{{member.title}}</p></b>
-                <p class="mt-2">{{member.name}}</p>
-            </v-col>
+                <v-col cols="12" sm="4" md="3" xl="2" v-for="member in data.people" v-bind:key="member.name"
+                    class="text-center">
+                    <v-card class="rounded-xl mx-auto" height="200" width="200">
+                        <v-img :src="require(`../../assets/img/headshots/${member.image}`)" class="fill-height"
+                            max-height="200"></v-img>
+                    </v-card>
+                    <b>
+                        <p class="mt-2">{{ member.title }}</p>
+                    </b>
+                    <p class="mt-2">{{ member.name }}</p>
+                </v-col>
             </v-row>
         </div>
     </div>
@@ -20,10 +24,14 @@
 <script>
 import data from '~/assets/json/teams/eboard.json';
 export default {
+    name: 'Executive Board',
+    head: {
+        title: 'Executive Board'
+    },
     data() {
         return {
             data: data
-        }   
+        }
     }
 }
 </script>
