@@ -6,8 +6,8 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - CDS-Website',
-    title: 'CDS-Website',
+    titleTemplate: '%s | Cornell Data Science',
+    title: 'Home',
     htmlAttrs: {
       lang: 'en'
     },
@@ -59,10 +59,10 @@ export default {
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
     customVariables: ['~/assets/variables.scss'],
-    defaultAssets: {icons: 'fa'},
+    defaultAssets: { icons: 'fa' },
     theme: {
       themes: {
-        light:{
+        light: {
           primary: colors.deepPurple,
           navColor: colors.deepPurple,
           secondary: '#595B86',
