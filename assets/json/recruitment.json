@@ -1,0 +1,20 @@
+{
+    "title" : "Recruitment",
+    "description" : "Cornell Data Science is recruiting for Spring 2023! Please attend our Information Sessions to learn more and get any specific questions answered. The timeline is shown below.  The DS and QF subteams are only recruiting freshmen, and the MLE subteam is only recruiting upperclassmen. Both applications are due February 4th, 2023.",
+    "info" : [
+        {
+            "title" : "Info Sessions",
+            "link" : "",
+            "body" : "Information Sessions will be held on <b>January 26, 2023</b> (Thursday) at 5:30pm in Upson 216. If you were unable to make the info session, the slides are <a href='https://docs.google.com/presentation/d/1qgSXiqW83wP36x6JNChpt-n2_X-kkh5uuvuwhvmIS40/edit?usp=sharing'>here</a>."
+        },
+        {
+            "title" : "Application",
+            "body" : "Three subteams - Machine Learning Engineering (MLE), Data Science (DS), Quantitative Finance (QF) - are recruiting this semester (Spring 2023). <b>DS and QF are only recruiting freshmen and MLE is only recruiting upperclassmen.</b> Applications are due February 4th, 2023. After the application review, selected candidates will be contacted to schedule interviews. <br><br> <b>We are no longer accepting applications for this semester.</b>"
+        },
+        {
+            "title" : "Interviews",
+            "link" : "",
+            "body" : "We will reach out to select applicants to conduct interviews over the following weeks. These will be both technical and behavioral. More information, and materials will be sent to those in question."
+        }
+    ]
+}

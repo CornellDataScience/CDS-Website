@@ -1,0 +1,122 @@
+{
+    "teamleads": [
+        {
+            "name": "Darren Key",
+            "link": ""
+        },
+        {
+            "name": "Samuel Meisner",
+            "link": ""
+        }
+    ],
+    "advisors": [{
+        "name": "Prof. Kilian Weinberger",
+        "link": "https://www.cs.cornell.edu/~kilian/"
+    }],
+    "members": [
+        {
+            "name": "Travis Zhang",
+            "image": "TravisZhang.jpg"
+        },
+        {
+            "name": "Samuel Meisner",
+            "image": "SamuelMeisner.jpg"
+        },
+        {
+            "name": "Varun Gande",
+            "image": "VarunGande.jpg"
+        },
+        {
+            "name": "Altria Wang",
+            "image": "AltriaWang.jpg"
+        },
+        {
+            "name": "Johann Lee",
+            "image": "JohannLee.jpg"
+        },
+        {
+            "name": "Tobi Alade",
+            "image": "TobiAlade.jpg"
+        },
+        {
+            "name": "Laura Gong",
+            "image": "LauraGong.jpg"
+        },
+        {
+            "name": "Imani Finkley",
+            "image": "ImaniFinkley.jpg"
+        },
+        {
+            "name": "Michael Ngo",
+            "image": "MichaelNgo.jpg"
+        },
+        {
+            "name": "Katie Zelvin",
+            "image": "KatieZelvin.jpg"
+        },
+        {
+            "name": "Salma Hazimeh",
+            "image": "SalmaHazimeh.jpg"
+        },
+        {
+            "name": "Eric Guo",
+            "image": "EricGuo.jpg"
+        },
+        {
+            "name": "Eric Chen",
+            "image": "EricChen.jpg"
+        },
+        {
+            "name": "Vivian Chen",
+            "image": "VivianChen.jpg"
+        },
+        {
+            "name": "Tanisha Kore",
+            "image": "TanishaKore.jpg"
+        },
+        {
+            "name": "Kevin Jiang",
+            "image": "KevinJiang.jpg"
+        },
+        {
+            "name": "Max Wang",
+            "image": "MaxWang.jpg"
+        },
+        {
+            "name": "Skyler Shapiro",
+            "image": "SkylerShapiro.jpg"
+        },
+        {
+            "name": "Mericel Tao",
+            "image": "MericelTao.jpg"
+        },
+        {
+            "name": "Mahitha Penmetsa",
+            "image": "MahithaPenmetsa.jpg"
+        },
+        {
+            "name": "Audrey Wang",
+            "image": "AudreyWang.jpg"
+        },
+        {
+            "name": "Darren Key",
+            "image": "DarrenKey.jpg"
+        },
+        {
+            "name": "Jason Zheng",
+            "image": "JasonZheng.jpg"
+        },
+        {
+            "name": "Emerald Liu",
+            "image": "EmeraldLiu.jpg"
+        },
+        {
+            "name": "Deniz Boloni-Turgut",
+            "image": "DenizBoloni-Turgut.jpg"
+        },
+        {
+            "name": "Jakob Silver",
+            "image": "JakobSilver.jpg"
+        }
+    ]
+}   

@@ -1,0 +1,306 @@
+[
+    {
+        "subtitle": "Data Science",
+        "people": [
+            {
+                "name": "Travis Zhang",
+                "image": "TravisZhang.jpg"
+            },
+            {
+                "name": "Varun Gande",
+                "image": "VarunGande.jpg"
+            },
+            {
+                "name": "Altria Wang",
+                "image": "AltriaWang.jpg"
+            },
+            {
+                "name": "Johann Lee",
+                "image": "JohannLee.jpg"
+            },
+            {
+                "name": "Tobi Alade",
+                "image": "TobiAlade.jpg"
+            },
+            {
+                "name": "Abigail Kim",
+                "image": "AbigailKim.jpg"
+            },
+            {
+                "name": "Laura Gong",
+                "image": "LauraGong.jpg"
+            },
+            {
+                "name": "Imani Finkley",
+                "image": "ImaniFinkley.jpg"
+            },
+            {
+                "name": "Michael Ngo",
+                "image": "MichaelNgo.jpg"
+            },
+            {
+                "name": "Katie Zelvin",
+                "image": "KatieZelvin.jpg"
+            },
+            {
+                "name": "Salma Hazimeh",
+                "image": "SalmaHazimeh.jpg"
+            },
+            {
+                "name": "Eric Guo",
+                "image": "EricGuo.jpg"
+            },
+            {
+                "name": "Eric Chen",
+                "image": "EricChen.jpg"
+            },
+            {
+                "name": "Vivian Chen",
+                "image": "VivianChen.jpg"
+            },
+            {
+                "name": "Tanisha Kore",
+                "image": "TanishaKore.jpg"
+            },
+            {
+                "name": "Kevin Jiang",
+                "image": "KevinJiang.jpg"
+            },
+            {
+                "name": "Max Wang",
+                "image": "MaxWang.jpg"
+            },
+            {
+                "name": "Skyler Shapiro",
+                "image": "SkylerShapiro.jpg"
+            },
+            {
+                "name": "Mericel Tao",
+                "image": "MericelTao.jpg"
+            },
+            {
+                "name": "Mahitha Penmetsa",
+                "image": "MahithaPenmetsa.jpg"
+            },
+            {
+                "name": "Audrey Wang",
+                "image": "AudreyWang.jpg"
+            },
+            {
+                "name": "Darren Key",
+                "image": "DarrenKey.jpg"
+            },
+            {
+                "name": "Jason Zheng",
+                "image": "JasonZheng.jpg"
+            },
+            {
+                "name": "Emerald Liu",
+                "image": "EmeraldLiu.jpg"
+            }
+        ]
+    },
+    {
+        "subtitle": "Data Engineering",
+        "people": [
+            {
+                "name": "Ethan Mah",
+                "image": "EthanMah.jpg"
+            },
+            {
+                "name": "Evan Williams",
+                "image": "EvanWilliams.jpg"
+            },
+            {
+                "name": "David Han",
+                "image": "DavidHan.jpg"
+            },
+            {
+                "name": "Mason Bulling",
+                "image": "MasonBulling.jpg"
+            },
+            {
+                "name": "Divya Damodaran",
+                "image": "DivyaDamodaran.jpg"
+            },
+            {
+                "name": "James Zhang",
+                "image": "JamesZhang.jpg"
+            },
+            {
+                "name": "Ryan Lee",
+                "image": "RyanLee.jpg"
+            },
+            {
+                "name": "Lisa Li",
+                "image": "LisaLi.jpg"
+            },
+            {
+                "name": "Neil Estrada",
+                "image": "NeilEstrada.jpg"
+            },
+            {
+                "name": "Elva Gao",
+                "image": "ElvaGao.jpg"
+            },
+            {
+                "name": "Brendan Lo",
+                "image": "BrendanLo.jpg"
+            },
+            {
+                "name": "Bryant Park",
+                "image": "BryantPark.jpg"
+            },
+            {
+                "name": "Connor Chen",
+                "image": "ConnorChen.jpg"
+            },
+            {
+                "name": "Chris Xu",
+                "image": "ChrisXu.jpg"
+            },
+            {
+                "name": "Iris Li",
+                "image": "IrisLi.jpg"
+            },
+            {
+                "name": "Emily Wang",
+                "image": "EmilyWang.jpg"
+            },
+            {
+                "name": "Pun Chaixanien",
+                "image": "PunChaixanien.jpg"
+            },
+            {
+                "name": "Benson Zhang",
+                "image": "BensonZhang.jpg"
+            },
+            {
+                "name": "Koji Kimura",
+                "image": "KojiKimura.jpg"
+            },
+            {
+                "name": "Ryan Ho",
+                "image": "RyanHo.jpg"
+            }
+        ]
+    },
+    {
+        "subtitle": "Machine Learning Engineering",
+        "people": [
+            {
+                "name": "Andrew Chang",
+                "image": "AndrewChang.jpg"
+            },
+            {
+                "name": "Neha Kulshreshtha",
+                "image": "NehaKulshreshtha.jpg"
+            },
+            {
+                "name": "Edward Gu",
+                "image": "EdwardGu.jpg"
+            },
+            {
+                "name": "Amrith Kumaar",
+                "image": "AmrithKumaar.jpg"
+            },
+            {
+                "name": "Everett Lee",
+                "image": "EverettLee.jpg"
+            },
+            {
+                "name": "Jerry Sun",
+                "image": "JerrySun.jpg"
+            },
+            {
+                "name": "Vincent Fong",
+                "image": "VincentFong.jpg"
+            },
+            {
+                "name": "Mei Lin Hu",
+                "image": "MeiLinHu.jpg"
+            },
+            {
+                "name": "Andrea Siby",
+                "image": "AndreaSiby.jpg"
+            },
+            {
+                "name": "Takuma Osaka",
+                "image": "TakumaOsaka.jpg"
+            },
+            {
+                "name": "Srisha Gaur",
+                "image": "SrishaGaur.jpg"
+            },
+            {
+                "name": "Eric Zhang",
+                "image": "EricZhang.jpg"
+            },
+            {
+                "name": "Melinda Fang",
+                "image": "MelindaFang.jpg"
+            },
+            {
+                "name": "Dan Wei Zuo",
+                "image": "DanWeiZuo.jpg"
+            },
+            {
+                "name": "Wendy Huang",
+                "image": "WendyHuang.jpg"
+            }
+        ]
+    },
+    {
+        "subtitle": "Quantitative Finance",
+        "people": [
+            {
+                "name": "Tanvi Kapoor",
+                "image": "TanviKapoor.jpg"
+            },
+            {
+                "name": "Pratham Rawat",
+                "image": "PrathamRawat.jpg"
+            },
+            {
+                "name": "Rohan Shah",
+                "image": "RohanShah.jpg"
+            },
+            {
+                "name": "Uday Kolla",
+                "image": "UdayKolla.jpg"
+            },
+            {
+                "name": "Jacob Mayourian",
+                "image": "JacobMayourian.jpg"
+            },
+            {
+                "name": "Noah Plant",
+                "image": "NoahPlant.jpg"
+            },
+            {
+                "name": "Alkiviades Boukas",
+                "image": "AlkiviadesBoukas.jpg"
+            },
+            {
+                "name": "Iram Liu",
+                "image": "IramLiu.jpg"
+            },
+            {
+                "name": "Samuel Meisner",
+                "image": "SamuelMeisner.jpg"
+            },
+            {
+                "name": "Rucha Gharpure",
+                "image": "RuchaGharpure.jpg"
+            },
+            {
+                "name": "Adona Anteneh",
+                "image": "AdonaAnteneh.jpg"
+            },
+            {
+                "name": "Samara Silverman",
+                "image": "SamaraSilverman.jpg"
+            }
+        ]
+    }
+]
