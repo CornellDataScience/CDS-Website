@@ -8,7 +8,7 @@
         <v-col cols="12" sm="4" md="3" xl="2" v-for="member in eboard.people" v-bind:key="member.name"
           class="text-center">
           <v-card class="rounded-xl mx-auto" height="200" width="200">
-            <v-img :src="`/img/headshots/${member.image}`" class="fill-height" max-height="200"></v-img>
+            <v-img :src="member.image" class="fill-height" max-height="200"></v-img>
           </v-card>
           <b>
             <p class="mt-2">{{ member.title }}</p>
@@ -22,6 +22,12 @@
 
 <script setup lang="ts">
 import eboard from '../../assets/json/teams/eboard.json';
+
+// workaround to get around broken of dynamic requires in Vue 3
+// took me forever to figure out
+eboard.people = eboard.people.map(person => {
+  return { ...person, image: new URL(`../../assets/img/headshots/${person.image}`, import.meta.url).href }
+})
 
 useHead({ title: 'Executive Board' })
 </script>
