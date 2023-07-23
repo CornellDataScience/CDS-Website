@@ -4,6 +4,13 @@
     optio.</p>
 </template>
 
+<script setup lang="ts">
+useHead({
+  title: 'Cornell Data Science',
+  titleTemplate: null,
+})
+</script>
+
 <style scoped>
 p {
   color: black;

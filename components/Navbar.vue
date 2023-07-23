@@ -115,11 +115,6 @@
 </template>
 
 <script setup lang="ts">
-useHead({
-  title: 'Cornell Data Science',
-  titleTemplate: null,
-})
-
 const teams = [
   {
     title: 'Executive Board',
