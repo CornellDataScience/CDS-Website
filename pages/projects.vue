@@ -20,8 +20,7 @@
         </v-col>
       </v-row>
 
-      <v-sparkline :line-width="0.5" :gradient="['grey']" :height="10" :padding="2" :smooth="10" :value="[1, 1]" auto-draw
-        class="mb-4"></v-sparkline>
+      <v-divider thickness="1" class="mt-8" />
       <a style="text-decoration: none; color: inherit;" :href="projects.github">
         <FloatingCard>
           <Block title="CDS Github">

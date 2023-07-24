@@ -10,12 +10,11 @@
       <p class="text-h4 primary--text font-weight-normal text-uppercase text-center mt-8">
         {{ teams.subtitle }}
       </p>
-      <p class="body-1 font-weight-light mx-md-8">
+      <p class="body-1 font-weight-light mx-md-8 pb-4">
         {{ teams.subdescription }}
       </p>
       <div v-for="item in teams.info" v-bind:key="item.name">
-        <v-sparkline :line-width="0.5" :gradient="['grey']" :height="10" :padding="2" :smooth="10" :value="[1, 1]"
-          auto-draw class="mb-4" />
+        <v-divider thickness="1" class="my-6" />
         <Block v-bind:title="item.name" v-bind:link="item.link">
           <p v-html="item.description"></p>
         </Block>

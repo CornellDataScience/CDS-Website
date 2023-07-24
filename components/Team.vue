@@ -19,8 +19,7 @@
         </span>
       </p>
 
-      <v-sparkline :line-width="0.5" :gradient="['grey']" :height="10" :padding="2" :smooth="10" :value="[1, 1]" auto-draw
-        class="mb-4"></v-sparkline>
+      <v-divider thickness="1" class="mt-8" />
 
       <div class="text-h3 my-8 text-center font-weight-medium text--uppercase primary--text">
         Current Members

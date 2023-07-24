@@ -1,5 +1,4 @@
 <template>
-  <!--<v-sparkline :line-width="0.5" :gradient="['grey']" :height="10" :padding="2" :smooth="10" :value="[1, 1]" auto-draw class="mb-4"></v-sparkline>-->
   <v-row class="pa-4">
     <v-col cols="12" md="4">
       <a v-if="link" class="flex-grow-0 text-h4 font-weight-medium text-uppercase primary--text text-decoration-none"
