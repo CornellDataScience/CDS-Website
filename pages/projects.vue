@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p class="text-h3 font-weight-medium text-center mt-16">
+    <p class="text-h3 font-weight-medium text-center mt-10">
       {{ projects.title }}
     </p>
     <div class="mx-16 my-8">
