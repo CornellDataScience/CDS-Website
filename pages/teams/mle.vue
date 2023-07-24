@@ -1,20 +1,11 @@
 <template>
-    <Team title="Machine Learning Engineering" v-bind:leads="data.teamleads" v-bind:advisors="data.advisors"
-        v-bind:members="data.members"></Team>
+  <Team v-bind:title="teamName" v-bind:leads="mle.teamleads" v-bind:advisors="mle.advisors"
+    v-bind:members="mle.members" />
 </template>
 
-<script>
-import data from '~/assets/json/teams/mle.json';
-export default {
-    name: 'Machine Learning Engineering',
-    head: {
-        title: 'Machine Learning Engineering'
-    },
-    data() {
-        return {
-            data: data
-        }
-    }
-}
-</script>
+<script setup lang="ts">
+import mle from '~/assets/json/teams/mle.json';
 
+const teamName = 'Machine Learning Engineering'
+useHead({ title: teamName })
+</script>

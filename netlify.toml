@@ -1,25 +1,3 @@
 [[redirects]]
   from = "/wiki"
   to = "https://engineering-communications-progr.gitbook.io/cornell-data-science/VNEv8c5PtgMv0WCNOB7M/the-org/how-to-use-this-wiki"
-[[redirects]]
-	from = "https://eboard.cds.fyi/zoom"
-	to = "https://cornell.zoom.us/j/97974334609?pwd=b0g1QWRMTlRnNDNMeStnZjhieE9MUT09"
-[[redirects]]
-	from = "https://intsys.cornelldata.science/*"
-	to = "cornelldata.science/intsys/:splat"
-  status = 200
-  force = true
-[[redirects]]
-	from = "/intsys/drive"
-	to = "https://drive.google.com/drive/u/2/folders/0B0oJ9v2w_sDRcUUyMHJzRU1xX1E?resourcekey=0-amc-yZnmDD58R80eS8gFZw"
-[[redirects]]
-  from = "https://test.cds.fyi/*"
-  to = "cds.fyi/intsys/:splat"
-  status = 200
-[[redirects]]
-  from = "test.cds.fyi/*"
-  to = "cds.fyi/intsys/:splat"
-  status = 200
-[[redirects]]
-  from = "/intsys/cal"
-  to = "https://docs.google.com/spreadsheets/d/1FGSu0U0ay33uacpxU9iswjS_OWf6BAGRL9i-vuwqG7I/edit?usp=sharing"

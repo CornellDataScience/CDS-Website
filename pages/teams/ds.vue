@@ -1,20 +1,10 @@
 <template>
-    <Team title="Data Science" v-bind:leads="data.teamleads" v-bind:advisors="data.advisors" v-bind:members="data.members">
-    </Team>
+  <Team v-bind:title="teamName" v-bind:leads="ds.teamleads" v-bind:advisors="ds.advisors" v-bind:members="ds.members" />
 </template>
 
-<script>
-import data from '~/assets/json/teams/ds.json';
-export default {
-    name: 'Data Science',
-    head: {
-        title: 'Data Science'
-    },
-    data() {
-        return {
-            data: data
-        }
-    }
-}
-</script>
+<script setup lang="ts">
+import ds from '~/assets/json/teams/ds.json';
 
+const teamName = 'Data Science'
+useHead({ title: teamName })
+</script>

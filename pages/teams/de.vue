@@ -1,20 +1,13 @@
 <template>
-    <Team title="Data Engineering" v-bind:leads="data.teamleads" v-bind:advisors="data.advisors"
-        v-bind:members="data.members"></Team>
+  <!-- Why are we passing in each field of a team instead of the whole object? Refactor later -->
+  <Team v-bind:title="teamName" v-bind:leads="de.teamleads" v-bind:advisors="de.advisors" v-bind:members="de.members" />
 </template>
 
-<script>
-import data from '~/assets/json/teams/de.json';
-export default {
-    name: 'Data Engineering',
-    head: {
-        title: 'Data Engineering'
-    },
-    data() {
-        return {
-            data: data
-        }
-    }
-}
-</script>
+<script setup lang="ts">
+import de from '~/assets/json/teams/de.json';
 
+// Why is this hardcoded in the Vue page? We should move team name to the JSON files
+const teamName = 'Data Engineering'
+
+useHead({ title: teamName })
+</script>

@@ -1,20 +1,10 @@
 <template>
-    <Team title="Quantitative Finance" v-bind:leads="data.teamleads" v-bind:advisors="data.advisors"
-        v-bind:members="data.members"></Team>
+  <Team v-bind:title="teamName" v-bind:leads="qf.teamleads" v-bind:advisors="qf.advisors" v-bind:members="qf.members" />
 </template>
 
-<script>
-import data from '~/assets/json/teams/qf.json';
-export default {
-    name: 'Quantitative Finance',
-    head: {
-        title: 'Quantitative Finance'
-    },
-    data() {
-        return {
-            data: data
-        }
-    }
-}
-</script>
+<script setup lang="ts">
+import qf from '~/assets/json/teams/qf.json';
 
+const teamName = 'Quantitative Finance'
+useHead({ title: teamName })
+</script>
