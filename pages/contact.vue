@@ -2,7 +2,7 @@
   <!-- <div class="indigo darken-4 d-flex align-center mb-4" :aspect-ratio="3"> -->
   <div>
     <v-img gradient="rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)" :aspect-ratio="6" class="d-flex align-center mb-4 secondary">
-      <p class="mx-8 my-4 d-flex justify-center align-center text-h2 white--text font-weight-medium text-uppercase title">
+      <p class="mx-8 my-4 d-flex justify-center align-center text-h2 white--text font-weight-medium title">
         Contact Us
       </p>
     </v-img>
@@ -12,9 +12,9 @@
     <div class="mx-md-16 my-16">
       <Block title="Hello, World!">
         <template v-slot:title>
-          Hello, <br /> World!
+          Hello, World!
         </template>
-        <p class="body-1 font-weight-light mx-md-8">
+        <p class="body-1 mx-md-8">
           For general questions about the team or interest in what we're doing, please reach Cornell Data Science
           at <a href="mailto: cornelldatascience@gmail.com">cornelldatascience@gmail.com</a>!
           <br />

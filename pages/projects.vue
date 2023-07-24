@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p class="text-h3 font-weight-medium text-uppercase text-center mt-16">
+    <p class="text-h3 font-weight-medium text-center mt-16">
       {{ projects.title }}
     </p>
     <div class="mx-16 my-8">
@@ -23,7 +23,7 @@
       <v-divider thickness="1" class="mt-8" />
       <a style="text-decoration: none; color: inherit;" :href="projects.github">
         <FloatingCard>
-          <Block title="CDS Github">
+          <Block title="CDS GitHub">
             <template v-slot:leftContent>
               <p>{{ projects.github_desc }}</p>
             </template>

@@ -1,17 +1,17 @@
 <template>
   <div class="px-4">
-    <p class="text-h3 font-weight-medium text-uppercase text-center mt-16">
+    <p class="text-h3 font-weight-medium text-center mt-16">
       {{ title }}
     </p>
     <div class="mx-md-16 my-8">
-      <p v-if="leads.length !== 0" class="body-1 font-weight-light mx-md-8">
+      <p v-if="leads.length !== 0" class="body-1 mx-md-8">
         <b class="font-weight-bold">Team Leads: </b>
         <span v-for="(lead, index) in leads" v-bind:key="lead.name">
           <a v-bind:href="lead.link" class="text-decoration-none">{{ lead.name }}</a><span
             v-if="index != Object.keys(leads).length - 1">, </span>
         </span>
       </p>
-      <p v-if="advisors.length !== 0" class="body-1 font-weight-light mx-md-8">
+      <p v-if="advisors.length !== 0" class="body-1 mx-md-8">
         <b class="font-weight-bold">Advisor: </b>
         <span v-for="(advisor, index) in advisors" v-bind:key="advisor.name">
           <a v-bind:href="advisor.link" class="text-decoration-none">{{ advisor.name }}</a><span
@@ -21,7 +21,7 @@
 
       <v-divider thickness="1" class="mt-8" />
 
-      <div class="text-h3 my-8 text-center font-weight-medium text--uppercase primary--text">
+      <div class="text-h3 my-8 text-center font-weight-medium primary--text">
         Current Members
       </div>
       <v-row justify="center" class="mx-md-16">

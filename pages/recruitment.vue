@@ -1,10 +1,10 @@
 <template>
     <div>
-        <p class="text-h3 font-weight-medium text-uppercase text-center mt-16">
+        <p class="text-h3 font-weight-medium text-center mt-16">
             {{ recruitment.title }}
         </p>
         <div class="mx-16 my-8">
-            <p class="body-1 font-weight-light mx-md-8">
+            <p class="body-1 mx-md-8">
                 {{ recruitment.description }}
             </p>
             <v-timeline dense class="hidden-sm-and-down">

@@ -3,33 +3,31 @@
     <div>
       <v-parallax width="100%" :src="home.img" :lazy-src="home.img" gradient="rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)"
         height="750" class="align-center">
-        <p class="mx-2 d-flex justify-center text-h2 white--text font-weight-normal text-uppercase title">Cornell
-          Data
-          Science</p>
+        <p class="mx-2 d-flex justify-center text-h2 text-white font-weight-medium title">
+          Cornell Data Science
+        </p>
       </v-parallax>
-      <p class="text-h3 justify-center font-weight-medium text-uppercase text-center mt-16 primary--text">
+      <p class="text-h3 justify-center font-weight-medium text-center mt-16 primary--text">
         About
       </p>
     </div>
     <v-container class="my-8 px-8 px-md-0">
-      <v-row justify="center">
+      <v-row justify="center" class="mb-12">
         <v-col cols="12" md="9">
-          <p class="body-1 text--black font-weight-light ml-4 mx-md-18">
+          <p class="body-1 ml-4 mx-md-18">
             {{ home.description }}
           </p>
         </v-col>
       </v-row>
-      <v-spacer></v-spacer>
-      <br>
       <v-row>
-        <v-col cols="12" sm="6" md="4" height="100%" v-for="(item, index) in  home.info " v-bind:key="item.title"
+        <v-col cols="12" sm="6" md="4" height="100%" v-for="(item, index) in home.info " v-bind:key="item.title"
           justify="center">
           <v-hover v-slot:default="{ isHovering, props }">
             <v-card shaped class="rounded-xl py-4 d-flex flex-column" :to="item.linker" height="100%"
               :elevation="isHovering ? 12 : 2">
-              <v-card-title class="text-h5 text-center font-weight-medium mx-md-8 justify-center primary--text"> {{
+              <v-card-title class="text-h4 text-center font-weight-medium mx-md-8 justify-center primary--text mb-2"> {{
                 item.title }}</v-card-title>
-              <v-card-text class="font-weight-small">
+              <v-card-text>
                 {{ item.body }}
               </v-card-text>
               <v-img :src="item.img" max-height="200" class="mt-auto rounded-xl mx-4" height="200px"></v-img>

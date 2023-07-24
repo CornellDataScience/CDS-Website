@@ -3,18 +3,18 @@
     <div>
       <v-img :src="education.img" :lazy-src="education.img" gradient="rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)"
         :aspect-ratio="3" class="align-center">
-        <p class="mx-8 d-flex justify-center text-h2 white--text font-weight-medium text-uppercase title">
+        <p class="mx-8 d-flex justify-center text-h2 text-white font-weight-medium title">
           Education
         </p>
       </v-img>
-      <p class="text-h3 font-weight-medium text-uppercase text-center mt-16 primary--text">
+      <p class="text-h3 font-weight-medium text-center mt-16 primary--text">
         About
       </p>
     </div>
     <v-container class="my-8">
       <v-row justify="center">
         <v-col cols="11" md="9">
-          <p class="body-1 font-weight-light mx-md-18">
+          <p class="body-1 mx-md-18">
             {{ education.description }}
           </p>
         </v-col>

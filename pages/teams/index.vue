@@ -1,16 +1,16 @@
 <template>
   <div>
-    <p class="text-h3 font-weight-medium text-uppercase text-center mt-16">
+    <p class="text-h3 font-weight-medium text-center mt-10">
       {{ teams.title }}
     </p>
-    <div class="mx-md-16 pa-8 my-8">
-      <p class="body-1 font-weight-light mx-md-8">
+    <div class="mx-md-10 pa-8 my-2">
+      <p class="body-1 font-weight-normal mx-md-8">
         {{ teams.description }}
       </p>
-      <p class="text-h4 primary--text font-weight-normal text-uppercase text-center mt-8">
+      <p class="text-h4 primary--text font-weight-normal text-center mt-8 mb-4">
         {{ teams.subtitle }}
       </p>
-      <p class="body-1 font-weight-light mx-md-8 pb-4">
+      <p class="body-1 font-weight-normal mx-md-8 pb-4">
         {{ teams.subdescription }}
       </p>
       <div v-for="item in teams.info" v-bind:key="item.name">

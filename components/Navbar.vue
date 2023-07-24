@@ -2,7 +2,7 @@
   <v-app-bar>
     <!-- CDS Logo -->
     <NuxtLink to="/">
-      <img contain src="/cds_logo.png" aspect-ratio="1" width="50px" />
+      <img contain src="/cds_logo.png" aspect-ratio="1" width="50px" class="mt-2 ml-3" />
     </NuxtLink>
 
     <v-spacer />
@@ -42,8 +42,8 @@
       <v-btn plain small class="nav-btn mx-2 body-2 font-weight-medium" active-class="primary--text" href="/contact">
         Contact
       </v-btn>
-      <v-btn plain small class="nav-btn mx-2 navColor white--text body-2 font-weight-medium rounded-xl" to="/recruitment"
-        nuxt>
+      <v-btn plain small id="applybtn" class="nav-btn mx-2 navColor white--text body-2 font-weight-bold rounded-xl"
+        to="/recruitment" nuxt>
         Apply
       </v-btn>
     </div>
@@ -104,7 +104,7 @@
           </v-btn>
         </v-list-item>
         <v-list-item>
-          <v-btn plain x-small class="nav-btn navColor body-2 font-weight-medium" to="/recruitment" nuxt>
+          <v-btn id="applybtn" plain x-small class="nav-btn navColor body-2 font-weight-bold" to="/recruitment" nuxt>
             Apply
           </v-btn>
         </v-list-item>
@@ -139,3 +139,10 @@ const teams = [
 ]
 // const hover = false
 </script>
+
+<style scoped>
+#applybtn {
+  background-color: #b39ddb;
+  /* color: white; */
+}
+</style>

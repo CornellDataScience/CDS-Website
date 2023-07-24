@@ -1,6 +1,6 @@
 <template>
   <div class="px-4">
-    <p class="text-h3 font-weight-medium text-uppercase text-center mt-16">
+    <p class="text-h3 font-weight-medium text-center mt-16">
       {{ eboard.title }}
     </p>
     <div class="mx-md-16 my-8">
