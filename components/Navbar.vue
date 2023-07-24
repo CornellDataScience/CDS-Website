@@ -11,7 +11,7 @@
     <div class="hidden-sm-and-down">
       <v-menu open-on-hover bottom offset-y>
         <template v-slot:activator="{ props }">
-          <v-btn variant="plain" class="nav-btn mx-2 body-2 font-weight-bold" active-class="primary--text" :to="'/teams'"
+          <v-btn variant="plain" class="nav-btn mx-2 body-2 font-weight-bold" active-class="primary--text" to="/teams"
             v-bind="props" nuxt>
             Teams
           </v-btn>
@@ -28,10 +28,10 @@
           </v-list-item>
         </v-list>
       </v-menu>
-      <v-btn variant="plain" class="nav-btn mx-2 body-2 font-weight-bold" active-class="primary--text" href="/projects">
+      <v-btn variant="plain" class="nav-btn mx-2 body-2 font-weight-bold" active-class="primary--text" to="/projects">
         Projects
       </v-btn>
-      <v-btn variant="plain" class="nav-btn mx-2 body-2 font-weight-bold" active-class="primary--text" :to="'/education'"
+      <v-btn variant="plain" class="nav-btn mx-2 body-2 font-weight-bold" active-class="primary--text" to="/education"
         nuxt>
         Education
       </v-btn>
@@ -39,7 +39,7 @@
         href="https://cornelldatascience.github.io/education-blogs/">
         Blog
       </v-btn>
-      <v-btn variant="plain" class="nav-btn mx-2 body-2 font-weight-bold" active-class="primary--text" href="/contact">
+      <v-btn variant="plain" class="nav-btn mx-2 body-2 font-weight-bold" active-class="primary--text" to="/contact">
         Contact
       </v-btn>
       <v-btn variant="tonal" id="applybtn" class="nav-btn mx-2 navColor white--text body-2 font-weight-bold rounded-xl"
@@ -71,7 +71,7 @@
               <v-list-item>
                 <v-list-item-title>
                   <v-btn variant="plain" x-small class="nav-btn body-2 font-weight-medium" active-class="primary--text"
-                    v-bind:to="'/teams'" nuxt>
+                    to="/teams" nuxt>
                     Overview
                   </v-btn>
                 </v-list-item-title>
@@ -89,13 +89,13 @@
         </v-list-item>
         <v-list-item>
           <v-btn variant="plain" x-small class="nav-btn body-2 font-weight-medium" active-class="primary--text"
-            href="/projects">
+            to="/projects">
             Projects
           </v-btn>
         </v-list-item>
         <v-list-item>
           <v-btn variant="plain" x-small class="nav-btn body-2 font-weight-medium" active-class="primary--text"
-            :to="'/education'" nuxt>
+            to="/education" nuxt>
             Education
           </v-btn>
         </v-list-item>
@@ -103,6 +103,12 @@
           <v-btn variant="plain" x-small class="nav-btn body-2 font-weight-medium" active-class="primary--text"
             href="https://cornelldatascience.github.io/education-blogs/">
             Blog
+          </v-btn>
+        </v-list-item>
+        <v-list-item>
+          <v-btn variant="plain" x-small class="nav-btn body-2 font-weight-medium" active-class="primary--text"
+            to="/contact" nuxt>
+            Contact
           </v-btn>
         </v-list-item>
         <v-list-item>
