@@ -11,7 +11,7 @@
     <div class="hidden-sm-and-down">
       <v-menu open-on-hover bottom offset-y>
         <template v-slot:activator="{ props }">
-          <v-btn plain small class="nav-btn mx-2 body-2 font-weight-medium" active-class="primary--text" :to="'/teams'"
+          <v-btn variant="tonal" class="nav-btn mx-2 body-2 font-weight-bold" active-class="primary--text" :to="'/teams'"
             v-bind="props" nuxt>
             Teams
           </v-btn>
@@ -20,29 +20,29 @@
         <v-list>
           <v-list-item v-for="(item, index) in teams" :key="index">
             <v-list-item-title>
-              <v-btn plain class="nav-btn mx-2 body-2 font-weight-medium" active-class="primary--text" v-bind:to="item.to"
-                nuxt>
+              <v-btn variant="plain" class="nav-btn mx-2 body-2 font-weight-bold" active-class="primary--text"
+                v-bind:to="item.to" nuxt>
                 {{ item.title }}
               </v-btn>
             </v-list-item-title>
           </v-list-item>
         </v-list>
       </v-menu>
-      <v-btn plain small class="nav-btn mx-2 body-2 font-weight-medium" active-class="primary--text" href="/projects">
+      <v-btn variant="plain" class="nav-btn mx-2 body-2 font-weight-bold" active-class="primary--text" href="/projects">
         Projects
       </v-btn>
-      <v-btn plain small class="nav-btn mx-2 body-2 font-weight-medium" active-class="primary--text" :to="'/education'"
+      <v-btn variant="plain" class="nav-btn mx-2 body-2 font-weight-bold" active-class="primary--text" :to="'/education'"
         nuxt>
         Education
       </v-btn>
-      <v-btn plain small class="nav-btn mx-2 body-2 font-weight-medium" active-class="primary--text"
+      <v-btn variant="plain" class="nav-btn mx-2 body-2 font-weight-bold" active-class="primary--text"
         href="https://cornelldatascience.github.io/education-blogs/">
         Blog
       </v-btn>
-      <v-btn plain small class="nav-btn mx-2 body-2 font-weight-medium" active-class="primary--text" href="/contact">
+      <v-btn variant="plain" class="nav-btn mx-2 body-2 font-weight-bold" active-class="primary--text" href="/contact">
         Contact
       </v-btn>
-      <v-btn plain small id="applybtn" class="nav-btn mx-2 navColor white--text body-2 font-weight-bold rounded-xl"
+      <v-btn variant="tonal" id="applybtn" class="nav-btn mx-2 navColor white--text body-2 font-weight-bold rounded-xl"
         to="/recruitment" nuxt>
         Apply
       </v-btn>
