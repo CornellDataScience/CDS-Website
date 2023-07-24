@@ -1,5 +1,5 @@
 <template>
-    <Team v-bind:title="teamName" v-bind:leads="ds.teamleads" v-bind:advisors="ds.advisors" v-bind:members="ds.members" />
+  <Team v-bind:title="teamName" v-bind:leads="ds.teamleads" v-bind:advisors="ds.advisors" v-bind:members="ds.members" />
 </template>
 
 <script setup lang="ts">

@@ -1,6 +1,6 @@
 <template>
-    <!-- Why are we passing in each field of a team instead of the whole object? Refactor later -->
-    <Team v-bind:title="teamName" v-bind:leads="de.teamleads" v-bind:advisors="de.advisors" v-bind:members="de.members" />
+  <!-- Why are we passing in each field of a team instead of the whole object? Refactor later -->
+  <Team v-bind:title="teamName" v-bind:leads="de.teamleads" v-bind:advisors="de.advisors" v-bind:members="de.members" />
 </template>
 
 <script setup lang="ts">
