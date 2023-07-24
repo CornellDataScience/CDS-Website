@@ -8,7 +8,7 @@
         <v-col cols="12" sm="4" md="3" xl="2" v-for="member in eboard.people" v-bind:key="member.name"
           class="text-center">
           <v-card class="rounded-xl mx-auto" height="200" width="200">
-            <v-img :src="member.image" class="fill-height" max-height="200"></v-img>
+            <v-img cover :src="member.image" class="fill-height" max-height="200"></v-img>
           </v-card>
           <b>
             <p class="mt-2">{{ member.title }}</p>

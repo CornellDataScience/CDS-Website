@@ -2,7 +2,7 @@
   <div>
     <div>
       <v-parallax width="100%" :src="home.img" :lazy-src="home.img" gradient="rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)"
-        height="750" class="align-center">
+        height="600" class="align-center">
         <p class="mx-2 d-flex justify-center text-h2 text-white font-weight-medium title">
           Cornell Data Science
         </p>
@@ -30,7 +30,7 @@
               <v-card-text>
                 {{ item.body }}
               </v-card-text>
-              <v-img :src="item.img" max-height="200" class="mt-auto rounded-xl mx-4" height="200px"></v-img>
+              <v-img cover :src="item.img" max-height="200" class="mt-auto rounded-xl mx-4" height="200px"></v-img>
             </v-card>
           </v-hover>
           <!--<HomeBlockAlt v-bind:title="item.title" v-bind:index="index" v-bind:data="item.body" v-bind:img="item.img"></HomeBlockAlt>-->
@@ -41,7 +41,7 @@
           <template v-slot:leftContent>
             <p>{{ teams.description }}</p>
           </template>
-          <v-img aspect-ratio="3" class="rounded-xl" :src="teamsImage"></v-img>
+          <v-img cover aspect-ratio="3" class="rounded-xl" :src="teamsImage"></v-img>
         </Block>
       </FloatingCard>
       <FloatingCard link="/teams/eboard">
@@ -49,7 +49,7 @@
           <template v-slot:leftContent>
             <p>{{ home.people }}</p>
           </template>
-          <v-img aspect-ratio="2.5" class="rounded-xl" :src="eboardImage"></v-img>
+          <v-img cover aspect-ratio="2.5" class="rounded-xl" :src="eboardImage"></v-img>
         </Block>
       </FloatingCard>
       <FloatingCard link="/education">
@@ -57,7 +57,7 @@
           <template v-slot:leftContent>
             <p>{{ home.education }}</p>
           </template>
-          <v-img aspect-ratio="3" class="rounded-xl" :src="educationImage"></v-img>
+          <v-img cover aspect-ratio="3" class="rounded-xl" :src="educationImage"></v-img>
         </Block>
       </FloatingCard>
 

@@ -1,7 +1,7 @@
 <template>
   <div>
     <div>
-      <v-img :src="education.img" :lazy-src="education.img" gradient="rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)"
+      <v-img cover :src="education.img" :lazy-src="education.img" gradient="rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)"
         :aspect-ratio="3" class="align-center">
         <p class="mx-8 d-flex justify-center text-h2 text-white font-weight-medium title">
           Education
@@ -26,7 +26,7 @@
           <template v-slot:leftContent>
             <p v-html="item.body"></p>
           </template>
-          <v-img aspect-ratio="2.5" :src="item.img" class="rounded-xl" />
+          <v-img cover aspect-ratio="2" :src="item.img" class="rounded-xl" />
         </Block>
       </FloatingCard>
       <br>
