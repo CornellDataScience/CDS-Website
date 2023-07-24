@@ -10,17 +10,17 @@ const cdsLight = {
   secondary: '#595B86',
   accent: '#F3A93C',
 }
-const cdsDark = {
-  dark: true,
-  primary: colors.deepPurple.lighten3,
-  navColor: colors.deepPurple,
-  accent: '#F3A93C',
-  secondary: '#8587AD',
-  info: colors.teal.lighten1,
-  warning: colors.amber.base,
-  error: colors.deepOrange.accent4,
-  success: colors.green.accent3,
-}
+// const cdsDark = {
+//   dark: true,
+//   primary: colors.deepPurple.lighten3,
+//   navColor: colors.deepPurple,
+//   accent: '#F3A93C',
+//   secondary: '#8587AD',
+//   info: colors.teal.lighten1,
+//   warning: colors.amber.base,
+//   error: colors.deepOrange.accent4,
+//   success: colors.green.accent3,
+// }
 
 export default defineNuxtPlugin((nuxtApp) => {
   const vuetify = createVuetify({
@@ -28,10 +28,10 @@ export default defineNuxtPlugin((nuxtApp) => {
     components,
     directives,
     theme: {
-      defaultTheme: 'cdsDark',
+      defaultTheme: 'cdsLight',
       themes: {
         cdsLight,
-        cdsDark,
+        // cdsDark,
       },
     },
   })
