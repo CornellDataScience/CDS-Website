@@ -11,7 +11,7 @@
     <div class="hidden-sm-and-down">
       <v-menu open-on-hover bottom offset-y>
         <template v-slot:activator="{ props }">
-          <v-btn variant="tonal" class="nav-btn mx-2 body-2 font-weight-bold" active-class="primary--text" :to="'/teams'"
+          <v-btn variant="plain" class="nav-btn mx-2 body-2 font-weight-bold" active-class="primary--text" :to="'/teams'"
             v-bind="props" nuxt>
             Teams
           </v-btn>
