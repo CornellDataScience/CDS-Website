@@ -10,8 +10,9 @@
           <v-hover v-slot:default="{ props, isHovering }">
             <v-card shaped class="rounded-xl py-4 d-flex flex-column" :href="item.github" height="100%"
               :elevation="isHovering ? 12 : 2">
-              <v-card-title class="text-h5 text-center font-weight-medium mx-md-8 justify-center primary--text"> {{
-                item.name }}</v-card-title>
+              <v-card-title style="word-break: break-word"
+                class="text-h5 text-center font-weight-medium mx-md-8 justify-center primary--text"> {{
+                  item.name }}</v-card-title>
               <v-card-text class="font-weight-small">
                 {{ item.description }}
               </v-card-text>
