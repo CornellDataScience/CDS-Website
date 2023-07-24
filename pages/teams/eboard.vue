@@ -25,11 +25,8 @@ import eboard from '~/assets/json/teams/eboard.json';
 
 // workaround to get around broken of dynamic requires in Vue 3
 // took me forever to figure out
-eboard.people = eboard.people.map(person => {
-  // for some reason only a relative path works - ~/, @/, and ./ don't work
-  const imageUrl = new URL(`../../assets/img/headshots/${person.image}`, import.meta.url).href
-  return { ...person, image: imageUrl }
-})
+// the getImgUrl is defined in `utils/helpers.ts`
+eboard.people = eboard.people.map(person => ({ ...person, image: getImgUrl(`headshots/${person.image}`) }))
 
 useHead({ title: 'Executive Board' })
 </script>

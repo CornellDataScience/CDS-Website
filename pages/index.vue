@@ -81,15 +81,13 @@
 import home from '~/assets/json/home.json';
 import teams from '~/assets/json/teams.json';
 
-home.img = new URL(`../assets/img/${home.img}`, import.meta.url).href
-home.sponsorImages = home.sponsorImages.map((img) => new URL(`../assets/img/${img}`, import.meta.url).href)
-home.info = home.info.map((info) => {
-  return { ...info, img: new URL(`../assets/img/${info.img}`, import.meta.url).href }
-})
+home.img = getImgUrl(home.img)
+home.sponsorImages = home.sponsorImages.map((img) => getImgUrl(img))
+home.info = home.info.map((info) => ({ ...info, img: getImgUrl(info.img) }))
 
-const educationImage = new URL(`../assets/img/info1998_2.png`, import.meta.url).href
-const eboardImage = new URL(`../assets/img/people.jpg`, import.meta.url).href
-const teamsImage = new URL(`../assets/img/home1.jpg`, import.meta.url).href
+const educationImage = getImgUrl('info1998_2.png')
+const eboardImage = getImgUrl('people.jpg')
+const teamsImage = getImgUrl('home1.jpg')
 
 useHead({
   title: 'Cornell Data Science',
