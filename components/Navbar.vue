@@ -51,7 +51,7 @@
     <!-- Mobile Nav Bar -->
     <v-menu open-on-click bottom offset-y>
       <template v-slot:activator="{ props }">
-        <v-btn plain class="hidden-md-and-up nav-btn body-2 font-weight-medium" active-class="primary--text"
+        <v-btn variant="plain" class="hidden-md-and-up nav-btn body-2 font-weight-medium" active-class="primary--text"
           v-bind="props">
           <v-icon large>mdi-menu</v-icon>
         </v-btn>
@@ -61,7 +61,8 @@
         <v-list-item>
           <v-menu offset-y>
             <template v-slot:activator="{ props }">
-              <v-btn plain x-small class="nav-btn body-2 font-weight-medium" active-class="primary--text" v-bind="props">
+              <v-btn variant="plain" x-small class="nav-btn body-2 font-weight-medium" active-class="primary--text"
+                v-bind="props">
                 Teams
               </v-btn>
             </template>
@@ -69,7 +70,7 @@
             <v-list nav>
               <v-list-item>
                 <v-list-item-title>
-                  <v-btn plain x-small class="nav-btn body-2 font-weight-medium" active-class="primary--text"
+                  <v-btn variant="plain" x-small class="nav-btn body-2 font-weight-medium" active-class="primary--text"
                     v-bind:to="'/teams'" nuxt>
                     Overview
                   </v-btn>
@@ -77,7 +78,7 @@
               </v-list-item>
               <v-list-item v-for="(item, index) in teams" :key="index">
                 <v-list-item-title>
-                  <v-btn plain x-small class="nav-btn body-2 font-weight-medium" active-class="primary--text"
+                  <v-btn variant="plain" x-small class="nav-btn body-2 font-weight-medium" active-class="primary--text"
                     v-bind:to="item.to" nuxt>
                     {{ item.title }}
                   </v-btn>
@@ -87,18 +88,19 @@
           </v-menu>
         </v-list-item>
         <v-list-item>
-          <v-btn plain x-small class="nav-btn body-2 font-weight-medium" active-class="primary--text" href="/projects">
+          <v-btn variant="plain" x-small class="nav-btn body-2 font-weight-medium" active-class="primary--text"
+            href="/projects">
             Projects
           </v-btn>
         </v-list-item>
         <v-list-item>
-          <v-btn plain x-small class="nav-btn body-2 font-weight-medium" active-class="primary--text" :to="'/education'"
-            nuxt>
+          <v-btn variant="plain" x-small class="nav-btn body-2 font-weight-medium" active-class="primary--text"
+            :to="'/education'" nuxt>
             Education
           </v-btn>
         </v-list-item>
         <v-list-item>
-          <v-btn plain x-small class="nav-btn body-2 font-weight-medium" active-class="primary--text"
+          <v-btn variant="plain" x-small class="nav-btn body-2 font-weight-medium" active-class="primary--text"
             href="https://cornelldatascience.github.io/education-blogs/">
             Blog
           </v-btn>
