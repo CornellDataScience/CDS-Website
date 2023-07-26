@@ -66,7 +66,7 @@
         A special thanks to our sponsors:
       </p>
       <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(10rem, 10rem)); align-items: center;"
-        class="center justify-center mx-16" align="center" justify="center">
+        class="center justify-center mx-16" justify="center">
         <div v-for=" img  in  home.sponsorImages " v-bind:key="img" class="center">
           <v-img :src="img" :aspect-ratio="1" class="justify-center mx-4 my-4" contain></v-img>
         </div>

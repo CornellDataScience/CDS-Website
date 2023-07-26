@@ -7,7 +7,7 @@
 import de from '~/assets/json/teams/de.json';
 
 // Why is this hardcoded in the Vue page? We should move team name to the JSON files
-const teamName = 'Data Engineering'
+const teamName = de.title
 
 useHead({ title: teamName })
 </script>

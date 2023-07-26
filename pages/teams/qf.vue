@@ -5,6 +5,6 @@
 <script setup lang="ts">
 import qf from '~/assets/json/teams/qf.json';
 
-const teamName = 'Quantitative Finance'
+const teamName = qf.title
 useHead({ title: teamName })
 </script>

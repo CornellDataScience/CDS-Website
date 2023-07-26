@@ -6,6 +6,6 @@
 <script setup lang="ts">
 import mle from '~/assets/json/teams/mle.json';
 
-const teamName = 'Machine Learning Engineering'
+const teamName = mle.title
 useHead({ title: teamName })
 </script>

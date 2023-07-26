@@ -5,6 +5,6 @@
 <script setup lang="ts">
 import ds from '~/assets/json/teams/ds.json';
 
-const teamName = 'Data Science'
+const teamName = ds.title
 useHead({ title: teamName })
 </script>
