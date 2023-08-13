@@ -15,12 +15,16 @@
     }],
     "members": [
         {
-            "name": "Travis Zhang",
-            "image": "TravisZhang.jpg"
+            "name": "Darren Key",
+            "image": "DarrenKey.jpg"
         },
         {
             "name": "Samuel Meisner",
             "image": "SamuelMeisner.jpg"
+        },
+        {
+            "name": "Travis Zhang",
+            "image": "TravisZhang.jpg"
         },
         {
             "name": "Varun Gande",
@@ -97,10 +101,6 @@
         {
             "name": "Audrey Wang",
             "image": "AudreyWang.jpg"
-        },
-        {
-            "name": "Darren Key",
-            "image": "DarrenKey.jpg"
         },
         {
             "name": "Jason Zheng",

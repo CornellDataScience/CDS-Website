@@ -15,6 +15,14 @@
     }],
     "members": [
         {
+            "name": "Mei Lin Hu",
+            "image": "MeiLinHu.jpg"
+        },
+        {
+            "name": "Arnav Agrawal",
+            "image": "ArnavAgrawal.jpg"
+        },
+        {
             "name": "Andrew Chang",
             "image": "AndrewChang.jpg"
         },
@@ -41,10 +49,6 @@
         {
             "name": "Vincent Fong",
             "image": "VincentFong.jpg"
-        },
-        {
-            "name": "Mei Lin Hu",
-            "image": "MeiLinHu.jpg"
         },
         {
             "name": "Andrea Siby",
@@ -81,10 +85,6 @@
         {
             "name": "Andy He",
             "image": "AndyHe.jpg"
-        },
-        {
-            "name": "Arnav Agrawal",
-            "image": "ArnavAgrawal.jpg"
         },
         {
             "name": "Kenneth Chiem",

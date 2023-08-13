@@ -1,39 +1,37 @@
 <template>
-  <v-app >
+  <v-app>
     <Navbar></Navbar>
 
     <v-main>
       <!-- <v-container> -->
-        <Nuxt />
+      <Nuxt />
       <!-- </v-container> -->
     </v-main>
-    
-    <v-footer
-      class="justify-center py-5 mt-5"
-    >
+
+    <v-footer class="justify-center py-5 mt-5">
       <div>
         <v-row class="justify-center" height="20px">
           <v-col cols="3">
             <v-btn icon href="mailto:cornelldatascience@gmail.com">
-              <font-awesome-icon icon="envelope" size="lg"/>
+              <font-awesome-icon icon="envelope" size="lg" />
             </v-btn>
           </v-col>
 
           <v-col cols="3">
             <v-btn icon href="https://www.instagram.com/cornelldatascience/" target="_blank">
-              <font-awesome-icon :icon="faInstagram" size="lg"/>
+              <font-awesome-icon :icon="faInstagram" size="lg" />
             </v-btn>
           </v-col>
 
           <v-col cols="3">
             <v-btn icon href="https://www.facebook.com/CornellDataScience/" target="_blank">
-              <font-awesome-icon :icon="faFacebook" size="lg"/>
+              <font-awesome-icon :icon="faFacebook" size="lg" />
             </v-btn>
           </v-col>
 
           <v-col cols="3">
             <v-btn icon href="https://github.com/CornellDataScience/" target="_blank">
-              <font-awesome-icon :icon="faGithub" size="lg"/>
+              <font-awesome-icon :icon="faGithub" size="lg" />
             </v-btn>
           </v-col>
 
@@ -48,23 +46,23 @@
 </template>
 
 <script>
-import { faInstagram, faFacebook, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons';
 export default {
   components: {
     // SvgIcon
   },
   computed: {
-    faInstagram () {
+    faInstagram() {
       return faInstagram
     },
-    faFacebook () {
+    faFacebook() {
       return faFacebook
     },
-    faGithub () {
+    faGithub() {
       return faGithub
     }
   },
-  data () {
+  data() {
     return {
       hover: false,
       title: 'Cornell Data Science',
@@ -96,7 +94,6 @@ export default {
 </script>
 
 <style scoped>
-
 .nav-btn:before {
   color: var(--v-secondary-base);
 }

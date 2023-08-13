@@ -15,20 +15,20 @@
     }],
     "members": [
         {
-            "name": "Ethan Mah",
-            "image": "EthanMah.jpg"
-        },
-        {
-            "name": "Evan Williams",
-            "image": "EvanWilliams.jpg"
-        },
-        {
             "name": "David Han",
             "image": "DavidHan.jpg"
         },
         {
             "name": "Mason Bulling",
             "image": "MasonBulling.jpg"
+        },
+        {
+            "name": "Ethan Mah",
+            "image": "EthanMah.jpg"
+        },
+        {
+            "name": "Evan Williams",
+            "image": "EvanWilliams.jpg"
         },
         {
             "name": "Divya Damodaran",
