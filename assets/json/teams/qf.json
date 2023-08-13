@@ -15,12 +15,16 @@
     }],
     "members": [
         {
-            "name": "Tanvi Kapoor",
-            "image": "TanviKapoor.jpg"
+            "name": "Iram Liu",
+            "image": "IramLiu.jpg"
         },
         {
             "name": "Pratham Rawat",
             "image": "PrathamRawat.jpg"
+        },
+        {
+            "name": "Tanvi Kapoor",
+            "image": "TanviKapoor.jpg"
         },
         {
             "name": "Rohan Shah",
@@ -41,10 +45,6 @@
         {
             "name": "Alkiviades Boukas",
             "image": "AlkiviadesBoukas.jpg"
-        },
-        {
-            "name": "Iram Liu",
-            "image": "IramLiu.jpg"
         },
         {
             "name": "Rucha Gharpure",
