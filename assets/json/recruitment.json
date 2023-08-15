@@ -1,20 +1,20 @@
 {
     "title" : "Recruitment",
-    "description" : "Cornell Data Science is recruiting for Spring 2023! Please attend our Information Sessions to learn more and get any specific questions answered. The timeline is shown below.  The DS and QF subteams are only recruiting freshmen, and the MLE subteam is only recruiting upperclassmen. Both applications are due February 4th, 2023.",
+    "description" : "Cornell Data Science is recruiting for Fall 2023! Please attend our information sessions on August 23rd and 24th to learn more and get any specific questions answered. All subteams are recruiting both freshmen and upperclassmen this semester! The full timeline is shown below.",
     "info" : [
         {
             "title" : "Info Sessions",
             "link" : "",
-            "body" : "Information Sessions will be held on <b>January 26, 2023</b> (Thursday) at 5:30pm in Upson 216. If you were unable to make the info session, the slides are <a href='https://docs.google.com/presentation/d/1qgSXiqW83wP36x6JNChpt-n2_X-kkh5uuvuwhvmIS40/edit?usp=sharing'>here</a>."
+            "body" : "Information Sessions will be held at 5:30pm on <b>Wednesday, August 23rd, 2023</b> and <b>Thursday, August 24th, 2023</b> (location TBD). If you are unable to attend the info session, the slides will be posted here after the second info session."
         },
         {
             "title" : "Application",
-            "body" : "Three subteams - Machine Learning Engineering (MLE), Data Science (DS), Quantitative Finance (QF) - are recruiting this semester (Spring 2023). <b>DS and QF are only recruiting freshmen and MLE is only recruiting upperclassmen.</b> Applications are due February 4th, 2023. After the application review, selected candidates will be contacted to schedule interviews. <br><br> <b>We are no longer accepting applications for this semester.</b>"
+            "body" : "<b>All subteams are recruiting both freshmen and upperclassmen this semester</b> (Fall 2023). Applications are due <b>Thursday, August 31st for upperclassmen</b> and <b>Thursday, September 28th for freshmen and transfer students</b>. After the application review, selected candidates will be contacted to schedule interviews."
         },
         {
             "title" : "Interviews",
             "link" : "",
-            "body" : "We will reach out to select applicants to conduct interviews over the following weeks. These will be both technical and behavioral. More information, and materials will be sent to those in question."
+            "body" : "We will reach out to select applicants to conduct interviews over the following weeks. These will be both technical and behavioral. More information and interview materials will be sent to selected applicants."
         }
     ]
 }
