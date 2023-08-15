@@ -28,7 +28,7 @@
           </v-list-item>
         </v-list>
       </v-menu>
-      <v-btn plain small class="nav-btn mx-2 body-2 font-weight-medium" active-class="primary--text" href="/projects">
+      <v-btn plain small class="nav-btn mx-2 body-2 font-weight-medium" active-class="primary--text" to="/projects">
         Projects
       </v-btn>
       <v-btn plain small class="nav-btn mx-2 body-2 font-weight-medium" active-class="primary--text" :to="'/education'"
@@ -39,7 +39,7 @@
         href="https://cornelldatascience.github.io/education-blogs/">
         Blog
       </v-btn>
-      <v-btn plain small class="nav-btn mx-2 body-2 font-weight-medium" active-class="primary--text" href="/contact">
+      <v-btn plain small class="nav-btn mx-2 body-2 font-weight-medium" active-class="primary--text" to="/contact">
         Contact
       </v-btn>
       <v-btn text small class="nav-btn mx-2 navColor white--text body-2 font-weight-medium rounded-xl" to="/recruitment"
@@ -86,7 +86,7 @@
           </v-menu>
         </v-list-item>
         <v-list-item>
-          <v-btn plain x-small class="nav-btn body-2 font-weight-medium" active-class="primary--text" href="/projects">
+          <v-btn plain x-small class="nav-btn body-2 font-weight-medium" active-class="primary--text" to="/projects">
             Projects
           </v-btn>
         </v-list-item>
