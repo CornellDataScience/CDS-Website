@@ -23,6 +23,10 @@
             "image": "SamuelMeisner.jpg"
         },
         {
+            "name": "Emerald Liu",
+            "image": "EmeraldLiu.jpg"
+        },
+        {
             "name": "Travis Zhang",
             "image": "TravisZhang.jpg"
         },
@@ -105,10 +109,6 @@
         {
             "name": "Jason Zheng",
             "image": "JasonZheng.jpg"
-        },
-        {
-            "name": "Emerald Liu",
-            "image": "EmeraldLiu.jpg"
         },
         {
             "name": "Deniz Boloni-Turgut",
