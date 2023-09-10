@@ -1,88 +1,156 @@
-  {
-      "alumni": [
-          {
-              "name": "Magd Bayoumi",
-              "image": "MagdBayoumi.jpg"
-          },
-          {
-              "name": "Stephen Tse",
-              "image": "StephenTse.jpg"
-          },
-          {
-              "name": "Victor Butoi",
-              "image": "VictorButoi.jpg"
-          },
-          {
-              "name": "Phillip Si",
-              "image": "PhillipSi.jpg"
-          },
-          {
-              "name": "Bonnie Akhavan",
-              "image": "BonnieAkhavan.jpg"
-          },
-          {
-              "name": "Cora Wu",
-              "image": "CoraWu.jpg"
-          },
-          {
-              "name": "Sanjali Jha",
-              "image": "SanjaliJha.jpg"
-          },
-          {
-              "name": "Elliot van Huijgevoort",
-              "image": "ElliotvanHuijgevoort.jpg"
-          },
-          {
-              "name": "Will Bekerman",
-              "image": "WillBekerman.jpg"
-          },
-          {
-              "name": "Jack Farley",
-              "image": "JackFarley.jpg"
-          },
-          {
-              "name": "Emily Weed",
-              "image": "EmilyWeed.jpg"
-          },
-          {
-              "name": "John O'Donnell",
-              "image": "JohnO'Donnell.jpg"
-          },
-          {
-              "name": "Rafael Chaves",
-              "image": "RafaelChaves.jpg"
-          },
-          {
-              "name": "Elias Little",
-              "image": "EliasLittle.jpg"
-          },
-          {
-              "name": "Shihao Cao",
-              "image": "ShihaoCao.jpg"
-          },
-          {
-              "name": "Alexander Wang",
-              "image": "AlexanderWang.jpg"
-          },
-          {
-              "name": "Kaitlyn Chen",
-              "image": "KaitlynChen.jpg"
-          },
-          {
-              "name": "Kevin Zhou",
-              "image": "KevinZhou.jpg"
-          },
-          {
-              "name": "Daniela Rodriguez-Chavez",
-              "image": "DanielaRodriguez-Chavez.jpg"
-          },
-          {
-              "name": "Seonghee Lee",
-              "image": "SeongheeLee.jpg"
-          },
-          {
-              "name": "Ronin Sharma",
-              "image": "RoninSharma.jpg"
-          }
-      ]
-  }
+{
+    "alumni": [
+        {
+            "name": "Magd Bayoumi",
+            "image": "MagdBayoumi.jpg"
+        },
+        {
+            "name": "Stephen Tse",
+            "image": "StephenTse.jpg"
+        },
+        {
+            "name": "Victor Butoi",
+            "image": "VictorButoi.jpg"
+        },
+        {
+            "name": "Phillip Si",
+            "image": "PhillipSi.jpg"
+        },
+        {
+            "name": "Bonnie Akhavan",
+            "image": "BonnieAkhavan.jpg"
+        },
+        {
+            "name": "Cora Wu",
+            "image": "CoraWu.jpg"
+        },
+        {
+            "name": "Sanjali Jha",
+            "image": "SanjaliJha.jpg"
+        },
+        {
+            "name": "Elliot van Huijgevoort",
+            "image": "ElliotvanHuijgevoort.jpg"
+        },
+        {
+            "name": "Will Bekerman",
+            "image": "WillBekerman.jpg"
+        },
+        {
+            "name": "Jack Farley",
+            "image": "JackFarley.jpg"
+        },
+        {
+            "name": "Emily Weed",
+            "image": "EmilyWeed.jpg"
+        },
+        {
+            "name": "John O'Donnell",
+            "image": "JohnO'Donnell.jpg"
+        },
+        {
+            "name": "Rafael Chaves",
+            "image": "RafaelChaves.jpg"
+        },
+        {
+            "name": "Elias Little",
+            "image": "EliasLittle.jpg"
+        },
+        {
+            "name": "Shihao Cao",
+            "image": "ShihaoCao.jpg"
+        },
+        {
+            "name": "Alexander Wang",
+            "image": "AlexanderWang.jpg"
+        },
+        {
+            "name": "Kaitlyn Chen",
+            "image": "KaitlynChen.jpg"
+        },
+        {
+            "name": "Kevin Zhou",
+            "image": "KevinZhou.jpg"
+        },
+        {
+            "name": "Daniela Rodriguez-Chavez",
+            "image": "DanielaRodriguez-Chavez.jpg"
+        },
+        {
+            "name": "Seonghee Lee",
+            "image": "SeongheeLee.jpg"
+        },
+        {
+            "name": "Divya Damodaran",
+            "image": "DivyaDamodaran.jpg"
+        },
+        {
+            "name": "Neil Estrada",
+            "image": "NeilEstrada.jpg"
+        },
+        {
+            "name": "Elva Gao",
+            "image": "ElvaGao.jpg"
+        },
+        {
+            "name": "Brendan Lo",
+            "image": "BrendanLo.jpg"
+        },
+        {
+            "name": "Iris Li",
+            "image": "IrisLi.jpg"
+        },
+        {
+            "name": "Amrith Kumaar",
+            "image": "AmrithKumaar.jpg"
+        },
+        {
+            "name": "Eric Zhang",
+            "image": "EricZhang.jpg"
+        },
+        {
+            "name": "Kevin Jiang",
+            "image": "KevinJiang.jpg"
+        },
+        {
+            "name": "Altria Wang",
+            "image": "AltriaWang.jpg"
+        },
+        {
+            "name": "Johann Lee",
+            "image": "JohannLee.jpg"
+        },
+        {
+            "name": "Tobi Alade",
+            "image": "TobiAlade.jpg"
+        },
+        {
+            "name": "Melinda Fang",
+            "image": "MelindaFang.jpg"
+        },
+        {
+            "name": "Jerry Sun",
+            "image": "JerrySun.jpg"
+        },
+        {
+            "name": "Wendy Huang",
+            "image": "WendyHuang.jpg"
+        },
+        {
+            "name": "Ronin Sharma",
+            "image": "RoninSharma.jpg"
+        },
+        {
+            "name": "Nicole Hao",
+            "image": "NicoleHao.jpg"
+        },
+        {
+            "name": "Uday Kolla",
+            "image": "UdayKolla.jpg"
+        },
+        {
+            "name": "Rucha Gharpure",
+            "image": "RuchaGharpure.jpg"
+        }
+    ]
+}

@@ -35,16 +35,8 @@
             "image": "EdwardGu.jpg"
         },
         {
-            "name": "Amrith Kumaar",
-            "image": "AmrithKumaar.jpg"
-        },
-        {
             "name": "Everett Lee",
             "image": "EverettLee.jpg"
-        },
-        {
-            "name": "Jerry Sun",
-            "image": "JerrySun.jpg"
         },
         {
             "name": "Vincent Fong",
@@ -59,24 +51,8 @@
             "image": "TakumaOsaka.jpg"
         },
         {
-            "name": "Srisha Gaur",
-            "image": "SrishaGaur.jpg"
-        },
-        {
-            "name": "Eric Zhang",
-            "image": "EricZhang.jpg"
-        },
-        {
-            "name": "Melinda Fang",
-            "image": "MelindaFang.jpg"
-        },
-        {
             "name": "Dan Wei Zuo",
             "image": "DanWeiZuo.jpg"
-        },
-        {
-            "name": "Wendy Huang",
-            "image": "WendyHuang.jpg"
         },
         {
             "name": "Alice Um",
@@ -87,12 +63,12 @@
             "image": "AndyHe.jpg"
         },
         {
-            "name": "Kenneth Chiem",
-            "image": "KennethChiem.jpg"
+            "name": "Tanisha Kore",
+            "image": "TanishaKore.jpg"
         },
         {
-            "name": "Nicole Hao",
-            "image": "NicoleHao.jpg"
+            "name": "Kenneth Chiem",
+            "image": "KennethChiem.jpg"
         }
     ]
 }   
