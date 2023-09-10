@@ -31,10 +31,6 @@
             "image": "EvanWilliams.jpg"
         },
         {
-            "name": "Divya Damodaran",
-            "image": "DivyaDamodaran.jpg"
-        },
-        {
             "name": "James Zhang",
             "image": "JamesZhang.jpg"
         },
@@ -47,18 +43,6 @@
             "image": "LisaLi.jpg"
         },
         {
-            "name": "Neil Estrada",
-            "image": "NeilEstrada.jpg"
-        },
-        {
-            "name": "Elva Gao",
-            "image": "ElvaGao.jpg"
-        },
-        {
-            "name": "Brendan Lo",
-            "image": "BrendanLo.jpg"
-        },
-        {
             "name": "Bryant Park",
             "image": "BryantPark.jpg"
         },
@@ -69,10 +53,6 @@
         {
             "name": "Chris Xu",
             "image": "ChrisXu.jpg"
-        },
-        {
-            "name": "Iris Li",
-            "image": "IrisLi.jpg"
         },
         {
             "name": "Emily Wang",
