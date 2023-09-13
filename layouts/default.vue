@@ -11,25 +11,25 @@
     <v-footer class="justify-center py-5 mt-5">
       <div>
         <v-row class="justify-center" height="20px">
-          <v-col cols="3">
+          <v-col cols="1">
             <v-btn icon href="mailto:cornelldatascience@gmail.com">
               <font-awesome-icon icon="envelope" size="lg" />
             </v-btn>
           </v-col>
 
-          <v-col cols="3">
+          <v-col cols="1">
             <v-btn icon href="https://www.instagram.com/cornelldatascience/" target="_blank">
               <font-awesome-icon :icon="faInstagram" size="lg" />
             </v-btn>
           </v-col>
 
-          <v-col cols="3">
+          <v-col cols="1">
             <v-btn icon href="https://www.facebook.com/CornellDataScience/" target="_blank">
               <font-awesome-icon :icon="faFacebook" size="lg" />
             </v-btn>
           </v-col>
 
-          <v-col cols="3">
+          <v-col cols="1">
             <v-btn icon href="https://github.com/CornellDataScience/" target="_blank">
               <font-awesome-icon :icon="faGithub" size="lg" />
             </v-btn>
@@ -38,7 +38,10 @@
         </v-row>
         <br>
         <span class="subtitle-1 text-center">
-          Cornell Data Science, &copy; {{ new Date().getFullYear() }}
+          &copy {{ new Date().getFullYear() }} Cornell Data Science.
+        </span>
+        <span class="text-center">
+          This organization is a registered student organization of Cornell University.
         </span>
       </div>
     </v-footer>
