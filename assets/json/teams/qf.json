@@ -1,74 +1,76 @@
 {
-    "teamleads": [
-        {
-            "name": "Iram Liu",
-            "link": ""
-        },
-        {
-            "name": "Pratham Rawat",
-            "link": ""
-        }
-    ],
-    "advisors": [{
-        "name": "Prof. Haym Hirsh",
-        "link": "https://www.cs.cornell.edu/~hirsh/"
-    }],
-    "members": [
-        {
-            "name": "Iram Liu",
-            "image": "IramLiu.jpg"
-        },
-        {
-            "name": "Pratham Rawat",
-            "image": "PrathamRawat.jpg"
-        },
-        {
-            "name": "Tanvi Kapoor",
-            "image": "TanviKapoor.jpg"
-        },
-        {
-            "name": "Rohan Shah",
-            "image": "RohanShah.jpg"
-        },
-        {
-            "name": "Jacob Mayourian",
-            "image": "JacobMayourian.jpg"
-        },
-        {
-            "name": "Noah Plant",
-            "image": "NoahPlant.jpg"
-        },
-        {
-            "name": "Alkiviades Boukas",
-            "image": "AlkiviadesBoukas.jpg"
-        },
-        {
-            "name": "Adona Anteneh",
-            "image": "AdonaAnteneh.jpg"
-        },
-        {
-            "name": "Samara Silverman",
-            "image": "SamaraSilverman.jpg"
-        },
-        {
-            "name": "Alyssa Serebrenik",
-            "image": "AlyssaSerebrenik.jpg"
-        },
-        {
-            "name": "Andrew Chen",
-            "image": "AndrewChen.jpg"
-        },
-        {
-            "name": "Arya Patel",
-            "image": "AryaPatel.jpg"
-        },
-        {
-            "name": "Wenyi (Jenny) Chen",
-            "image": "WenyiChen.jpg"
-        },
-        {
-            "name": "Jerry Chen",
-            "image": "JerryChen.jpg"
-        }
-    ]
-}   
+  "teamleads": [
+    {
+      "name": "Iram Liu",
+      "link": ""
+    },
+    {
+      "name": "Pratham Rawat",
+      "link": ""
+    }
+  ],
+  "advisors": [
+    {
+      "name": "Prof. Haym Hirsh",
+      "link": "https://www.cs.cornell.edu/~hirsh/"
+    }
+  ],
+  "members": [
+    {
+      "name": "Iram Liu",
+      "image": "IramLiu.jpg"
+    },
+    {
+      "name": "Pratham Rawat",
+      "image": "PrathamRawat.jpg"
+    },
+    {
+      "name": "Tanvi Kapoor",
+      "image": "TanviKapoor.jpg"
+    },
+    {
+      "name": "Rohan Shah",
+      "image": "RohanShah.jpg"
+    },
+    {
+      "name": "Jacob Mayourian",
+      "image": "JacobMayourian.jpg"
+    },
+    {
+      "name": "Noah Plant",
+      "image": "NoahPlant.jpg"
+    },
+    {
+      "name": "Alkiviades Boukas",
+      "image": "AlkiviadesBoukas.jpg"
+    },
+    {
+      "name": "Adona Anteneh",
+      "image": "AdonaAnteneh.jpg"
+    },
+    {
+      "name": "Samara Silverman",
+      "image": "SamaraSilverman.jpg"
+    },
+    {
+      "name": "Alyssa Serebrenik",
+      "image": "AlyssaSerebrenik.jpg"
+    },
+    {
+      "name": "Andrew Chen",
+      "image": "AndrewChen.jpg"
+    },
+    {
+      "name": "Arya Patel",
+      "image": "AryaPatel.jpg"
+    },
+    {
+      "name": "Jerry Chen",
+      "image": "JerryChen.jpg"
+    },
+    { "name": "Cody Torgovnik", "image": "CodyTorgovnik.jpg" },
+    { "name": "Jerry Wang", "image": "JerryWang.jpg" },
+    { "name": "Elizabeth Song", "image": "ElizabethSong.jpg" },
+    { "name": "Corey Wang", "image": "CoreyWang.jpg" }
+  ]
+}
