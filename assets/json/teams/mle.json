@@ -1,74 +1,77 @@
 {
-    "teamleads": [
-        {
-            "name": "Mei Lin Hu",
-            "link": ""
-        },
-        {
-            "name": "Arnav Agrawal",
-            "link": ""
-        }
-    ],
-    "advisors": [{
-        "name": "Prof. Christopher De Sa",
-        "link": "https://www.cs.cornell.edu/~cdesa/"
-    }],
-    "members": [
-        {
-            "name": "Mei Lin Hu",
-            "image": "MeiLinHu.jpg"
-        },
-        {
-            "name": "Arnav Agrawal",
-            "image": "ArnavAgrawal.jpg"
-        },
-        {
-            "name": "Andrew Chang",
-            "image": "AndrewChang.jpg"
-        },
-        {
-            "name": "Neha Kulshreshtha",
-            "image": "NehaKulshreshtha.jpg"
-        },
-        {
-            "name": "Edward Gu",
-            "image": "EdwardGu.jpg"
-        },
-        {
-            "name": "Everett Lee",
-            "image": "EverettLee.jpg"
-        },
-        {
-            "name": "Vincent Fong",
-            "image": "VincentFong.jpg"
-        },
-        {
-            "name": "Andrea Siby",
-            "image": "AndreaSiby.jpg"
-        },
-        {
-            "name": "Takuma Osaka",
-            "image": "TakumaOsaka.jpg"
-        },
-        {
-            "name": "Dan Wei Zuo",
-            "image": "DanWeiZuo.jpg"
-        },
-        {
-            "name": "Alice Um",
-            "image": "AliceUm.jpg"
-        },
-        {
-            "name": "Andy He",
-            "image": "AndyHe.jpg"
-        },
-        {
-            "name": "Tanisha Kore",
-            "image": "TanishaKore.jpg"
-        },
-        {
-            "name": "Kenneth Chiem",
-            "image": "KennethChiem.jpg"
-        }
-    ]
-}   
+  "teamleads": [
+    {
+      "name": "Mei Lin Hu",
+      "link": ""
+    },
+    {
+      "name": "Arnav Agrawal",
+      "link": ""
+    }
+  ],
+  "advisors": [
+    {
+      "name": "Prof. Christopher De Sa",
+      "link": "https://www.cs.cornell.edu/~cdesa/"
+    }
+  ],
+  "members": [
+    {
+      "name": "Mei Lin Hu",
+      "image": "MeiLinHu.jpg"
+    },
+    {
+      "name": "Arnav Agrawal",
+      "image": "ArnavAgrawal.jpg"
+    },
+    {
+      "name": "Andrew Chang",
+      "image": "AndrewChang.jpg"
+    },
+    {
+      "name": "Neha Kulshreshtha",
+      "image": "NehaKulshreshtha.jpg"
+    },
+    {
+      "name": "Edward Gu",
+      "image": "EdwardGu.jpg"
+    },
+    {
+      "name": "Everett Lee",
+      "image": "EverettLee.jpg"
+    },
+    {
+      "name": "Vincent Fong",
+      "image": "VincentFong.jpg"
+    },
+    {
+      "name": "Andrea Siby",
+      "image": "AndreaSiby.jpg"
+    },
+    {
+      "name": "Takuma Osaka",
+      "image": "TakumaOsaka.jpg"
+    },
+    {
+      "name": "Dan Wei Zuo",
+      "image": "DanWeiZuo.jpg"
+    },
+    {
+      "name": "Alice Um",
+      "image": "AliceUm.jpg"
+    },
+    {
+      "name": "Andy He",
+      "image": "AndyHe.jpg"
+    },
+    {
+      "name": "Tanisha Kore",
+      "image": "TanishaKore.jpg"
+    },
+    {
+      "name": "Kenneth Chiem",
+      "image": "KennethChiem.jpg"
+    },
+    { "name": "Yunoo Kim", "image": "YunooKim.jpg" }
+  ]
+}
