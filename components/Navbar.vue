@@ -39,6 +39,9 @@
         href="https://cornelldatascience.github.io/education-blogs/">
         Blog
       </v-btn>
+      <v-btn plain small class="nav-btn mx-2 body-2 font-weight-medium" active-class="primary--text" to="/alumni">
+        Alumni
+      </v-btn>
       <v-btn plain small class="nav-btn mx-2 body-2 font-weight-medium" active-class="primary--text" to="/contact">
         Contact
       </v-btn>
@@ -100,6 +103,12 @@
           <v-btn plain x-small class="nav-btn body-2 font-weight-medium" active-class="primary--text"
             href="https://cornelldatascience.github.io/education-blogs/">
             Blog
+          </v-btn>
+        </v-list-item>
+        <v-list-item>
+          <v-btn plain x-small class="nav-btn body-2 font-weight-medium" active-class="primary--text" :to="'/alumni'"
+            nuxt>
+            Alumni
           </v-btn>
         </v-list-item>
         <v-list-item>
