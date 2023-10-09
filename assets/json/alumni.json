@@ -82,21 +82,9 @@
     "image": "SeongheeLee.jpg"
   },
   {
-    "name": "Divya Damodaran",
-    "image": "DivyaDamodaran.jpg"
-  },
-  {
-    "name": "Neil Estrada",
-    "image": "NeilEstrada.jpg"
-  },
-  {
     "name": "Elva Gao",
     "image": "ElvaGao.jpg",
     "subteam": "DE"
-  },
-  {
-    "name": "Brendan Lo",
-    "image": "BrendanLo.jpg"
   },
   {
     "name": "David Kim",
@@ -123,18 +111,6 @@
     "image": "AltriaWang.jpg"
   },
   {
-    "name": "Johann Lee",
-    "image": "JohannLee.jpg"
-  },
-  {
-    "name": "Tobi Alade",
-    "image": "TobiAlade.jpg"
-  },
-  {
-    "name": "Melinda Fang",
-    "image": "MelindaFang.jpg"
-  },
-  {
     "name": "Jerry Sun",
     "image": "JerrySun.jpg",
     "subteam": "MLE",
@@ -147,10 +123,6 @@
   {
     "name": "Ronin Sharma",
     "image": "RoninSharma.jpg"
-  },
-  {
-    "name": "Nicole Hao",
-    "image": "NicoleHao.jpg"
   },
   {
     "name": "Uday Kolla",
