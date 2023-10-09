@@ -11,9 +11,9 @@
                     </v-card>
                     <p class="mt-2">
                         {{alumnus.name}}
-                        <span v-if="alumnus.gradYear || alumnus.subteam">
+                        <!-- <span v-if="alumnus.gradYear || alumnus.subteam">
                             (<span v-if="alumnus.subteam">{{ alumnus.subteam }}</span><span v-if="alumnus.gradYear && alumnus.subteam">&nbsp;</span><span v-if="alumnus.gradYear">'{{ alumnus.gradYear }}</span>)
-                        </span>
+                        </span> -->
                     </p>
                 </v-col>
             </v-row>
