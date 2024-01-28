@@ -7,7 +7,7 @@
             <v-row justify="center" class="mx-md-16">
                 <v-col cols="12" sm="4" md="3" xl="2" v-for="alumnus in alumni" v-bind:key="alumnus.name" class="text-center">
                     <v-card class="rounded-xl mx-auto" height="200" width="200">
-                    <v-img :src="require(`../assets/img/headshots/${alumnus.image}`)" class="fill-height" max-height="200"></v-img>
+                    <v-img :src="getImagePath(alumnus.image)" class="fill-height" max-height="200"></v-img>
                     </v-card>
                     <p class="mt-2">
                         {{alumnus.name}}
@@ -31,6 +31,15 @@ export default {
     data() {
         return {
             alumni: alumni
+        }
+    },
+    methods: {
+      getImagePath(imageName) {
+        try { 
+          return require(`../assets/img/headshots/${imageName}`);
+        } catch {
+          return require(`../assets/img/headshots/default.jpg`);
+        }
         }
     }
 }
