@@ -5,7 +5,7 @@
       "link": ""
     },
     {
-      "name": "Pratham Rawat",
+      "name": "Jerry Chen",
       "link": ""
     }
   ],
@@ -21,8 +21,8 @@
       "image": "IramLiu.jpg"
     },
     {
-      "name": "Pratham Rawat",
-      "image": "PrathamRawat.jpg"
+      "name": "Jerry Chen",
+      "image": "JerryChen.jpg"
     },
     {
       "name": "Tanvi Kapoor",
@@ -64,13 +64,10 @@
       "name": "Arya Patel",
       "image": "AryaPatel.jpg"
     },
-    {
-      "name": "Jerry Chen",
-      "image": "JerryChen.jpg"
-    },
     { "name": "Cody Torgovnik", "image": "CodyTorgovnik.jpg" },
     { "name": "Jerry Wang", "image": "JerryWang.jpg" },
     { "name": "Elizabeth Song", "image": "ElizabethSong.jpg" },
-    { "name": "Corey Wang", "image": "CoreyWang.jpg" }
+    { "name": "Corey Wang", "image": "CoreyWang.jpg" },
+    { "name": "Claudiu Illioi", "image": "ClaudiuIllioi.jpg" }
   ]
 }

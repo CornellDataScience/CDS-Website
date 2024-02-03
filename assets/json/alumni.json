@@ -124,5 +124,17 @@
     "name": "Uday Kolla",
     "image": "UdayKolla.jpg"
   },
-  { "name": "Johann Lee", "image": "JohannLee.jpg" }
+  { "name": "Johann Lee", "image": "JohannLee.jpg" },
+  {
+    "name": "Pratham Rawat",
+    "image": "PrathamRawat.jpg",
+    "gradYear": 23,
+    "subteam": "QF"
+  },
+  {
+    "name": "Connor Chen",
+    "image": "ConnorChen.jpg",
+    "gradYear": 23,
+    "subteam": "DE"
+  }
 ]

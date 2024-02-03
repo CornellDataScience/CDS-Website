@@ -1,11 +1,11 @@
 {
   "teamleads": [
     {
-      "name": "David Han",
+      "name": "Koji Kimura",
       "link": ""
     },
     {
-      "name": "Mason Bulling",
+      "name": "Srisha Gaur",
       "link": ""
     }
   ],
@@ -16,70 +16,21 @@
     }
   ],
   "members": [
-    {
-      "name": "David Han",
-      "image": "DavidHan.jpg"
-    },
-    {
-      "name": "Mason Bulling",
-      "image": "MasonBulling.jpg"
-    },
-    {
-      "name": "Ethan Mah",
-      "image": "EthanMah.jpg"
-    },
-    {
-      "name": "Evan Williams",
-      "image": "EvanWilliams.jpg"
-    },
-    {
-      "name": "James Zhang",
-      "image": "JamesZhang.jpg"
-    },
-    {
-      "name": "Ryan Lee",
-      "image": "RyanLee.jpg"
-    },
-    {
-      "name": "Lisa Li",
-      "image": "LisaLi.jpg"
-    },
-    {
-      "name": "Bryant Park",
-      "image": "BryantPark.jpg"
-    },
-    {
-      "name": "Connor Chen",
-      "image": "ConnorChen.jpg"
-    },
-    {
-      "name": "Chris Xu",
-      "image": "ChrisXu.jpg"
-    },
-    {
-      "name": "Emily Wang",
-      "image": "EmilyWang.jpg"
-    },
-    {
-      "name": "Pun Chaixanien",
-      "image": "PunChaixanien.jpg"
-    },
-    {
-      "name": "Benson Zhang",
-      "image": "BensonZhang.jpg"
-    },
-    {
-      "name": "Koji Kimura",
-      "image": "KojiKimura.jpg"
-    },
-    {
-      "name": "Ryan Ho",
-      "image": "RyanHo.jpg"
-    },
-    {
-      "name": "Abigail Kim",
-      "image": "AbigailKim.jpg"
-    },
-    { "name": "Srisha Gaur", "image": "SrishaGaur.jpg" }
+    { "name": "Srisha Gaur", "image": "SrishaGaur.jpg" },
+    { "name": "Koji Kimura", "image": "KojiKimura.jpg" },
+    { "name": "David Han", "image": "DavidHan.jpg" },
+    { "name": "Mason Bulling", "image": "MasonBulling.jpg" },
+    { "name": "Ethan Mah", "image": "EthanMah.jpg" },
+    { "name": "Evan Williams", "image": "EvanWilliams.jpg" },
+    { "name": "James Zhang", "image": "JamesZhang.jpg" },
+    { "name": "Ryan Lee", "image": "RyanLee.jpg" },
+    { "name": "Lisa Li", "image": "LisaLi.jpg" },
+    { "name": "Bryant Park", "image": "BryantPark.jpg" },
+    { "name": "Chris Xu", "image": "ChrisXu.jpg" },
+    { "name": "Emily Wang", "image": "EmilyWang.jpg" },
+    { "name": "Pun Chaixanien", "image": "PunChaixanien.jpg" },
+    { "name": "Benson Zhang", "image": "BensonZhang.jpg" },
+    { "name": "Ryan Ho", "image": "RyanHo.jpg" },
+    { "name": "Abigail Kim", "image": "AbigailKim.jpg" }
   ]
 }

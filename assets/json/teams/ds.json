@@ -5,7 +5,7 @@
       "link": ""
     },
     {
-      "name": "Samuel Meisner",
+      "name": "Skyler Shapiro",
       "link": ""
     }
   ],
@@ -19,6 +19,10 @@
     {
       "name": "Darren Key",
       "image": "DarrenKey.jpg"
+    },
+    {
+      "name": "Skyler Shapiro",
+      "image": "SkylerShapiro.jpg"
     },
     {
       "name": "Samuel Meisner",
@@ -71,10 +75,6 @@
     {
       "name": "Max Wang",
       "image": "MaxWang.jpg"
-    },
-    {
-      "name": "Skyler Shapiro",
-      "image": "SkylerShapiro.jpg"
     },
     {
       "name": "Mericel Tao",
