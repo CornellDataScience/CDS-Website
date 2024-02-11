@@ -68,6 +68,9 @@
     { "name": "Jerry Wang", "image": "JerryWang.jpg" },
     { "name": "Elizabeth Song", "image": "ElizabethSong.jpg" },
     { "name": "Corey Wang", "image": "CoreyWang.jpg" },
-    { "name": "Claudiu Illioi", "image": "ClaudiuIllioi.jpg" }
+    { "name": "Claudiu Illioi", "image": "ClaudiuIllioi.jpg" },
+    { "name": "Peter Ha", "image": "PeterHa.jpg" },
+    { "name": "Nancy Chen", "image": "NancyChen.jpg" },
+    { "name": "Santiago Palacios", "image": "SantiagoPalacios.jpg" }
   ]
 }

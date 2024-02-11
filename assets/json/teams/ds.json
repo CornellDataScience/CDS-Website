@@ -73,10 +73,6 @@
       "image": "VivianChen.jpg"
     },
     {
-      "name": "Max Wang",
-      "image": "MaxWang.jpg"
-    },
-    {
       "name": "Mericel Tao",
       "image": "MericelTao.jpg"
     },
@@ -101,6 +97,12 @@
       "image": "JakobSilver.jpg"
     },
     { "name": "Cade Jin", "image": "CadeJin.jpg" },
-    { "name": "Anya Yerramilli", "image": "AnyaYerramilli.jpg" }
+    { "name": "Anya Yerramilli", "image": "AnyaYerramilli.jpg" },
+    { "name": "Theodore Jeliazkov", "image": "TheodoreJeliazkov.jpg" },
+    { "name": "Tamara Kasikovic", "image": "TamaraKasikovic.jpg" },
+    { "name": "Amrith Kumaar", "image": "AmrithKumaar.jpg" },
+    { "name": "Kayla Shan", "image": "KaylaShan.jpg" },
+    { "name": "Srivatsa Kundurthy", "image": "SrivatsaKundurthy.jpg" },
+    { "name": "Tanish Tyagi", "image": "TanishTyagi.jpg" }
   ]
 }
