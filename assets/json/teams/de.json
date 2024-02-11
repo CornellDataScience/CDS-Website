@@ -31,6 +31,10 @@
     { "name": "Pun Chaixanien", "image": "PunChaixanien.jpg" },
     { "name": "Ryan Ho", "image": "RyanHo.jpg" },
     { "name": "Abigail Kim", "image": "AbigailKim.jpg" },
-    { "name": "Max Wang", "image": "MaxWang.jpg" }
+    { "name": "Max Wang", "image": "MaxWang.jpg" },
+    { "name": "Skai Nzeuton", "image": "SkaiNzeuton.jpg" },
+    { "name": "Cindy Li", "image": "CindyLi.jpg" },
+    { "name": "Ella Schneyer", "image": "EllaSchneyer.jpg" },
+    { "name": "Daniel Wang", "image": "DanielWang.jpg" }
   ]
 }
