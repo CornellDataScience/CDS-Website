@@ -77,6 +77,9 @@
                         contain></v-img>
                 </div>
             </div>
+            <p class="text-h6 body-2 font-weight-light text-center mt-8" style="color: grey;">
+                For sponsorship inquiries, please contact us at <a href="mailto:cornelldatascience@gmail.com">cornelldatascience@gmail.com</a>
+            </p>
         </v-container>
     </div>
 </template>
