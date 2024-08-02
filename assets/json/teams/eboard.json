@@ -2,44 +2,44 @@
   "title": "Executive Board",
   "people": [
     {
-      "name": "Evan Williams",
+      "name": "Koji Kimura",
       "title": "President",
-      "image": "EvanWilliams.jpg"
-    },
-    {
-      "name": "Salma Hazimeh",
-      "title": "Vice President",
-      "image": "SalmaHazimeh.jpg"
-    },
-    {
-      "name": "Samara Silverman",
-      "title": "Finance and Corporate Chair",
-      "image": "SamaraSilverman.jpg"
-    },
-    {
-      "name": "Benson Zhang",
-      "title": "Technical Chair",
-      "image": "BensonZhang.jpg"
-    },
-    {
-      "name": "Bryant Park",
-      "title": "Website Chair",
-      "image": "BryantPark.jpg"
-    },
-    {
-      "name": "Deniz Boloni-Turgut",
-      "title": "Education Chair",
-      "image": "DenizBoloni-Turgut.jpg"
-    },
-    {
-      "name": "Andrew Chang",
-      "title": "Onboarding Chair",
-      "image": "AndrewChang.jpg"
+      "image": ""
     },
     {
       "name": "Abigail Kim",
+      "title": "Vice President",
+      "image": ""
+    },
+    {
+      "name": "Audrey Wang",
+      "title": "Business Chair",
+      "image": ""
+    },
+    {
+      "name": "Ryan Ho",
+      "title": "Technical Chair",
+      "image": ""
+    },
+    {
+      "name": "Michael Ngo",
+      "title": "Onboarding Chair",
+      "image": ""
+    },
+    {
+      "name": "Max Wang",
       "title": "Social Chair",
-      "image": "AbigailKim.jpg"
+      "image": ""
+    },
+    {
+      "name": "Cindy Li",
+      "title": "Publicity Chair",
+      "image": ""
+    },
+    {
+      "name": "Deniz BT",
+      "title": "Education Chair",
+      "image": ""
     }
   ]
 }
